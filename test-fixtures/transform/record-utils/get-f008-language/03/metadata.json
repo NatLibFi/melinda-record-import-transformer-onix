@@ -1,0 +1,6 @@
+{
+  "description": "Uses first observed record main language if languageSanityCheck is not used and there are multiple main languages.",
+  "languageSanityCheck": false,
+  "expectedValue": "fin",
+  "only": false
+}

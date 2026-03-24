@@ -1,0 +1,15 @@
+[
+  {
+    "tag": "500",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Sisällön luomisessa on käytetty tekoälyä."
+      },
+      {
+        "code": "9",
+        "value": "FENNI<KEEP>"
+      }
+    ]
+  }
+]

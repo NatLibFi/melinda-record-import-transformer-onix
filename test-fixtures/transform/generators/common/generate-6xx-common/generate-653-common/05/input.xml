@@ -1,0 +1,9 @@
+<Product>
+  <DescriptiveDetail>
+    <Subject>
+      <!-- PTO (paikkatieto ontologia) -->
+      <SubjectSchemeIdentifier>72</SubjectSchemeIdentifier>
+      <SubjectHeadingText>selittämättömät ilmiöt;   ;;paranormaalit ilmiöt</SubjectHeadingText>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

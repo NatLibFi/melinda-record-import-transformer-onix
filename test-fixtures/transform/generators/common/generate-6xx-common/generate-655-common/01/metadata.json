@@ -1,0 +1,7 @@
+{
+  "description": "Generates f655 for recods that are not legal deposit records from each subject field which SubjectSchemeIdentifier is 71 and yso->slm transformation can be done based on hardcoded map.",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "only": false
+}

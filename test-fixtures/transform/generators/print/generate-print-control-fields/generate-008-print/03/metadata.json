@@ -1,0 +1,6 @@
+{
+  "description": "Generate f008 with minimal information with empty input (language=|||, publicationCountry=xx, publishingYear='||||', targetAudience=|)",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "008", "value": "250101s||||    xx ||||||||||||||||||||||"}],
+  "only": false
+}

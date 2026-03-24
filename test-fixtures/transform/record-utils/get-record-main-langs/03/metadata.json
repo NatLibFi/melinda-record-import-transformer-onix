@@ -1,0 +1,6 @@
+{
+  "description": "Returns empty array if only values do not match sanity check if sanity check is used.",
+  "languageSanityCheck": true,
+  "expectedValue": [],
+  "only": false
+}

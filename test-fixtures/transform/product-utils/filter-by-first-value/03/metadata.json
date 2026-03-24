@@ -1,0 +1,7 @@
+{
+  "description": "Returns false when input is not object (in this case missing ProductIdentifier-tag results into undefined sourceObject parameter).",
+  "attributeName": "ProductIDType",
+  "acceptedValues": ["15"],
+  "expectedValue": false,
+  "only": false
+}

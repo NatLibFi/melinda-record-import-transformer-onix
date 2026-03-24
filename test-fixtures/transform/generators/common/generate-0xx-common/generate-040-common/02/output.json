@@ -1,0 +1,23 @@
+[
+  {
+    "tag": "040",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "FI-FOOBAR"
+      },
+      {
+        "code": "b",
+        "value": "fin"
+      },
+      {
+        "code": "e",
+        "value": "rda"
+      },
+      {
+        "code": "d",
+        "value": "FI-NL"
+      }
+    ]
+  }
+]

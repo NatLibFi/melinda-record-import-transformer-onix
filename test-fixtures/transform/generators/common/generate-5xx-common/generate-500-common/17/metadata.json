@@ -1,0 +1,8 @@
+{
+  "description": "Generates note of Disney publication when contributor contains PersonNameInverted 'Disney'",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": null
+  },
+  "only": false
+}

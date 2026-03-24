@@ -1,0 +1,5 @@
+{
+  "description": "Returns ISMN values for each ProductIdentifier having ProductIDType of '25' or '05'",
+  "expectedValue": {"ismn13": ["979-0-9001765-0-9"], "ismn10": ["M-2306-7118-7"]},
+  "only": false
+}

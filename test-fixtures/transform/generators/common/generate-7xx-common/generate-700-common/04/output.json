@@ -1,0 +1,16 @@
+[
+  {
+    "tag": "700",
+    "ind1": "0",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Toimittanut Foo Baz,"
+      },
+      {
+        "code": "e",
+        "value": "toimittaja."
+      }
+    ]
+  }
+]

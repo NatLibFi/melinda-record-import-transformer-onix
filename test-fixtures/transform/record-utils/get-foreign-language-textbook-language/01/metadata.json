@@ -1,0 +1,5 @@
+{
+  "description": "Returns mapped DescriptiveDetail.Subject.SubjectCode value if product contains a Subject with SubjectSchemeIdentifier of '77' and exactly one Subject with SubjectSchemeIdentifier of '95' with valid mapping table value.",
+  "expectedValue": "swe",
+  "only": false
+}

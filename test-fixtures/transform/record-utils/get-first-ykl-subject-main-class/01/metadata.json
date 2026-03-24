@@ -1,0 +1,5 @@
+{
+  "description": "Returns first two characters of SubjectCode of first DescriptiveDetail.Subject containing SubjectSchemeIdentifier of '66'",
+  "expectedValue": "84",
+  "only": false
+}

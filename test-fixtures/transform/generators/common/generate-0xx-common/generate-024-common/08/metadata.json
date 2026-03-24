@@ -1,0 +1,5 @@
+{
+  "description": "Generates f024 for print without $q if there is no mapping for it",
+  "onixConversionConfiguration": {},
+  "only": false
+}

@@ -1,0 +1,9 @@
+{
+  "description": "Properly validates record that is not legal deposit",
+  "marcRecordValidatorConfiguration": {
+    "isLegalDeposit": true,
+    "fix": true,
+    "validateFixes": true
+  },
+  "only": false
+}

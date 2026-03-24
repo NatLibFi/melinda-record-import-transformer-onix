@@ -1,0 +1,8 @@
+{
+  "description": "Does not generate f500 regarding editions if additional edition is of same year than the original publication date",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": null
+  },
+  "only": false
+}

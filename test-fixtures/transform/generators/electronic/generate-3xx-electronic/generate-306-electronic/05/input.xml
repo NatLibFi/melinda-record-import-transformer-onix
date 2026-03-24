@@ -1,0 +1,15 @@
+<Product>
+  <DescriptiveDetail>
+    <ProductForm>AJ</ProductForm>
+    <ProductFormDetail>A103</ProductFormDetail>
+
+    <Extent>
+      <!-- Filesize -->
+      <ExtentType>22</ExtentType>
+
+      <!-- Mbytes -->
+      <ExtentUnit>19</ExtentUnit>
+      <ExtentValue>13</ExtentValue>
+    </Extent>
+  </DescriptiveDetail>
+</Product>

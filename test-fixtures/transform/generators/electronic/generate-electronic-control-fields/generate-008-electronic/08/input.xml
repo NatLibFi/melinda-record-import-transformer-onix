@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- PDF -->
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E107</ProductFormDetail>
+
+    <!-- Contains illustrations -->
+    <AncillaryContent>
+      <AncillaryContentType>01</AncillaryContentType>
+    </AncillaryContent>
+  </DescriptiveDetail>
+</Product>

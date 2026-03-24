@@ -1,0 +1,7 @@
+{
+  "description": "Returns f040 without $a for record that is not legal deposit record but is without isilIdentifier config",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "only": false
+}

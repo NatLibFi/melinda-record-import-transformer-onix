@@ -1,0 +1,16 @@
+<Product>
+  <DescriptiveDetail>
+    <Audience>
+      <AudienceCodeType>15</AudienceCodeType>
+      <AudienceCodeValue>peruskoulu ja esiopetus</AudienceCodeValue>
+    </Audience>
+    <Audience>
+      <AudienceCodeType>01</AudienceCodeType>
+      <AudienceCodeValue>11</AudienceCodeValue>
+    </Audience>
+    <Subject>
+      <SubjectSchemeIdentifier>73</SubjectSchemeIdentifier>
+      <SubjectCode>L</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

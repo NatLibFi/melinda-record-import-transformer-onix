@@ -1,0 +1,7 @@
+{
+  "description": "Returns true as Object attribute has accepted value. In the example ProductIdentifier has ProductIDType of '15'",
+  "attributeName": "ProductIDType",
+  "acceptedValues": ["15"],
+  "expectedValue": true,
+  "only": false
+}

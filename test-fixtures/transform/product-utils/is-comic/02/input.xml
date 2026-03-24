@@ -1,0 +1,10 @@
+<Product>
+  <DescriptiveDetail>
+    <ProductForm>AJ</ProductForm>
+    <ProductFormDetail>A103</ProductFormDetail>
+    <Subject>
+      <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+      <SubjectCode>XAMA</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

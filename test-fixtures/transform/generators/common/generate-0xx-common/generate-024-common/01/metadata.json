@@ -1,0 +1,5 @@
+{
+  "description": "Generates f024 for MP3 if ISMN-13 available (note: no hyphens are automatically added)",
+  "onixConversionConfiguration": {},
+  "only": false
+}

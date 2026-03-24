@@ -1,0 +1,5 @@
+{
+  "description": "Correctly returns null for unmapped product form (here AJ)",
+  "expectedValue": null,
+  "only": false
+}

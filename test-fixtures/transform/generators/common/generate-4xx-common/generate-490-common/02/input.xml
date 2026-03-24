@@ -1,0 +1,27 @@
+<Product>
+  <DescriptiveDetail>
+    <Collection>
+      <!-- Publisher collection -->
+      <CollectionType>10</CollectionType>
+
+      <!-- ISSN -->
+      <CollectionIdentifier>
+        <CollectionIDType>02</CollectionIDType>
+        <IDValue>1234-1234</IDValue>
+      </CollectionIdentifier>
+
+      <CollectionSequence>
+        <CollectionSequenceNumber>2</CollectionSequenceNumber>
+      </CollectionSequence>
+
+      <TitleDetail>
+        <!-- Product level title -->
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Foo</TitleText>
+          <PartNumber>2</PartNumber>
+        </TitleElement>
+      </TitleDetail>
+    </Collection>
+  </DescriptiveDetail>
+</Product>

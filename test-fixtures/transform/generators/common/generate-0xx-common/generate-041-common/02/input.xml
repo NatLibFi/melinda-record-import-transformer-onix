@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- PDF -->
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E107</ProductFormDetail>
+
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>fin</LanguageCode>
+    </Language>
+  </DescriptiveDetail>
+</Product>

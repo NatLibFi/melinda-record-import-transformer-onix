@@ -1,0 +1,7 @@
+{
+  "description": "Returns f041 from LanguageRole 01 for non-translated PDF",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false
+  },
+  "only": false
+}

@@ -1,0 +1,8 @@
+{
+  "description": "Create generic information type note for prepublication with NotificationType of 01 in case notificationName is not defined",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": null
+  },
+  "only": false
+}

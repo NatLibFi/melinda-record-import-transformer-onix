@@ -1,0 +1,19 @@
+{
+  "description": "Main author may be null",
+  "expectedValue": {
+    "mainAuthor": null,
+    "contributors": [
+      {
+        "idx": 0,
+        "personName": null,
+        "personNameInverted": null,
+        "corporateName": "FooBarBaz",
+        "roleCodes": ["B01"],
+        "isTranslator": false,
+        "sequenceNumber": null,
+        "isAiAuthor": false
+      }
+    ]
+  },
+  "only": false
+}

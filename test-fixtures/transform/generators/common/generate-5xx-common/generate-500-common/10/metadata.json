@@ -1,0 +1,8 @@
+{
+  "description": "Creates f500 edition note for product that contains information about past editions",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": null
+  },
+  "only": false
+}

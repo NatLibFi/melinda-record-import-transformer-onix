@@ -1,0 +1,8 @@
+{
+  "description": "Return empty array if title with TitleType of 03 is not found",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

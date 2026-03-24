@@ -1,0 +1,6 @@
+{
+  "description": "008/18-21 = 'a   ' when text Product contains illustrations",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "008", "value": "250101s||||    xx a   ||||||||||||||||||"}],
+  "only": false
+}

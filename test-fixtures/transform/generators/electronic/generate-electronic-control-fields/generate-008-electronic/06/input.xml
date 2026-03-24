@@ -1,0 +1,13 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- MP3 -->
+    <ProductForm>AJ</ProductForm>
+    <ProductFormDetail>A103</ProductFormDetail>
+
+    <!-- Fiction -->
+    <Subject>
+      <SubjectSchemeIdentifier>66</SubjectSchemeIdentifier>
+      <SubjectCode>84.2</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

@@ -1,0 +1,15 @@
+[
+  {
+    "tag": "300",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "1 verkkoaineisto :"
+      },
+      {
+        "code": "b",
+        "value": "kuvitettu"
+      }
+    ]
+  }
+]

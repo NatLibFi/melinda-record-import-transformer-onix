@@ -1,0 +1,7 @@
+{
+  "description": "Generates f884 from hashing record with using pseudonym from onixConversionConfiguration",
+  "onixConversionConfiguration": {
+    "pseudonym": "Foo"
+  },
+  "only": false
+}

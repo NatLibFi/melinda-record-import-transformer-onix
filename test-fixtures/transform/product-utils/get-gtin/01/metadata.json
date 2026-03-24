@@ -1,0 +1,5 @@
+{
+  "description": "Returns GTIN all values found in ProductIdentifier having ProductIDType of '03'",
+  "expectedValue": ["foo", "bar"],
+  "only": false
+}

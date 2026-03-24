@@ -1,0 +1,10 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Main author -->
+    <Contributor>
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Baz, Foo ja Bar</PersonNameInverted>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

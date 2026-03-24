@@ -1,0 +1,5 @@
+{
+  "description": "Prioritizes ISMN-13 over ISMN-10: when ISMN-13 is found, ISMN-10 is not used for f024 generation",
+  "onixConversionConfiguration": {},
+  "only": false
+}

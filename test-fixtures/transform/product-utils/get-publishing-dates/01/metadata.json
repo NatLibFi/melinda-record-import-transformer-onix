@@ -1,0 +1,9 @@
+{
+  "description": "Returns PublishingDetail.PublishingDate where PublishingDateRole is '01', '11', or '12' and Date value contains year. Values sharing year and role are deduplicated.",
+  "expectedValue": [
+    {"rawValue": "20200101", "year": "2020", "role": "11"},
+    {"rawValue": "2020", "year": "2020", "role": "01"},
+    {"rawValue": "2025", "year": "2025", "role": "12"}
+  ],
+  "only": false
+}

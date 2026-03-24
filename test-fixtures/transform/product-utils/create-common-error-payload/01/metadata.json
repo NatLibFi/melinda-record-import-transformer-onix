@@ -1,0 +1,5 @@
+{
+  "description": "Returns object containing title and found standardIdentifiers (isbn, ismn, RecordReference)",
+  "expectedValue": {"title": "foo-title", "standardIdentifiers": ["FOO123", "978-952-222-356-2", "979-0-9001765-0-9"]},
+  "only": false
+}

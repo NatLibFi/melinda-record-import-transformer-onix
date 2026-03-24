@@ -1,0 +1,5 @@
+{
+  "description": "Returns true for ProductForm of 'EC'",
+  "expectedValue": true,
+  "only": false
+}

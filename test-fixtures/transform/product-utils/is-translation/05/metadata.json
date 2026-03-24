@@ -1,0 +1,5 @@
+{
+  "description": "Returns false if no contributor contains translator role, there is no title with TitleDetail 03 or language with LanguageRole of 02",
+  "expectedValue": false,
+  "only": false
+}

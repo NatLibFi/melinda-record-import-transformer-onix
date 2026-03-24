@@ -1,0 +1,5 @@
+{
+  "description": "Returns 'PDF' for product which has PDF ProductForm and ProductFormDetail",
+  "expectedValue": "PDF",
+  "only": false
+}

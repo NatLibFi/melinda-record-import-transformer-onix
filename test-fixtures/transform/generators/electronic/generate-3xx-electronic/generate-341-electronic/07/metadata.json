@@ -1,0 +1,7 @@
+{
+  "description": "Does not produce product form feature subfields for blacklisted entry",
+  "onixConversionConfiguration": {
+    "accessibilityBlacklist": ["Foo"]
+  },
+  "only": false
+}

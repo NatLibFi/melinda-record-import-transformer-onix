@@ -1,0 +1,11 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Print: loose-leaf -->
+    <ProductForm>BD</ProductForm>
+  </DescriptiveDetail>
+
+  <ProductIdentifier>
+    <ProductIDType>25</ProductIDType>
+    <IDValue>9790900176509</IDValue>
+  </ProductIdentifier>
+</Product>

@@ -1,0 +1,9 @@
+{
+  "description": "Throws error when title with TitleType of 00 or 01 cannot be found",
+  "expectedError": "Could not generate field 245 due to missing title information",
+  "onixConversionConfiguration": {
+    "preventUniformTitleGeneration": false,
+    "languageSanityCheck": false
+  },
+  "only": false
+}

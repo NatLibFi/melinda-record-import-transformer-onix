@@ -1,0 +1,9 @@
+{
+  "description": "Throws non-halting entry when denyable subject is not first subject of the Product",
+  "settings": {
+    "denySubjectCodes": ["FOO"]
+  },
+  "expectedError": "[subject-code-filter] Product contained denied subject code of \"FOO\"",
+  "haltPipeline": false,
+  "only": false
+}

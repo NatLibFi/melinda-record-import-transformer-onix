@@ -1,0 +1,8 @@
+{
+  "description": "Does not generate fSID from RecordReference if systemIdentifier is not defined",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "systemIdentifier": null
+  },
+  "only": false
+}

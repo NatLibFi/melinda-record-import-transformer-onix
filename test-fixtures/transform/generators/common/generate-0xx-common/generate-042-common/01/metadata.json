@@ -1,0 +1,4 @@
+{
+  "description": "Generates static f042 that is input independent",
+  "only": false
+}

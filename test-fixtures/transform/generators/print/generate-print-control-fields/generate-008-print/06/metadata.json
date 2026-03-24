@@ -1,0 +1,6 @@
+{
+  "description": "Target audience is produced correctly for Products associated with educational use (here AudienceCodeValue of 11 produces 'a') for 008/22",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "008", "value": "250101s||||    xx ||||a|||||||||||||||||"}],
+  "only": false
+}

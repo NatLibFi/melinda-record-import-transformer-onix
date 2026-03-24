@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage>
+  <Header>
+    <Sender>
+      <SenderName>foo-source</SenderName>
+    </Sender>
+    <SentDateTime>20251212T000000</SentDateTime>
+  </Header>
+
+  <Product>
+    <!-- Notification type = notification confirmed on publication (i.e., legal deposit) -->
+    <NotificationType>03</NotificationType>
+
+    <!-- ISBN-13 without hyphens -->
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9789515174703</IDValue>
+    </ProductIdentifier>
+
+    <DescriptiveDetail>
+      <!-- EPUB -->
+      <ProductForm>EA</ProductForm>
+      <ProductFormDetail>E101</ProductFormDetail>
+
+      <TitleDetail>
+        <!-- Distinctive title -->
+        <TitleType>01</TitleType>
+
+        <TitleElement>
+          <!-- Product title -->
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Esimerkkinimeke</TitleText>
+        </TitleElement>
+      </TitleDetail>
+    </DescriptiveDetail>
+  </Product>
+</ONIXMessage>

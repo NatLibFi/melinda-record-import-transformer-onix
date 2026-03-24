@@ -1,0 +1,15 @@
+<Product>
+  <DescriptiveDetail>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>fin</LanguageCode>
+    </Language>
+
+    <TitleDetail>
+      <TitleType>03</TitleType>
+      <TitleElement>
+        <TitleText>Ohjelmistokehitys viimeisintä huutoa olevalla stäkillä</TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </DescriptiveDetail>
+</Product>

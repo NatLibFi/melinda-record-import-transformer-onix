@@ -1,0 +1,5 @@
+{
+  "description": "Returns false in case Subject does not have SubjectSchemeIdentifier even if SubjectCode would have valid classification",
+  "expectedValue": false,
+  "only": false
+}

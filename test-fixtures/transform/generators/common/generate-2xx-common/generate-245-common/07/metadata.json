@@ -1,0 +1,8 @@
+{
+  "description": "Separately defined Subtitle-element is prioritized over splitting title",
+  "onixConversionConfiguration": {
+    "preventUniformTitleGeneration": false,
+    "languageSanityCheck": false
+  },
+  "only": false
+}

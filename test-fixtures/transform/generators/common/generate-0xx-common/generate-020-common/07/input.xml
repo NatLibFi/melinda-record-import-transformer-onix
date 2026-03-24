@@ -1,0 +1,11 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Print: spiral bound -->
+    <ProductForm>BE</ProductForm>
+  </DescriptiveDetail>
+
+  <ProductIdentifier>
+    <ProductIDType>15</ProductIDType>
+    <IDValue>9789515174703</IDValue>
+  </ProductIdentifier>
+</Product>

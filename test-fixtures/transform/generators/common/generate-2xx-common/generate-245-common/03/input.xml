@@ -1,0 +1,13 @@
+<Product>
+  <DescriptiveDetail>
+
+    <TitleDetail>
+      <TitleType>01</TitleType>
+      <TitleElement>
+        <TitleText>Foo</TitleText>
+        <Subtitle>Bar</Subtitle>
+      </TitleElement>
+    </TitleDetail>
+
+  </DescriptiveDetail>
+</Product>

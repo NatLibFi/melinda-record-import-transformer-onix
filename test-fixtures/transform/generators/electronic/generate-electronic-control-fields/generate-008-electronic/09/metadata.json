@@ -1,0 +1,6 @@
+{
+  "description": "Language prioritizes target language for foreign language textbooks",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "008", "value": "250101s||||    xx |||||o|||||||||||swe||"}],
+  "only": false
+}

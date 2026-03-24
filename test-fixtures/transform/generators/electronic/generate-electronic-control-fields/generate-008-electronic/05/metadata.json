@@ -1,0 +1,6 @@
+{
+  "description": "For publications that are text: f008/33 is 1 if first subject has SubjectCode starting with 80-85 and is from YKL (SubjectSchemeIdentifier is equal to 66)",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "008", "value": "250101s||||    xx |||||o|||||||||1||||||"}],
+  "only": false
+}

@@ -1,0 +1,8 @@
+{
+  "description": "Language sanity check may prevent $l generation if language information is not unified between product language and observed title language",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": true,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

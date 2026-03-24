@@ -1,0 +1,7 @@
+{
+  "description": "Language sanity check may prevent f041 generation if detected title language does not match product language information",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": true
+  },
+  "only": false
+}

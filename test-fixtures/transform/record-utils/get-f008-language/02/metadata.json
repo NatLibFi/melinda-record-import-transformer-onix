@@ -1,0 +1,6 @@
+{
+  "description": "Passing language sanity check works.",
+  "languageSanityCheck": true,
+  "expectedValue": "eng",
+  "only": false
+}

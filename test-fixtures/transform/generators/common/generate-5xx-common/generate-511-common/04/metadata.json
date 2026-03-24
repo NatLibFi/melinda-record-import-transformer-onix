@@ -1,0 +1,4 @@
+{
+  "description": "Returns empty array when there are no contributors",
+  "only": false
+}

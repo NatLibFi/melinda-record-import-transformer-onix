@@ -1,0 +1,5 @@
+{
+  "description": "Returns false for print (here ProductForm of 'BA')",
+  "expectedValue": false,
+  "only": false
+}

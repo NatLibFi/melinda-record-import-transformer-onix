@@ -1,0 +1,8 @@
+{
+  "description": "Generates field f130 from title of TitleType 03 when product is not simplified language edition and no main author is observed",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

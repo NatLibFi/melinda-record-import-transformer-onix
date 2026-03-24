@@ -1,0 +1,12 @@
+[
+  {
+    "tag": "511",
+    "ind1": "0",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Lukija: Foo Bar."
+      }
+    ]
+  }
+]

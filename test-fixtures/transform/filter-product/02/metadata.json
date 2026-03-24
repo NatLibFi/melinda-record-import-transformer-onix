@@ -1,0 +1,15 @@
+{
+  "description": "Valid product passes through correctly configured pipeline",
+  "filterConfiguration": {
+    "applyFilters": ["filterByProductForm", "filterBySubjectCode"],
+    "settings": {
+      "filterByProductForm": {
+        "allowRecordTypes": ["print"]
+      },
+      "filterBySubjectCode": {
+        "denySubjectCodes": ["FOO"]
+      }
+    }
+  },
+  "only": false
+}

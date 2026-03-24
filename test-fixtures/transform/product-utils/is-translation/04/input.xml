@@ -1,0 +1,20 @@
+<Product>
+  <DescriptiveDetail>
+    <Contributor>
+      <SequenceNumber>1</SequenceNumber>
+      <!-- Edited by -->
+      <!-- Note this role is not main author worthy -->
+      <ContributorRole>B01</ContributorRole>
+      <PersonNameInverted>Meikäläinen, Matti</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <SequenceNumber>2</SequenceNumber>
+      <!-- Translated by -->
+      <!-- Note: tests also deduplication regarding authors as this should result into main author
+      having two roles -->
+      <ContributorRole>B06</ContributorRole>
+      <PersonNameInverted>Meikäläinen, Matti</PersonNameInverted>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

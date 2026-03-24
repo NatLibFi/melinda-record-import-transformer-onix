@@ -1,0 +1,5 @@
+{
+  "description": "Does not generate f024 if ISMN is available",
+  "onixConversionConfiguration": {},
+  "only": false
+}

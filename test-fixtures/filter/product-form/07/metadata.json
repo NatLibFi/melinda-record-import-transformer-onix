@@ -1,0 +1,9 @@
+{
+  "description": "Throws non-halting error for non-supported ProductForm ZJ (jigsaw)",
+  "settings": {
+    "allowRecordTypes": ["print"]
+  },
+  "expectedError": "[product-form-filter] Record type could not be determined for product form value of \"ZJ\"",
+  "haltPipeline": false,
+  "only": false
+}

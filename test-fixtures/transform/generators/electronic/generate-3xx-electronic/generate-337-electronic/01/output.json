@@ -1,0 +1,19 @@
+[
+  {
+    "tag": "337",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "tietokonekäyttöinen"
+      },
+      {
+        "code": "b",
+        "value": "c"
+      },
+      {
+        "code": "2",
+        "value": "rdamedia"
+      }
+    ]
+  }
+]

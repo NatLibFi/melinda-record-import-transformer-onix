@@ -1,0 +1,10 @@
+{
+  "description": "Throws halting error when pseudonym does not start with 'MELINDA'",
+  "onixConversionConfiguration": {
+    "pseudonym": "foo"
+  },
+  "haltPipeline": true,
+  "expectedError": "Error during validating onix conversion configuration: pseudonym value (foo) does not start with prefix \"MELINDA\"",
+  "sentTime": "20251212T000000",
+  "only": false
+}

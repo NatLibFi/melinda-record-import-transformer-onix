@@ -1,0 +1,33 @@
+<Product>
+  <!-- Notification type = notification confirmed on publication (i.e., legal deposit) -->
+  <NotificationType>03</NotificationType>
+
+  <DescriptiveDetail>
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E101</ProductFormDetail>
+
+    <!-- visual:alternativeText -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>14</ProductFormFeatureValue>
+    </ProductFormFeature>
+
+    <!-- visual:longDescription -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>15</ProductFormFeatureValue>
+    </ProductFormFeature>
+
+    <!-- textual:tableofContents -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>11</ProductFormFeatureValue>
+    </ProductFormFeature>
+
+    <!-- textual:readingOrder -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>13</ProductFormFeatureValue>
+    </ProductFormFeature>
+  </DescriptiveDetail>
+</Product>

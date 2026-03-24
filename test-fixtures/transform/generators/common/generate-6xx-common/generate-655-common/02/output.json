@@ -1,0 +1,78 @@
+[
+  {
+    "tag": "655",
+    "ind2": "7",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "äänikirjat"
+      },
+      {
+        "code": "2",
+        "value": "slm/fin"
+      },
+      {
+        "code": "0",
+        "value": "http://urn.fi/URN:NBN:fi:au:slm:s579"
+      },
+      {
+        "code": "9",
+        "value": "FENNI<KEEP>"
+      }
+    ]
+  },
+  {
+    "tag": "655",
+    "ind2": "7",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "ljudböcker"
+      },
+      {
+        "code": "2",
+        "value": "slm/swe"
+      },
+      {
+        "code": "0",
+        "value": "http://urn.fi/URN:NBN:fi:au:slm:s579"
+      }
+    ]
+  },
+  {
+    "tag": "655",
+    "ind2": "7",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "elämäntaito-oppaat"
+      },
+      {
+        "code": "2",
+        "value": "slm/fin"
+      },
+      {
+        "code": "0",
+        "value": "http://urn.fi/URN:NBN:fi:au:slm:s222"
+      }
+    ]
+  },
+  {
+    "tag": "655",
+    "ind2": "7",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "harjoituskirjat"
+      },
+      {
+        "code": "2",
+        "value": "slm/fin"
+      },
+      {
+        "code": "0",
+        "value": "http://urn.fi/URN:NBN:fi:au:slm:s943"
+      }
+    ]
+  }
+]

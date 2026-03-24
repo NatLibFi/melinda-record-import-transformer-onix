@@ -1,0 +1,5 @@
+{
+  "description": "Returns empty array when there is no extent information",
+  "expectedValue": [],
+  "only": false
+}

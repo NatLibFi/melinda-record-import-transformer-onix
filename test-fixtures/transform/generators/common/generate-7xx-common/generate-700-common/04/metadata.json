@@ -1,0 +1,4 @@
+{
+  "description": "Correctly identifies non-inverted name order and uses ind1 of '0'",
+  "only": false
+}

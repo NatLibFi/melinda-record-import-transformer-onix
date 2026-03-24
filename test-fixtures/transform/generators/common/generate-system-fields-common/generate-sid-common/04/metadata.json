@@ -1,0 +1,8 @@
+{
+  "description": "Empty product returns empty array",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "systemIdentifier": "foo-system"
+  },
+  "only": false
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Returns correct three character language code detected from DescriptiveDetail.TitleDetail with TitleType of 00",
+  "expectedValue": "eng",
+  "only": false
+}

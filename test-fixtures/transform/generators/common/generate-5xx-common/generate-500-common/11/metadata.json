@@ -1,0 +1,8 @@
+{
+  "description": "Correctly formats information about multiple past editions",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": null
+  },
+  "only": false
+}

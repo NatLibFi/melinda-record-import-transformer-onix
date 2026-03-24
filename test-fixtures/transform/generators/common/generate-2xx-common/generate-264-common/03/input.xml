@@ -1,0 +1,12 @@
+<Product>
+  <PublishingDetail>
+    <Imprint>
+      <ImprintName>Foo</ImprintName>
+    </Imprint>
+
+    <PublishingDate>
+      <PublishingDateRole>01</PublishingDateRole>
+      <Date>19700101</Date>
+    </PublishingDate>
+  </PublishingDetail>
+</Product>

@@ -1,0 +1,5 @@
+{
+  "description": "May generate f020 from ISBN-10 is no ISBN-13 is available",
+  "onixConversionConfiguration": {},
+  "only": false
+}

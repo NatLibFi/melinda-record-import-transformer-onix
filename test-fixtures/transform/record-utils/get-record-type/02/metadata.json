@@ -1,0 +1,5 @@
+{
+  "description": "Correctly identifies EPUB record type to electronic",
+  "expectedValue": "electronic",
+  "only": false
+}

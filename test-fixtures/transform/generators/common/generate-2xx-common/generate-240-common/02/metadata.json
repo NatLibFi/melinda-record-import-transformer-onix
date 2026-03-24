@@ -1,0 +1,8 @@
+{
+  "description": "Includes $l if main language is identified",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

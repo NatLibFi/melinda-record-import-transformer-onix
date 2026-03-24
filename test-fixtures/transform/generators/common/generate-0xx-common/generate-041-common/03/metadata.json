@@ -1,0 +1,7 @@
+{
+  "description": "Having LanguageRole 02 adds $h and changes ind1 to 1",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false
+  },
+  "only": false
+}

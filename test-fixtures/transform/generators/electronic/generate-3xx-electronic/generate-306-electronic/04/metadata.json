@@ -1,0 +1,5 @@
+{
+  "description": "Does not generate f306 if hours value is over 100 as this is not supported by MARC21 format",
+  "onixConversionConfiguration": {},
+  "only": false
+}

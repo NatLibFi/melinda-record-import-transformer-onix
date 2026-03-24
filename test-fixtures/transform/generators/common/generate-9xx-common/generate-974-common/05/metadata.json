@@ -1,0 +1,8 @@
+{
+  "description": "Empty product produces empty array as output",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "relatedWorkReferenceName": "Foo"
+  },
+  "only": false
+}

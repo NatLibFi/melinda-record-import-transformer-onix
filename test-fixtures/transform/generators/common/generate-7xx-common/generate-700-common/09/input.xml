@@ -1,0 +1,11 @@
+<Product>
+  <DescriptiveDetail>
+    <EditionType>SMP</EditionType>
+
+    <Contributor>
+      <ContributorRole>B05</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

@@ -1,0 +1,8 @@
+{
+  "description": "Return empty array if product has main author that will result to f110 generation",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

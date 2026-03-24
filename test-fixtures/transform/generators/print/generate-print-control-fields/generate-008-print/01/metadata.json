@@ -1,0 +1,6 @@
+{
+  "description": "Generate f008 with full information (language=fin, publicationCountry=fi, publishingYear=1970, targetAudience=f)",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "008", "value": "250101s2024    fi ||||f||||||||||||eng||"}],
+  "only": false
+}

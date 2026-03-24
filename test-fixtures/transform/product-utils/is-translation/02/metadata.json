@@ -1,0 +1,5 @@
+{
+  "description": "Returns true if title with TitleType of 03 is found",
+  "expectedValue": true,
+  "only": false
+}

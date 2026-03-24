@@ -1,0 +1,5 @@
+{
+  "description": "Returns false when Product does not have entries of DescriptiveDetail.AncillaryContent",
+  "expectedValue": false,
+  "only": false
+}

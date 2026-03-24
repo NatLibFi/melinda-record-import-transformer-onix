@@ -1,0 +1,5 @@
+{
+  "description": "Returns ProductSupply.SupplyDetail.Supplier.SupplierName when found",
+  "expectedValue": "FOO-supplier",
+  "only": false
+}

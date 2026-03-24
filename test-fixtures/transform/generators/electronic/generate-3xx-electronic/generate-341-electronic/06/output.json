@@ -1,0 +1,46 @@
+[
+  {
+    "tag": "341",
+    "ind1": "0",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "visual"
+      },
+      {
+        "code": "b",
+        "value": "longDescription"
+      },
+      {
+        "code": "b",
+        "value": "alternativeText"
+      },
+      {
+        "code": "2",
+        "value": "sapdv"
+      }
+    ]
+  },
+  {
+    "tag": "341",
+    "ind1": "0",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "textual"
+      },
+      {
+        "code": "b",
+        "value": "readingOrder"
+      },
+      {
+        "code": "b",
+        "value": "tableofContents"
+      },
+      {
+        "code": "2",
+        "value": "sapdv"
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+<Product>
+  <DescriptiveDetail>
+    <NameAsSubject>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </NameAsSubject>
+
+    <NameAsSubject>
+      <PersonNameInverted>Baz, Foo</PersonNameInverted>
+    </NameAsSubject>
+  </DescriptiveDetail>
+</Product>

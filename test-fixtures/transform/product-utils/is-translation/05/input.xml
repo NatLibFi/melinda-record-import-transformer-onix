@@ -1,0 +1,24 @@
+<Product>
+  <DescriptiveDetail>
+    <Contributor>
+      <SequenceNumber>1</SequenceNumber>
+      <!-- Edited by -->
+      <!-- Note this role is not main author worthy -->
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Matti Meikäläinen</PersonName>
+      <PersonNameInverted>Meikäläinen, Matti</PersonNameInverted>
+    </Contributor>
+
+    <TitleDetail>
+      <TitleType>00</TitleType>
+      <TitleElement>
+        <TitleText>Ääkkösistä öökkösiin</TitleText>
+      </TitleElement>
+    </TitleDetail>
+
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>fin</LanguageCode>
+    </Language>
+  </DescriptiveDetail>
+</Product>

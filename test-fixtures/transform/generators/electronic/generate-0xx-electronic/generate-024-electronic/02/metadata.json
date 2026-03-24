@@ -1,0 +1,5 @@
+{
+  "description": "Does not generate f024 if ISBN-13 is available",
+  "onixConversionConfiguration": {},
+  "only": false
+}

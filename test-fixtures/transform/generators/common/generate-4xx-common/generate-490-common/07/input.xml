@@ -1,0 +1,21 @@
+<Product>
+  <DescriptiveDetail>
+    <Collection>
+      <!-- Publisher collection -->
+      <CollectionType>10</CollectionType>
+
+      <CollectionSequence>
+        <CollectionSequenceNumber>2</CollectionSequenceNumber>
+      </CollectionSequence>
+
+      <TitleDetail>
+        <!-- Collection level title -->
+        <TitleElement>
+          <TitleElementLevel>02</TitleElementLevel>
+          <TitleText>2</TitleText>
+          <PartNumber>2</PartNumber>
+        </TitleElement>
+      </TitleDetail>
+    </Collection>
+  </DescriptiveDetail>
+</Product>

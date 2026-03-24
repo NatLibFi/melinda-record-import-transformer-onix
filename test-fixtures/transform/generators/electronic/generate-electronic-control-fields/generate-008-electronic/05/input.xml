@@ -1,0 +1,13 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- PDF -->
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E107</ProductFormDetail>
+
+    <!-- Fiction -->
+    <Subject>
+      <SubjectSchemeIdentifier>66</SubjectSchemeIdentifier>
+      <SubjectCode>84.2</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

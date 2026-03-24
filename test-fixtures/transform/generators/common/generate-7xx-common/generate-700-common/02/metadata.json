@@ -1,0 +1,4 @@
+{
+  "description": "Does not generate f700 from ContributorRole A01 if SequenceNumber is 1 (one main author)",
+  "only": false
+}

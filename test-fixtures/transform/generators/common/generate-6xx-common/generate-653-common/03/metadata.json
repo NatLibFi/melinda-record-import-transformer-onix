@@ -1,0 +1,7 @@
+{
+  "description": "Filters subject text which contains multiple spaces or full stop characters",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "only": false
+}

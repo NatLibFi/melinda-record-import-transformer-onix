@@ -1,0 +1,18 @@
+{
+  "description": "Throws error if isLegalDeposit is true when attempting to generate print record",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true,
+    "source": "foo-source",
+    "pseudonym": "foo-pseudonym",
+    "relatedWorkReferenceName": "foo-relatedWorkReferenceName",
+    "isilIdentifier": "foo-isilIdentifier",
+    "notificationName": "foo-notificationName",
+    "systemIdentifier": "foo-systemIdentifier",
+    "f984Directives": ["FOO-DIRECTIVE"],
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "sentTime": "20251016102000.0",
+  "only": false,
+  "expectedError": "Cannot generate print record for isLegalDeposit=true configuration"
+}

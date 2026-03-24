@@ -1,0 +1,18 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Print book -->
+    <ProductForm>BA</ProductForm>
+
+    <AncillaryContent>
+      <!-- Has illustrations -->
+      <AncillaryContentType>01</AncillaryContentType>
+    </AncillaryContent>
+
+    <Measure>
+      <!-- Height -->
+      <MeasureType>01</MeasureType>
+      <MeasureUnitCode>mm</MeasureUnitCode>
+      <Measurement>221</Measurement>
+    </Measure>
+  </DescriptiveDetail>
+</Product>

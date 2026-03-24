@@ -1,0 +1,50 @@
+<Product>
+  <DescriptiveDetail>
+    <Collection>
+      <!-- Unspecified collection -->
+      <CollectionType>00</CollectionType>
+
+      <CollectionSequence>
+        <CollectionSequenceNumber>1</CollectionSequenceNumber>
+      </CollectionSequence>
+
+      <!-- Series title information-->
+      <TitleDetail>
+        <!-- Undefined title -->
+        <TitleType>00</TitleType>
+        <TitleElement>
+          <!-- Subcollection title -> not considered by title-parser on purpose -->
+          <TitleElementLevel>03</TitleElementLevel>
+          <TitleText>Unknown series</TitleText>
+        </TitleElement>
+      </TitleDetail>
+    </Collection>
+
+    <Collection>
+      <!-- Publisher collection -->
+      <CollectionType>10</CollectionType>
+
+      <CollectionSequence>
+        <CollectionSequenceNumber>2</CollectionSequenceNumber>
+      </CollectionSequence>
+
+      <!-- ISSN -->
+      <CollectionIdentifier>
+        <CollectionIDType>02</CollectionIDType>
+        <IDValue>1234-1234</IDValue>
+      </CollectionIdentifier>
+
+      <!-- Series title information-->
+      <TitleDetail>
+        <!-- Cover title -->
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <!-- Collection level title -->
+          <TitleElementLevel>02</TitleElementLevel>
+          <TitleText>Example series</TitleText>
+          <PartNumber>2</PartNumber>
+        </TitleElement>
+      </TitleDetail>
+    </Collection>
+  </DescriptiveDetail>
+</Product>

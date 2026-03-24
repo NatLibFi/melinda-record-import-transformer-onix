@@ -1,0 +1,13 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- This contributor should produce AI note due to ContributorRole of 01 and UnnamedPersons of 09 -->
+    <Contributor>
+      <SequenceNumber>1</SequenceNumber>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Maija Meikäläinen</PersonName>
+      <PersonNameInverted>Meikäläinen, Maija</PersonNameInverted>
+      <UnnamedPersons>09</UnnamedPersons>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

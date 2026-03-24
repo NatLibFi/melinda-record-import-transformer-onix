@@ -1,0 +1,5 @@
+{
+  "description": "Returns false for non-textual Products",
+  "expectedValue": false,
+  "only": false
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Does generate field with $b of 'PDF' for online text product that does not have ProductFormDetail",
+  "onixConversionConfiguration": {},
+  "only": false
+}

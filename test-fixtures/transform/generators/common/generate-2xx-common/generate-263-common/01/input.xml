@@ -1,0 +1,12 @@
+<Product>
+  <!-- Early notification -->
+  <NotificationType>01</NotificationType>
+
+  <PublishingDetail>
+    <!-- Publication date -->
+    <PublishingDate>
+      <PublishingDateRole>01</PublishingDateRole>
+      <Date>19700101</Date>
+    </PublishingDate>
+  </PublishingDetail>
+</Product>

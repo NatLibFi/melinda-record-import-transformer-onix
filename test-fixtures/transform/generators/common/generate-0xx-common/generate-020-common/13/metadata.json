@@ -1,0 +1,5 @@
+{
+  "description": "Prioritizes ISBN-13 over ISBN-10: when ISBN-13 is found, ISBN-10 is not used for f020 generation",
+  "onixConversionConfiguration": {},
+  "only": false
+}

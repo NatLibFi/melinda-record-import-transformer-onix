@@ -1,0 +1,5 @@
+{
+  "description": "Returns true if some contributor contains translator role",
+  "expectedValue": true,
+  "only": false
+}

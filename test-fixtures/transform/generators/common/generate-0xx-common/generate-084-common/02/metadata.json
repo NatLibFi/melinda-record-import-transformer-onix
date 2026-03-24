@@ -1,0 +1,7 @@
+{
+  "description": "[pre-publication] Each subject with SubjectSchemeIdentifier 66 produces a field with subfield $a and subject with SubjectSchemeIdentifier of 80 produces field with subfield $b",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "only": false
+}

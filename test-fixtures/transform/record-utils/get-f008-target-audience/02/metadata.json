@@ -1,0 +1,5 @@
+{
+  "description": "Returns 'j' when a DescriptiveDetail.Subject entry with SubjectSchemeIdentifier of '73' and SubjectCode of 'L' can be found",
+  "expectedValue": "j",
+  "only": false
+}

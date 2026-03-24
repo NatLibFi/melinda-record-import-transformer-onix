@@ -1,0 +1,8 @@
+{
+  "description": "Language sanity check may prevent subfield $l generation",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": true,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Does not generate f024 if ISMN not found even if there are other ProductIdentifiers available",
+  "onixConversionConfiguration": {},
+  "only": false
+}

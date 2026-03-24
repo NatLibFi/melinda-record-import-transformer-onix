@@ -1,0 +1,4 @@
+{
+  "description": "Does not generate f710 from Contributor with no CorporateName defined",
+  "only": false
+}

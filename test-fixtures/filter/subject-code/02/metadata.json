@@ -1,0 +1,7 @@
+{
+  "description": "Filter passes for print book when entry does contain subject with subject code in deny list but subject scheme identifier is not 24",
+  "settings": {
+    "denySubjectCodes": ["FOO"]
+  },
+  "only": false
+}

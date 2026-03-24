@@ -1,0 +1,8 @@
+{
+  "description": "Does not create f594 regarding information type note for prepublication without NotificationType",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": "Foo"
+  },
+  "only": false
+}

@@ -1,0 +1,8 @@
+{
+  "description": "May create f500 regarding AI author if contributors contain such information",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": null
+  },
+  "only": true
+}

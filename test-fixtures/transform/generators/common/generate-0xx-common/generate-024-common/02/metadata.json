@@ -1,0 +1,5 @@
+{
+  "description": "Generates f024 for PDF if ISMN-13 available",
+  "onixConversionConfiguration": {},
+  "only": false
+}

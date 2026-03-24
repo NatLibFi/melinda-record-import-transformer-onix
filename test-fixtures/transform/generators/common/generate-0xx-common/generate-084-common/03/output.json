@@ -1,0 +1,56 @@
+[
+  {
+    "tag": "084",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "84.2"
+      },
+      {
+        "code": "2",
+        "value": "ykl"
+      }
+    ]
+  },
+  {
+    "tag": "084",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "84.252"
+      },
+      {
+        "code": "2",
+        "value": "ykl"
+      }
+    ]
+  },
+  {
+    "tag": "084",
+    "ind1": "9",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Fantasia"
+      },
+      {
+        "code": "2",
+        "value": "ykl"
+      }
+    ]
+  },
+  {
+    "tag": "084",
+    "ind1": "9",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Novellit"
+      },
+      {
+        "code": "2",
+        "value": "ykl"
+      }
+    ]
+  }
+]

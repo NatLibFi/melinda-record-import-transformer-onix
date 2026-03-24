@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Contributor that has CorporateName defined instead of PersonNameInverted -->
+    <Contributor>
+      <!-- Note: missing sequence number on purpose -->
+      <!-- By (author) -->
+      <ContributorRole>B01</ContributorRole>
+      <CorporateName>FooBarBaz</CorporateName>
+    </Contributor>
+
+  </DescriptiveDetail>
+</Product>

@@ -1,0 +1,5 @@
+{
+  "description": "Returns null if no subjects are found",
+  "expectedValue": null,
+  "only": false
+}

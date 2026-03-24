@@ -1,0 +1,9 @@
+<Product>
+  <DescriptiveDetail>
+    <ProductForm>BA</ProductForm>
+    <Subject>
+      <SubjectSchemeIdentifier>24</SubjectSchemeIdentifier>
+      <SubjectCode>FOO</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

@@ -1,0 +1,5 @@
+{
+  "description": "Returns null if there is no title with TitleType 00 or 01",
+  "expectedValue": null,
+  "only": false
+}

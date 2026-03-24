@@ -1,0 +1,5 @@
+{
+  "description": "Returns true for MP3 Product",
+  "expectedValue": true,
+  "only": false
+}

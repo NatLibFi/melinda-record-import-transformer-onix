@@ -1,0 +1,5 @@
+{
+  "description": "Returns 'f ' if Product contains first YKL main class that is considered fiction (here 84)",
+  "expectedValue": "f ",
+  "only": false
+}

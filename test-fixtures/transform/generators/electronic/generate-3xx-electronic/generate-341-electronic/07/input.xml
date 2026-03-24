@@ -1,0 +1,19 @@
+<Product>
+  <!-- Notification type = notification confirmed on publication (i.e., legal deposit) -->
+  <NotificationType>03</NotificationType>
+
+  <PublishingDetail>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>Foo</PublisherName>
+    </Publisher>
+  </PublishingDetail>
+
+  <DescriptiveDetail>
+    <!-- textual:tableofContents -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>11</ProductFormFeatureValue>
+    </ProductFormFeature>
+  </DescriptiveDetail>
+</Product>

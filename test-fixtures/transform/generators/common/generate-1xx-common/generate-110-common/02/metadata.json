@@ -1,0 +1,4 @@
+{
+  "description": "Does not generate f110 from contributor which has also PersonalNameInverted attribute defined",
+  "only": false
+}

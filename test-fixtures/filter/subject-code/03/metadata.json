@@ -1,0 +1,9 @@
+{
+  "description": "Throws non-halting error when entry does contain subject with subject code in deny list and subject scheme identifier is 24",
+  "settings": {
+    "denySubjectCodes": ["FOO"]
+  },
+  "expectedError": "[subject-code-filter] Product contained denied subject code of \"FOO\"",
+  "haltPipeline": false,
+  "only": false
+}

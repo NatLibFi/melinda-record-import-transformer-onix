@@ -1,0 +1,7 @@
+{
+  "description": "Generates f653 from each subject field where SubjectSchemeIdentifier is 20, 64 or 72 for record that is not legal deposit record",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "only": false
+}

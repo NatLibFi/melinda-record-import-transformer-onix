@@ -1,0 +1,9 @@
+{
+  "description": "Generates f007 for MP3",
+  "onixConversionConfiguration": {},
+  "expectedValue": [
+    {"tag": "007", "value": "sr|uunnnnnuneu"},
+    {"tag": "007", "value": "cr|nnannnuuuuu"}
+  ],
+  "only": false
+}

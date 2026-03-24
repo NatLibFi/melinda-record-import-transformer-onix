@@ -1,0 +1,4 @@
+{
+  "description": "Does not generate f100 for entry in invalid names list: 'Disney, Walt' (note: full list of invalid names is tested elsewhere in unit tests)",
+  "only": false
+}

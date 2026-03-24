@@ -1,0 +1,5 @@
+{
+  "description": "Returns null if SubjectCode is of invalid length (YKL minimum is 2, here tested is 1)",
+  "expectedValue": null,
+  "only": false
+}

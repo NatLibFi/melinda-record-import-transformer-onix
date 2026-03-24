@@ -1,0 +1,6 @@
+{
+  "description": "[DEPRECATED] Generates f341 for entry that is simplified language edition",
+  "onixConversionConfiguration": {},
+  "only": false,
+  "skip": true
+}

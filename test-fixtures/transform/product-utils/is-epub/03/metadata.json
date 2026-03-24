@@ -1,0 +1,5 @@
+{
+  "description": "Returns false if ProductForm matches EPUB but ProductFormDetail does not match",
+  "expectedValue": false,
+  "only": false
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "tag": "974",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Foo"
+      },
+      {
+        "code": "b",
+        "value": "1234"
+      },
+      {
+        "code": "5",
+        "value": "FENNI"
+      }
+    ]
+  },
+  {
+    "tag": "974",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Foo"
+      },
+      {
+        "code": "b",
+        "value": "4321"
+      },
+      {
+        "code": "5",
+        "value": "FENNI"
+      }
+    ]
+  }
+]

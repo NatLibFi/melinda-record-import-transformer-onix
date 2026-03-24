@@ -1,0 +1,10 @@
+<Product>
+  <DescriptiveDetail>
+    <Contributor>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Disney, Walt</PersonNameInverted>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

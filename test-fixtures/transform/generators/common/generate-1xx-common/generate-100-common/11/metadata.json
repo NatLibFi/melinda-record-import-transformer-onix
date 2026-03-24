@@ -1,0 +1,4 @@
+{
+  "description": "Does not accept author information that contains invalid phrase \" ja \"",
+  "only": false
+}

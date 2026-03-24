@@ -1,0 +1,7 @@
+{
+  "description": "Adds subjects for SMP edition",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "only": false
+}

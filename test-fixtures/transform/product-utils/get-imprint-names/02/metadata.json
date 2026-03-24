@@ -1,0 +1,5 @@
+{
+  "description": "Returns empty array if imprint is not available",
+  "expectedValue": [],
+  "only": false
+}

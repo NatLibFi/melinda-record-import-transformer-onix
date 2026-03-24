@@ -1,0 +1,5 @@
+{
+  "description": "Does not generate field for empty product",
+  "onixConversionConfiguration": {},
+  "only": false
+}

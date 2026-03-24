@@ -1,0 +1,5 @@
+{
+  "description": "Returns shared detected language if detecting only one language from multiple title definitions with TitleType '00' or '01'",
+  "expectedValue": "eng",
+  "only": false
+}

@@ -1,0 +1,6 @@
+{
+  "description": "Generates f007 for PDF",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "007", "value": "cr||||||||||||"}],
+  "only": false
+}

@@ -1,0 +1,9 @@
+<Product>
+  <DescriptiveDetail>
+    <Contributor>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Foo Bar</PersonName>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

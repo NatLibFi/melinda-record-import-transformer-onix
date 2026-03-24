@@ -1,0 +1,5 @@
+{
+  "description": "Generates subfields $a and $b without $c with proper punctuation",
+  "onixConversionConfiguration": {},
+  "only": false
+}

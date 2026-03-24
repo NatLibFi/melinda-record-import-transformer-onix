@@ -1,0 +1,41 @@
+[
+  {
+    "tag": "653",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "mysteerit"
+      },
+      {
+        "code": "7",
+        "value": "Ennakkotieto"
+      }
+    ]
+  },
+  {
+    "tag": "653",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "absurdi"
+      },
+      {
+        "code": "7",
+        "value": "Ennakkotieto"
+      }
+    ]
+  },
+  {
+    "tag": "653",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "selittämättömät ilmiöt"
+      },
+      {
+        "code": "7",
+        "value": "Ennakkotieto"
+      }
+    ]
+  }
+]

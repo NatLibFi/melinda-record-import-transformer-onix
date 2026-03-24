@@ -1,0 +1,7 @@
+{
+  "description": "[legal deposit] Does not produce $7 Ennakkotieto",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true
+  },
+  "only": false
+}

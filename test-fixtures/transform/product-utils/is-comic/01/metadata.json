@@ -1,0 +1,5 @@
+{
+  "description": "Returns true for print book containing Subject with SubjectSchemeIdentifier of '93' and SubjectCode starting with 'X'",
+  "expectedValue": true,
+  "only": false
+}

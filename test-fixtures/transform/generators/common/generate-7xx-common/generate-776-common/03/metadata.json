@@ -1,0 +1,4 @@
+{
+  "description": "Does not generate f776 from RelatedProduct that is not alternative format.",
+  "only": false
+}

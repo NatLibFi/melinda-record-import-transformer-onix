@@ -1,0 +1,8 @@
+{
+  "description": "Returns empty array if preventUniformTitleGeneration is true",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": true
+  },
+  "only": false
+}

@@ -1,0 +1,15 @@
+<Product>
+  <DescriptiveDetail>
+    <ProductForm>AJ</ProductForm>
+    <ProductFormDetail>A103</ProductFormDetail>
+
+    <Extent>
+      <!-- Duration -->
+      <ExtentType>09</ExtentType>
+
+      <!-- Hours and minutes -->
+      <ExtentUnit>16</ExtentUnit>
+      <ExtentValue>0121305</ExtentValue>
+    </Extent>
+  </DescriptiveDetail>
+</Product>

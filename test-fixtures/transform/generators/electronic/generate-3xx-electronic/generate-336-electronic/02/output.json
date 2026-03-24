@@ -1,0 +1,19 @@
+[
+  {
+    "tag": "336",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "teksti"
+      },
+      {
+        "code": "b",
+        "value": "txt"
+      },
+      {
+        "code": "2",
+        "value": "rdacontent"
+      }
+    ]
+  }
+]

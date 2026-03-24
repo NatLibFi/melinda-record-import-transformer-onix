@@ -1,0 +1,16 @@
+<Product>
+  <DescriptiveDetail>
+    <Subject>
+      <SubjectSchemeIdentifier>77</SubjectSchemeIdentifier>
+      <SubjectCode>PE-RU</SubjectCode>
+    </Subject>
+    <Subject>
+      <SubjectSchemeIdentifier>95</SubjectSchemeIdentifier>
+      <SubjectCode>2ACSW</SubjectCode>
+    </Subject>
+    <Subject>
+      <SubjectSchemeIdentifier>95</SubjectSchemeIdentifier>
+      <SubjectCode>2AGR</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

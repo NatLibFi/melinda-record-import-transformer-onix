@@ -1,0 +1,5 @@
+{
+  "description": "Does not generate f024 from invalid ISMN-10 or ISMN-13 identifier (note: validation is not nearly as strict as with f020/ISBN)",
+  "onixConversionConfiguration": {},
+  "only": false
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "tag": "700",
+    "ind1": "1",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Baz, Foo,"
+      },
+      {
+        "code": "e",
+        "value": "kirjoittaja,"
+      },
+      {
+        "code": "e",
+        "value": "toimittaja,"
+      },
+      {
+        "code": "e",
+        "value": "lukija."
+      }
+    ]
+  }
+]

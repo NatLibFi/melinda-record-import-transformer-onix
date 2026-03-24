@@ -1,0 +1,38 @@
+[
+  {
+    "tag": "655",
+    "ind2": "7",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "elämäntaito-oppaat"
+      },
+      {
+        "code": "2",
+        "value": "slm/fin"
+      },
+      {
+        "code": "0",
+        "value": "http://urn.fi/URN:NBN:fi:au:slm:s222"
+      }
+    ]
+  },
+  {
+    "tag": "655",
+    "ind2": "7",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "harjoituskirjat"
+      },
+      {
+        "code": "2",
+        "value": "slm/fin"
+      },
+      {
+        "code": "0",
+        "value": "http://urn.fi/URN:NBN:fi:au:slm:s943"
+      }
+    ]
+  }
+]

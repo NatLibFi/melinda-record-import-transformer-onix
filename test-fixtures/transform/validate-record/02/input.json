@@ -1,0 +1,502 @@
+{
+  "leader": "00000nam a22000008i 4500",
+  "fields": [
+    {
+      "tag": "005",
+      "value": "20251212000000.0"
+    },
+    {
+      "tag": "008",
+      "value": "260112s2023    fi ||||j||||||||||1|fin||"
+    },
+    {
+      "tag": "020",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "978-951-51-7470-3"
+        },
+        {
+          "code": "q",
+          "value": "pehmeäkantinen"
+        }
+      ]
+    },
+    {
+      "tag": "040",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "foo-isilIdentifier"
+        },
+        {
+          "code": "b",
+          "value": "fin"
+        },
+        {
+          "code": "e",
+          "value": "rda"
+        },
+        {
+          "code": "d",
+          "value": "FI-NL"
+        }
+      ]
+    },
+    {
+      "tag": "041",
+      "ind1": "1",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "fin"
+        },
+        {
+          "code": "h",
+          "value": "eng"
+        }
+      ]
+    },
+    {
+      "tag": "042",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "finb"
+        }
+      ]
+    },
+    {
+      "tag": "084",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "84.2"
+        },
+        {
+          "code": "2",
+          "value": "ykl"
+        },
+        {
+          "code": "7",
+          "value": "Ennakkotieto"
+        }
+      ]
+    },
+    {
+      "tag": "084",
+      "ind1": "9",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "Scifi"
+        },
+        {
+          "code": "2",
+          "value": "ykl"
+        },
+        {
+          "code": "7",
+          "value": "Ennakkotieto"
+        }
+      ]
+    },
+    {
+      "tag": "100",
+      "ind1": "1",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "Esimerkki, Erkki,"
+        },
+        {
+          "code": "e",
+          "value": "kirjoittaja."
+        }
+      ]
+    },
+    {
+      "tag": "240",
+      "ind1": "1",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "The Example Title."
+        },
+        {
+          "code": "l",
+          "value": "Suomi"
+        }
+      ]
+    },
+    {
+      "tag": "245",
+      "ind1": "1",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "Esimerkkinimeke."
+        }
+      ]
+    },
+    {
+      "tag": "250",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "2. painos."
+        }
+      ]
+    },
+    {
+      "tag": "263",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "20240101"
+        }
+      ]
+    },
+    {
+      "tag": "264",
+      "ind1": " ",
+      "ind2": "1",
+      "subfields": [
+        {
+          "code": "b",
+          "value": "Example publisher,"
+        },
+        {
+          "code": "c",
+          "value": "2023."
+        }
+      ]
+    },
+    {
+      "tag": "300",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "500 sivua ;"
+        },
+        {
+          "code": "c",
+          "value": "25 cm"
+        }
+      ]
+    },
+    {
+      "tag": "336",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "teksti"
+        },
+        {
+          "code": "b",
+          "value": "txt"
+        },
+        {
+          "code": "2",
+          "value": "rdacontent"
+        }
+      ]
+    },
+    {
+      "tag": "337",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "käytettävissä ilman laitetta"
+        },
+        {
+          "code": "b",
+          "value": "n"
+        },
+        {
+          "code": "2",
+          "value": "rdamedia"
+        }
+      ]
+    },
+    {
+      "tag": "338",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "nide"
+        },
+        {
+          "code": "b",
+          "value": "nc"
+        },
+        {
+          "code": "2",
+          "value": "rdacarrier"
+        }
+      ]
+    },
+    {
+      "tag": "490",
+      "ind1": "0",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "Example series ;"
+        },
+        {
+          "code": "x",
+          "value": "1234-1234"
+        },
+        {
+          "code": "v",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "tag": "500",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "Lisäpainokset: 2. painos 2024."
+        }
+      ]
+    },
+    {
+      "tag": "500",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "Ennakkotieto / foo-notificationName"
+        }
+      ]
+    },
+    {
+      "tag": "594",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "Ennakkotieto / foo-notificationName"
+        },
+        {
+          "code": "5",
+          "value": "FENNI"
+        }
+      ]
+    },
+    {
+      "tag": "653",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "teknologia"
+        },
+        {
+          "code": "7",
+          "value": "Ennakkotieto"
+        }
+      ]
+    },
+    {
+      "tag": "653",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "tulevaisuus"
+        },
+        {
+          "code": "7",
+          "value": "Ennakkotieto"
+        }
+      ]
+    },
+    {
+      "tag": "653",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "Internet"
+        },
+        {
+          "code": "7",
+          "value": "Ennakkotieto"
+        }
+      ]
+    },
+    {
+      "tag": "700",
+      "ind1": "1",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "Esimerkki, Eero,"
+        },
+        {
+          "code": "e",
+          "value": "kirjoittaja."
+        }
+      ]
+    },
+    {
+      "tag": "700",
+      "ind1": "1",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "Esimerkki, Elli,"
+        },
+        {
+          "code": "e",
+          "value": "kääntäjä."
+        }
+      ]
+    },
+    {
+      "tag": "710",
+      "ind1": "2",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "Example publisher,"
+        },
+        {
+          "code": "e",
+          "value": "kustantaja."
+        }
+      ]
+    },
+    {
+      "tag": "884",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "ONIX3 to MARC transformation"
+        },
+        {
+          "code": "g",
+          "value": "20260112"
+        },
+        {
+          "code": "k",
+          "value": "foo-pseudonym:dc6e906f125258c2cde22b3b049ae8ac4672146e452abd50e56b5a2c62012aa1"
+        },
+        {
+          "code": "q",
+          "value": "FI-NL"
+        },
+        {
+          "code": "5",
+          "value": "MELINDA"
+        }
+      ]
+    },
+    {
+      "tag": "946",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "i",
+          "value": "Nimeke Onixissa:"
+        },
+        {
+          "code": "a",
+          "value": "Esimerkkinimeke"
+        },
+        {
+          "code": "5",
+          "value": "MELINDA"
+        }
+      ]
+    },
+    {
+      "tag": "974",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "foo-relatedWorkReferenceName"
+        },
+        {
+          "code": "b",
+          "value": "WORKIDENTIFIER12345"
+        },
+        {
+          "code": "5",
+          "value": "FENNI"
+        }
+      ]
+    },
+    {
+      "tag": "SID",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "c",
+          "value": "RECORDREFERENCE123"
+        },
+        {
+          "code": "b",
+          "value": "foo-systemIdentifier"
+        }
+      ]
+    },
+    {
+      "tag": "LOW",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "code": "a",
+          "value": "FIKKA"
+        }
+      ]
+    }
+  ]
+}

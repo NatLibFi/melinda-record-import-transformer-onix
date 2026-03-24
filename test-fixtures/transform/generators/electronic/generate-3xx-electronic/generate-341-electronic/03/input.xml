@@ -1,0 +1,4 @@
+<Product>
+  <!-- Notification type = notification confirmed on publication (i.e., legal deposit) -->
+  <NotificationType>03</NotificationType>
+</Product>

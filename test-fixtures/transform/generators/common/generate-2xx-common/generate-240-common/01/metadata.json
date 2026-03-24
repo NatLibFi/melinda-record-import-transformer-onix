@@ -1,0 +1,8 @@
+{
+  "description": "Generates field f240 from title with TitleType 03 when product is not simplified language edition and main author is observed",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

@@ -1,0 +1,15 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Main author -->
+    <Contributor>
+      <ContributorRole>A01</ContributorRole>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </Contributor>
+
+    <!-- Another author -->
+    <Contributor>
+      <ContributorRole>A01</ContributorRole>
+      <PersonNameInverted>Baz, Foo</PersonNameInverted>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

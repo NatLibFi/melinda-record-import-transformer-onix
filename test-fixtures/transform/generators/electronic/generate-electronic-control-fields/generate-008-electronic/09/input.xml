@@ -1,0 +1,24 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- PDF -->
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E107</ProductFormDetail>
+
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>fin</LanguageCode>
+    </Language>
+
+    <!-- Suomalainen oppiaineluokitus: Toinen kotimainen kieli -->
+    <Subject>
+      <SubjectSchemeIdentifier>77</SubjectSchemeIdentifier>
+      <SubjectCode>PE-RU</SubjectCode>
+    </Subject>
+
+    <!-- Thema language qualifier: Swedish language -->
+    <Subject>
+      <SubjectSchemeIdentifier>95</SubjectSchemeIdentifier>
+      <SubjectCode>2ACSW</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

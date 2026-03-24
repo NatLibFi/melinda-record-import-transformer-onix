@@ -1,0 +1,6 @@
+{
+  "description": "Throws error if entry is not recognized as audio or text",
+  "onixConversionConfiguration": {},
+  "expectedError": "[generate007Electronic]: cannot generate field for record that is not audio or text",
+  "only": false
+}

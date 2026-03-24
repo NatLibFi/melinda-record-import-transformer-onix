@@ -1,0 +1,8 @@
+{
+  "description": "Language sanity check may prevent subfield $l generation if title with TitleType of 01 is missing",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": true,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

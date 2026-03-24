@@ -1,0 +1,8 @@
+{
+  "description": "Main author is null and contributors array empty if product does not contain contributor information",
+  "expectedValue": {
+    "mainAuthor": null,
+    "contributors": []
+  },
+  "only": false
+}

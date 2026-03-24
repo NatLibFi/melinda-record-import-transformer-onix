@@ -1,0 +1,16 @@
+[
+  {
+    "tag": "100",
+    "ind1": "1",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Bar, Foo,"
+      },
+      {
+        "code": "e",
+        "value": "kirjoittaja."
+      }
+    ]
+  }
+]

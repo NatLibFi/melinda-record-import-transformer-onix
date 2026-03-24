@@ -1,0 +1,5 @@
+{
+  "description": "Returns valid ISBN values for each ProductIdentifier having ProductIDType of '15' or '02'",
+  "expectedValue": {"isbn13": ["978-952-222-356-2"], "isbn10": ["951-861-386-9"]},
+  "only": false
+}

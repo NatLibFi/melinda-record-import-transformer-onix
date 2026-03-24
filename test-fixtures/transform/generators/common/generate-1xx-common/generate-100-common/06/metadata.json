@@ -1,0 +1,4 @@
+{
+  "description": "Generates f100 even if sequence numbers are not available for contributors",
+  "only": false
+}

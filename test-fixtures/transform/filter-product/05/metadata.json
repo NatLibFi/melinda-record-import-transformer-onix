@@ -1,0 +1,10 @@
+{
+  "description": "Halting error is thrown when attempting to use filter that does not exist",
+  "filterConfiguration": {
+    "applyFilters": ["fooFilter"],
+    "settings": {}
+  },
+  "expectedError": "Requested using filter \"fooFilter\" which is not available. Filters available are: [\"filterByProductForm\",\"filterBySubjectCode\"]",
+  "haltPipeline": true,
+  "only": false
+}

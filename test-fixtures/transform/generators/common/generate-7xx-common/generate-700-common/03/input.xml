@@ -1,0 +1,42 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Main author -->
+    <Contributor>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <!-- Illustrated by -->
+      <ContributorRole>A12</ContributorRole>
+      <SequenceNumber>2</SequenceNumber>
+      <PersonNameInverted>Baz, Foo</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <!-- Edited by -->
+      <ContributorRole>B01</ContributorRole>
+      <SequenceNumber>3</SequenceNumber>
+      <PersonName>Foo</PersonName>
+      <PersonNameInverted>Foo</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <!-- Translated by -->
+      <ContributorRole>B06</ContributorRole>
+      <SequenceNumber>4</SequenceNumber>
+      <PersonName>Bar</PersonName>
+      <PersonNameInverted>Bar</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <!-- Read by -->
+      <ContributorRole>E07</ContributorRole>
+      <SequenceNumber>5</SequenceNumber>
+      <PersonName>Baz</PersonName>
+      <PersonNameInverted>Baz</PersonNameInverted>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

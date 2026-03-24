@@ -1,0 +1,8 @@
+{
+  "description": "Returns f040 without $a for record that is legal deposit record",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true,
+    "isilIdentifier": "FI-FOOBAR"
+  },
+  "only": false
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Returns object containing main author and contributors while correctly deduplicating both authors and their roles",
+  "expectedValue": {
+    "mainAuthor": {
+      "idx": 0,
+      "personName": "Matti Meikäläinen",
+      "personNameInverted": "Meikäläinen, Matti",
+      "corporateName": null,
+      "roleCodes": ["A01", "A12"],
+      "isTranslator": false,
+      "sequenceNumber": 1,
+      "isAiAuthor": false
+    },
+    "contributors": [
+      {
+        "idx": 1,
+        "personName": "Maija Meikäläinen",
+        "personNameInverted": "Meikäläinen, Maija",
+        "corporateName": null,
+        "roleCodes": ["A01", "A12", "B06"],
+        "isTranslator": true,
+        "sequenceNumber": 1,
+        "isAiAuthor": false
+      },
+      {
+        "idx": 3,
+        "personName": null,
+        "personNameInverted": null,
+        "corporateName": "FooBarBaz",
+        "roleCodes": ["B01"],
+        "isTranslator": false,
+        "sequenceNumber": null,
+        "isAiAuthor": false
+      }
+    ]
+  },
+  "only": false
+}

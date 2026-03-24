@@ -1,0 +1,5 @@
+{
+  "description": "Correctly returns 'kovakantinen' for ProductForm of BH",
+  "expectedValue": "kovakantinen",
+  "only": false
+}

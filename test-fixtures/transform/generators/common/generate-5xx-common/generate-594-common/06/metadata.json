@@ -1,0 +1,8 @@
+{
+  "description": "Having NotificationType of 01 for legal deposit entry does not affect the type of information type note generated",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true,
+    "notificationName": "Foo"
+  },
+  "only": false
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Returns empty array on empty Product",
+  "expectedValue": [],
+  "only": false
+}

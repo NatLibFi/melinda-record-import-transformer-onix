@@ -1,0 +1,8 @@
+{
+  "description": "Creates f500 cancellation note for publication that has been abandoned",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": null
+  },
+  "only": false
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Returns true if language with LanguageRole of 02 is found",
+  "expectedValue": true,
+  "only": false
+}

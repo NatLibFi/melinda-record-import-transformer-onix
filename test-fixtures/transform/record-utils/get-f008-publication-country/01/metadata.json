@@ -1,0 +1,5 @@
+{
+  "description": "Returns two first characters of PublishingDetail.CountryOfPublication in lowercase format when it is defined",
+  "expectedValue": "fi",
+  "only": false
+}

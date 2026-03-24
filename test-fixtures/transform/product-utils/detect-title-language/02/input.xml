@@ -1,0 +1,10 @@
+<Product>
+  <DescriptiveDetail>
+    <TitleDetail>
+      <TitleType>01</TitleType>
+      <TitleElement>
+        <TitleText>Tämä on esimerkki julkaisun nimekkeestä suomen kielellä kirjoitettuna</TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </DescriptiveDetail>
+</Product>

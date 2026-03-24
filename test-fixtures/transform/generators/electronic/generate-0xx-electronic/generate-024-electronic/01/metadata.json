@@ -1,0 +1,5 @@
+{
+  "description": "Generates f024 if ISBN-13 is not found and gtin identifier is available",
+  "onixConversionConfiguration": {},
+  "only": false
+}

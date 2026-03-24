@@ -1,0 +1,5 @@
+{
+  "description": "Returns '||' if Product does not contain YKL main class within subject information",
+  "expectedValue": "||",
+  "only": false
+}

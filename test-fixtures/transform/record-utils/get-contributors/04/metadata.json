@@ -1,0 +1,28 @@
+{
+  "description": "Does not include AI authors",
+  "expectedValue": {
+    "mainAuthor": {
+      "idx": 0,
+      "personName": "Matti Meikäläinen",
+      "personNameInverted": "Meikäläinen, Matti",
+      "corporateName": null,
+      "roleCodes": ["A01", "A12"],
+      "isTranslator": false,
+      "sequenceNumber": 1,
+      "isAiAuthor": false
+    },
+    "contributors": [
+      {
+        "idx": 3,
+        "personName": null,
+        "personNameInverted": null,
+        "corporateName": "FooBarBaz",
+        "roleCodes": ["B01"],
+        "isTranslator": false,
+        "sequenceNumber": null,
+        "isAiAuthor": false
+      }
+    ]
+  },
+  "only": true
+}

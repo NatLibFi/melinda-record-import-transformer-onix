@@ -1,0 +1,21 @@
+<Product>
+  <PublishingDetail>
+    <PublishingDate>
+      <!-- Publication date -->
+      <PublishingDateRole>01</PublishingDateRole>
+      <Date>19700101</Date>
+    </PublishingDate>
+
+    <PublishingDate>
+      <!-- Last reprint date #1 -->
+      <PublishingDateRole>12</PublishingDateRole>
+      <Date>20220101</Date>
+    </PublishingDate>
+
+    <PublishingDate>
+      <!-- Last reprint date #2 -->
+      <PublishingDateRole>12</PublishingDateRole>
+      <Date>20230101</Date>
+    </PublishingDate>
+  </PublishingDetail>
+</Product>

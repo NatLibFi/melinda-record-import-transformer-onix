@@ -1,0 +1,4 @@
+{
+  "description": "TitleText containing only digits is interpreted as not having collection title",
+  "only": false
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Returns true if main author has also translator role",
+  "expectedValue": true,
+  "only": false
+}

@@ -1,0 +1,8 @@
+{
+  "description": "Field is not generated if entry is legal deposit",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true,
+    "relatedWorkReferenceName": "Foo"
+  },
+  "only": false
+}

@@ -1,0 +1,25 @@
+<Product>
+  <!-- Notification type = notification confirmed on publication (i.e., legal deposit) -->
+  <NotificationType>03</NotificationType>
+
+  <DescriptiveDetail>
+    <!-- visual:alternativeText -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>14</ProductFormFeatureValue>
+    </ProductFormFeature>
+
+    <!-- visual:longDescription -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>15</ProductFormFeatureValue>
+    </ProductFormFeature>
+
+    <!-- duplicate with different feature value (mapped to same value) -->
+    <!-- visual:longDescription -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>16</ProductFormFeatureValue>
+    </ProductFormFeature>
+  </DescriptiveDetail>
+</Product>

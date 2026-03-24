@@ -1,0 +1,5 @@
+{
+  "description": "Audio product with ExtentType of 09 and ExtentUnit 16 generates f300 with duration information (hours, minutes and seconds)",
+  "onixConversionConfiguration": {},
+  "only": false
+}

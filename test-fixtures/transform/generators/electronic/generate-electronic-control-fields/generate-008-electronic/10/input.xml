@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- PDF -->
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E107</ProductFormDetail>
+
+    <Audience>
+      <AudienceCodeType>01</AudienceCodeType>
+      <AudienceCodeValue>11</AudienceCodeValue>
+    </Audience>
+  </DescriptiveDetail>
+</Product>

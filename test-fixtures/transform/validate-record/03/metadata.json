@@ -1,0 +1,7 @@
+{
+  "description": "Produces halting error if mandatory configuration parameters are missing",
+  "marcRecordValidatorConfiguration": {},
+  "haltPipeline": true,
+  "expectedError": "marcRecordValidatorConfiguration.isLegalDeposit does not have boolean value available which is mandatory",
+  "only": false
+}

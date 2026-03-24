@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <NameAsSubject>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+      <NameIdentifier>
+        <!-- ISNI -->
+        <NameIDType>16</NameIDType>
+        <IDValue>1234 1234 1234 1234</IDValue>
+      </NameIdentifier>
+    </NameAsSubject>
+  </DescriptiveDetail>
+</Product>

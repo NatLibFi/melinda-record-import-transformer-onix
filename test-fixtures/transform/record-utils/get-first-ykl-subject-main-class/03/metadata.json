@@ -1,0 +1,5 @@
+{
+  "description": "Returns null if no YKL subject is found",
+  "expectedValue": null,
+  "only": false
+}

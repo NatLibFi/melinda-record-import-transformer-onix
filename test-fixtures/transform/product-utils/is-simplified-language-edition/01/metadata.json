@@ -1,0 +1,5 @@
+{
+  "description": "Returns true when EditionType contains 'SMP'",
+  "expectedValue": true,
+  "only": false
+}

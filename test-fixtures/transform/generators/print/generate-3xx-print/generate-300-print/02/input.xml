@@ -1,0 +1,22 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Print book -->
+    <ProductForm>BA</ProductForm>
+
+    <Extent>
+      <!-- Number of pages in digital product -->
+      <ExtentType>00</ExtentType>
+
+      <!-- Pages -->
+      <ExtentUnit>03</ExtentUnit>
+      <ExtentValue>100</ExtentValue>
+    </Extent>
+
+    <Measure>
+      <!-- Height -->
+      <MeasureType>01</MeasureType>
+      <MeasureUnitCode>mm</MeasureUnitCode>
+      <Measurement>kaksisataa</Measurement>
+    </Measure>
+  </DescriptiveDetail>
+</Product>

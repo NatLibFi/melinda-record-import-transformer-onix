@@ -1,0 +1,7 @@
+{
+  "description": "Language sanity check prevents generation of f041 if detected title language value is not unified between all titles",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": true
+  },
+  "only": false
+}

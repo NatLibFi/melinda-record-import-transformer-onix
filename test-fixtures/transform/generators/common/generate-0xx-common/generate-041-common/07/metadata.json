@@ -1,0 +1,7 @@
+{
+  "description": "Ind1 is 1 when title with TitleType 03 is found",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false
+  },
+  "only": false
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Returns Object with isbn13 and isbn10 attributes containing empty array if Product does not contain any values that should be returned per ISBN getter logic",
+  "expectedValue": {"ismn13": [], "ismn10": []},
+  "only": false
+}

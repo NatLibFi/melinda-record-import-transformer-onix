@@ -1,0 +1,21 @@
+[
+  {
+    "tag": "110",
+    "ind1": "2",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Foo,"
+      },
+      {
+        "code": "e",
+        "value": "kirjoittaja,"
+      },
+      {
+        "code": "e",
+        "value": "toimittaja."
+      }
+
+    ]
+  }
+]

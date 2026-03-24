@@ -1,0 +1,15 @@
+<Product>
+  <DescriptiveDetail>
+    <Subject>
+      <!-- PTO (paikkatieto ontologia) -->
+      <SubjectSchemeIdentifier>72</SubjectSchemeIdentifier>
+      <SubjectHeadingText>ihan täysin selittämättömät ilmiöt</SubjectHeadingText>
+    </Subject>
+
+    <Subject>
+      <!-- PTO (paikkatieto ontologia) -->
+      <SubjectSchemeIdentifier>72</SubjectSchemeIdentifier>
+      <SubjectHeadingText>Selittämättömät ilmiöt.</SubjectHeadingText>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

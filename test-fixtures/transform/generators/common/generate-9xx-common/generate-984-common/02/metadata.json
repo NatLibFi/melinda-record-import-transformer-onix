@@ -1,0 +1,5 @@
+{
+  "description": "Returns empty array as output when directives are not defined",
+  "onixConversionConfiguration": {},
+  "only": false
+}

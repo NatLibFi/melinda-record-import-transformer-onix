@@ -1,0 +1,4 @@
+{
+  "description": "Return empty array if no contributor is found as main author",
+  "only": false
+}

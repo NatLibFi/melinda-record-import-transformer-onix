@@ -1,0 +1,7 @@
+{
+  "description": "Returns false as first entry of given attribute does not contain acceptedValue.",
+  "attributeName": "ProductIDType",
+  "acceptedValues": ["15"],
+  "expectedValue": false,
+  "only": false
+}

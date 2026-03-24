@@ -1,0 +1,35 @@
+{
+  "description": "Pipeline succeeds on converting valid record with valid configuration",
+  "transformationPipelineConfig": {
+    "filterConfiguration": {
+      "applyFilters": [
+        "filterByProductForm"
+      ],
+      "settings": {
+        "filterByProductForm": {
+          "allowRecordTypes": [
+            "electronic"
+          ]
+        }
+      }
+    },
+    "onixConversionConfiguration": {
+      "isLegalDeposit": true,
+      "source": "foo-source",
+      "pseudonym": "MELINDA-foo",
+      "relatedWorkReferenceName": "foo-relatedWorkReferenceName",
+      "isilIdentifier": "foo-isilIdentifier",
+      "notificationName": "foo-notificationName",
+      "systemIdentifier": "foo-systemIdentifier",
+      "f984Directives": [],
+      "languageSanityCheck": false,
+      "preventUniformTitleGeneration": false
+    },
+    "marcRecordValidatorConfiguration": {
+      "isLegalDeposit": true,
+      "fix": true,
+      "validateFixes": true
+    }
+  },
+  "only": false
+}

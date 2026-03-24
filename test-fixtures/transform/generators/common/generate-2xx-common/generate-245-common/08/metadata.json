@@ -1,0 +1,8 @@
+{
+  "description": "Ind1=1 when f130 is available even when main author is not available",
+  "onixConversionConfiguration": {
+    "preventUniformTitleGeneration": false,
+    "languageSanityCheck": false
+  },
+  "only": false
+}

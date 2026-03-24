@@ -1,0 +1,9 @@
+{
+  "description": "Properly validates legal deposit record and adds required fields",
+  "marcRecordValidatorConfiguration": {
+    "isLegalDeposit": true,
+    "fix": true,
+    "validateFixes": true
+  },
+  "only": false
+}

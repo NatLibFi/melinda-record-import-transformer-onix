@@ -1,0 +1,19 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- MP3 -->
+    <ProductForm>AJ</ProductForm>
+    <ProductFormDetail>A103</ProductFormDetail>
+
+    <Subject>
+      <!-- YSO -->
+      <SubjectSchemeIdentifier>71</SubjectSchemeIdentifier>
+      <SubjectHeadingText>elämäntaito-oppaat</SubjectHeadingText>
+    </Subject>
+
+    <Subject>
+      <!-- YSO -->
+      <SubjectSchemeIdentifier>71</SubjectSchemeIdentifier>
+      <SubjectHeadingText>harjoituskirjat</SubjectHeadingText>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

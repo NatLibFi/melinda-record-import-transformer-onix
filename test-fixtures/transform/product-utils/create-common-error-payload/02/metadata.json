@@ -1,0 +1,5 @@
+{
+  "description": "Properly handles empty Product",
+  "expectedValue": {"title": "", "standardIdentifiers": []},
+  "only": false
+}

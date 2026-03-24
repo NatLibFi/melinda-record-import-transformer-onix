@@ -1,0 +1,9 @@
+<Product>
+  <ProductSupply>
+    <SupplyDetail>
+      <Supplier>
+        <SupplierName>FOO-supplier</SupplierName>
+      </Supplier>
+    </SupplyDetail>
+  </ProductSupply>
+</Product>

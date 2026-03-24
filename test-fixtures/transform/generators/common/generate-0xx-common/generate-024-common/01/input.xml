@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- MP3 -->
+    <ProductForm>AJ</ProductForm>
+    <ProductFormDetail>A103</ProductFormDetail>
+  </DescriptiveDetail>
+
+  <ProductIdentifier>
+    <ProductIDType>25</ProductIDType>
+    <IDValue>9790900176509</IDValue>
+  </ProductIdentifier>
+</Product>

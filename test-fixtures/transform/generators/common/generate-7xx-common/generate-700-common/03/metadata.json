@@ -1,0 +1,4 @@
+{
+  "description": "Generates f700 with subfields $a, $e from Contributors with ContributorCode A12, B01, B06 and E07. Indicator 1 is 0 if name and inverted name are equal",
+  "only": false
+}

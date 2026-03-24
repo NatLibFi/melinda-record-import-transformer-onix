@@ -1,0 +1,7 @@
+{
+  "description": "Uses delimiter of ; for splitting multiple subjects from one entry",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "only": false
+}

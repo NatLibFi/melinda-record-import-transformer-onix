@@ -1,0 +1,4 @@
+{
+  "description": "Generates f100 from first contributor that is valid main author if authors have matching sequence numbers",
+  "only": false
+}

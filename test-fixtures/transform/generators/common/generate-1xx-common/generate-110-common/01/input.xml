@@ -1,0 +1,17 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Main author -->
+    <Contributor>
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <CorporateName>Foo</CorporateName>
+    </Contributor>
+
+    <!-- Another author -->
+    <Contributor>
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>2</SequenceNumber>
+      <CorporateName>Bar</CorporateName>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>
