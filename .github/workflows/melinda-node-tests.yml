@@ -1,19 +1,30 @@
-name: Melinda-node-tests
+name: KB node pipeline
 
 on: push
 
 jobs:
-  build-node-22:
-    name: Node 22
+  build-node-versions:
+    name: Node version matrix
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        node-version: [22.x, 24.x]
+
     steps:
-    - name: Checkout the code
-      uses: actions/checkout@v6
-    - run: npm audit --package-lock-only --production --audit-level=high
-    - run: npm ci --ignore-scripts
-    - run: npm test
-    - run: npm run build --if-present
+      - name: Checkout the code
+        uses: actions/checkout@v6
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+        env:
+          NPM_CONFIG_IGNORE_SCRIPTS: true
+      - run: npm audit --package-lock-only --production --audit-level=high
+      - run: npm ci
+      - run: npm test
+      - run: npm run build --if-present
 
   njsscan:
     name: Njsscan-check
@@ -24,7 +35,7 @@ jobs:
       uses: actions/checkout@v6
     - name: nodejsscan scan
       id: njsscan
-      uses: ajinabraham/njsscan-action@master
+      uses: ajinabraham/njsscan-action@v9
       with:
         args: '.'
 
@@ -34,13 +45,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v6
-      - uses: mikaelvesavuori/license-compliance-action@v1.0.2
+      - uses: mikaelvesavuori/license-compliance-action@v1
         with:
           exclude_pattern: /^@natlibfi/
 
   openshift-webhook:
     name: OpenShift webhook for image builder
-    needs: [build-node-22, njsscan, license-scan]
+    needs: [build-node-versions, njsscan, license-scan]
     runs-on: ubuntu-latest
 
     steps:
