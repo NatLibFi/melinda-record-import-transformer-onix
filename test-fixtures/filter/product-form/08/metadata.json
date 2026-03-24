@@ -1,0 +1,9 @@
+{
+  "description": "Throws non-halting error for ProductForm is not found from input",
+  "settings": {
+    "allowRecordTypes": ["print"]
+  },
+  "expectedError": "[product-form-filter] Record type could not be determined for product form value of \"\"",
+  "haltPipeline": false,
+  "only": false
+}

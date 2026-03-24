@@ -1,0 +1,8 @@
+{
+  "description": "Title may be split based on split rules if separately defined Subtitle-element is not found (split rules are tested separately)",
+  "onixConversionConfiguration": {
+    "preventUniformTitleGeneration": false,
+    "languageSanityCheck": false
+  },
+  "only": false
+}

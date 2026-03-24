@@ -1,0 +1,19 @@
+<Product>
+  <DescriptiveDetail>
+    <Contributor>
+      <SequenceNumber>1</SequenceNumber>
+      <!-- Edited by -->
+      <!-- Note this role is not main author worthy -->
+      <ContributorRole>B01</ContributorRole>
+      <PersonName>Matti Meikäläinen</PersonName>
+      <PersonNameInverted>Meikäläinen, Matti</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <SequenceNumber>2</SequenceNumber>
+      <!-- Translated by -->
+      <ContributorRole>B06</ContributorRole>
+      <PersonNameInverted>Meikäläinen, Maija</PersonNameInverted>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

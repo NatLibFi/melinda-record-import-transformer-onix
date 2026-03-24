@@ -1,0 +1,7 @@
+{
+  "description": "Does not generate f884 if pseudonym is not defined in onixConversionConfiguration",
+  "onixConversionConfiguration": {
+    "pseudonym": null
+  },
+  "only": false
+}

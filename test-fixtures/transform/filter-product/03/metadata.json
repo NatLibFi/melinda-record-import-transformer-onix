@@ -1,0 +1,17 @@
+{
+  "description": "Invalid product throws non-halting error (in this case mp3 product is disallowed by product form filter configuration)",
+  "filterConfiguration": {
+    "applyFilters": ["filterByProductForm", "filterBySubjectCode"],
+    "settings": {
+      "filterByProductForm": {
+        "allowRecordTypes": ["print"]
+      },
+      "filterBySubjectCode": {
+        "denySubjectCodes": ["FOO"]
+      }
+    }
+  },
+  "expectedFilterError": "[product-form-filter] Record type (electronic) is not in allowed record types ([\"print\"])",
+  "haltPipeline": false,
+  "only": false
+}

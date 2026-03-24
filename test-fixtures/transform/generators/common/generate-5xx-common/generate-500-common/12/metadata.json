@@ -1,0 +1,8 @@
+{
+  "description": "When only one publishing date information is available, does not generate f500 about past editions",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": null
+  },
+  "only": false
+}

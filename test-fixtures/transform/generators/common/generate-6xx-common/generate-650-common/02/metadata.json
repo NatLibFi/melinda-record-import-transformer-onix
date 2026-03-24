@@ -1,0 +1,7 @@
+{
+  "description": "Does not generate f650 for legal deposit material",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true
+  },
+  "only": false
+}

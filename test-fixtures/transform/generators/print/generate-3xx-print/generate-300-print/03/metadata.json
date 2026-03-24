@@ -1,0 +1,5 @@
+{
+  "description": "Returns empty array if information required for field generation is not available",
+  "onixConversionConfiguration": {},
+  "only": false
+}

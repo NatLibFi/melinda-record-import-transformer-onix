@@ -1,0 +1,7 @@
+{
+  "description": "Filters empty values when using ; delimiter",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "only": false
+}

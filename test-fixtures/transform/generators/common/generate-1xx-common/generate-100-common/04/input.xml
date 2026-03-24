@@ -1,0 +1,11 @@
+<Product>
+  <DescriptiveDetail>
+    <Contributor>
+      <!-- Editor -->
+      <ContributorRole>B01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonName>Foo Bar</PersonName>
+      <PersonNameInverted>Foo Bar</PersonNameInverted>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

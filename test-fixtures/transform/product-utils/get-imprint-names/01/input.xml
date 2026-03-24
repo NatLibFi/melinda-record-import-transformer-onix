@@ -1,0 +1,15 @@
+<Product>
+  <PublishingDetail>
+    <Imprint>
+      <ImprintName>Foo</ImprintName>
+    </Imprint>
+
+    <Imprint>
+      <ImprintName>Bar</ImprintName>
+    </Imprint>
+
+    <!-- Just to test no empty value will be returned -->
+    <Imprint>
+    </Imprint>
+  </PublishingDetail>
+</Product>

@@ -1,0 +1,5 @@
+{
+  "description": "Does not generate f903 when only Finnish ISBN is found",
+  "onixConversionConfiguration": {},
+  "only": false
+}

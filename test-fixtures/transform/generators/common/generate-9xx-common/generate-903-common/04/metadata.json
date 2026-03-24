@@ -1,0 +1,5 @@
+{
+  "description": "Does not generate f903 when ISBN-13 witho Finnish country code is also found",
+  "onixConversionConfiguration": {},
+  "only": false
+}

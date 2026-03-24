@@ -1,0 +1,28 @@
+[
+  {
+    "tag": "653",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "selittämättömät ilmiöt"
+      },
+      {
+        "code": "7",
+        "value": "Ennakkotieto"
+      }
+    ]
+  },
+  {
+    "tag": "653",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "paranormaalit ilmiöt"
+      },
+      {
+        "code": "7",
+        "value": "Ennakkotieto"
+      }
+    ]
+  }
+]

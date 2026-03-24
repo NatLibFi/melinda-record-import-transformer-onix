@@ -1,0 +1,8 @@
+{
+  "description": "Generates $l from main language of product",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

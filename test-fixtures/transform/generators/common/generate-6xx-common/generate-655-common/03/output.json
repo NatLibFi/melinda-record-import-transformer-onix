@@ -1,0 +1,38 @@
+[
+  {
+    "tag": "655",
+    "ind2": "7",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "sarjakuvat"
+      },
+      {
+        "code": "2",
+        "value": "slm/fin"
+      },
+      {
+        "code": "0",
+        "value": "http://urn.fi/URN:NBN:fi:au:slm:s356"
+      }
+    ]
+  },
+  {
+    "tag": "655",
+    "ind2": "7",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "tecknade serier"
+      },
+      {
+        "code": "2",
+        "value": "slm/swe"
+      },
+      {
+        "code": "0",
+        "value": "http://urn.fi/URN:NBN:fi:au:slm:s356"
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+<Product>
+  <DescriptiveDetail>
+
+    <TitleDetail>
+      <TitleType>00</TitleType>
+      <TitleElement>
+        <TitleText>Foo</TitleText>
+      </TitleElement>
+    </TitleDetail>
+
+    <TitleDetail>
+      <TitleType>11</TitleType>
+      <TitleElement>
+        <TitleText>Bar</TitleText>
+      </TitleElement>
+    </TitleDetail>
+
+    <TitleDetail>
+      <TitleType>12</TitleType>
+      <TitleElement>
+        <TitleText>Baz</TitleText>
+      </TitleElement>
+    </TitleDetail>
+
+    <TitleDetail>
+      <TitleType>13</TitleType>
+      <TitleElement>
+        <TitleText>Qux</TitleText>
+      </TitleElement>
+    </TitleDetail>
+
+  </DescriptiveDetail>
+</Product>

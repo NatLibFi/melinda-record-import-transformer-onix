@@ -1,0 +1,5 @@
+{
+  "description": "Generates f020 for EPUB if ISBN-13 available",
+  "onixConversionConfiguration": {},
+  "only": false
+}

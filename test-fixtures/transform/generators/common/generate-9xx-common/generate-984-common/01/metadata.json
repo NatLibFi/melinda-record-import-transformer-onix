@@ -1,0 +1,11 @@
+{
+  "description": "Each valid f984 directive in onixConversionConfiguration results into $a within f984 field",
+  "onixConversionConfiguration": {
+    "f984Directives": [
+      "ALWAYS-PREFER-IN-MERGE",
+      "NEVER-PREFER-IN-MERGE",
+      "FLIP-A-COIN-FOR-MERGE-PREFER"
+    ]
+  },
+  "only": false
+}

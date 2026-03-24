@@ -1,0 +1,5 @@
+{
+  "description": "Correctly returns 'irtolehtiä' for ProductForm of BD",
+  "expectedValue": "irtolehtiä",
+  "only": false
+}

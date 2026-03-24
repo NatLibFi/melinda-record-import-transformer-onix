@@ -1,0 +1,5 @@
+{
+  "description": "Returns true for PDF Product",
+  "expectedValue": true,
+  "only": false
+}

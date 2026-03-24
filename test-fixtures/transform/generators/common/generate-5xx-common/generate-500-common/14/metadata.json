@@ -1,0 +1,8 @@
+{
+  "description": "Correctly formats information about multiple past editions when both year information and edition number are available",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": null
+  },
+  "only": false
+}

@@ -1,0 +1,8 @@
+{
+  "description": "Creates f500 regarding information type note for prepublication with NotificationType of 02",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": "Foo"
+  },
+  "only": false
+}

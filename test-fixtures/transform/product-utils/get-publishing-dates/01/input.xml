@@ -1,0 +1,28 @@
+<Product>
+  <PublishingDetail>
+    <PublishingDate>
+      <PublishingDateRole>12</PublishingDateRole>
+      <Date>2025</Date>
+    </PublishingDate>
+    <PublishingDate>
+      <PublishingDateRole>01</PublishingDateRole>
+      <Date>2020</Date>
+    </PublishingDate>
+    <PublishingDate>
+      <PublishingDateRole>01</PublishingDateRole>
+      <Date>foo2020</Date>
+    </PublishingDate>
+    <PublishingDate>
+      <PublishingDateRole>11</PublishingDateRole>
+      <Date>20200101</Date>
+    </PublishingDate>
+    <PublishingDate>
+      <PublishingDateRole>11</PublishingDateRole>
+      <Date>2020</Date>
+    </PublishingDate>
+    <PublishingDate>
+      <PublishingDateRole>21</PublishingDateRole>
+      <Date>2026</Date>
+    </PublishingDate>
+  </PublishingDetail>
+</Product>

@@ -1,0 +1,4 @@
+{
+  "description": "Generates f946 without as it is defined in ONIX instead of splitting the title using rules defined for f245 generator",
+  "only": false
+}

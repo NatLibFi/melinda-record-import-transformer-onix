@@ -1,0 +1,10 @@
+<Product>
+  <DescriptiveDetail>
+    <ProductForm>BA</ProductForm>
+
+    <!-- Contains illustrations -->
+    <AncillaryContent>
+      <AncillaryContentType>01</AncillaryContentType>
+    </AncillaryContent>
+  </DescriptiveDetail>
+</Product>

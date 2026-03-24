@@ -1,0 +1,9 @@
+{
+  "description": "Filter throws non-halting error for online mp3 when print is configured as the only allowed record type",
+  "settings": {
+    "allowRecordTypes": ["print"]
+  },
+  "expectedError": "[product-form-filter] Record type (electronic) is not in allowed record types ([\"print\"])",
+  "haltPipeline": false,
+  "only": false
+}

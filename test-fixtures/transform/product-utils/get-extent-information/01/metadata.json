@@ -1,0 +1,8 @@
+{
+  "description": "Returns array containing all extent information that is fully defined",
+  "expectedValue": [
+    {"extType": "00", "extValue": "500", "extUnit": "03"},
+    {"extType": "22", "extValue": "21", "extUnit": "19"}
+  ],
+  "only": false
+}

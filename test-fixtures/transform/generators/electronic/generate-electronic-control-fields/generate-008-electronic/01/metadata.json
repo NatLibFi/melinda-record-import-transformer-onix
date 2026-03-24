@@ -1,0 +1,6 @@
+{
+  "description": "Generate f008 with full information (language=eng, country=fi, publishingYear=2024, simplified language edition). f008/33 is '|' when YKL subjects are not found.",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "008", "value": "250101s2024    fi ||||fo|||||||||||eng||"}],
+  "only": false
+}

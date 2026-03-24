@@ -1,0 +1,19 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Main author -->
+    <Contributor>
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </Contributor>
+
+    <TitleDetail>
+      <TitleType>00</TitleType>
+      <TitleElement>
+        <TitleText>Foo</TitleText>
+        <Subtitle>Bar</Subtitle>
+      </TitleElement>
+    </TitleDetail>
+
+  </DescriptiveDetail>
+</Product>

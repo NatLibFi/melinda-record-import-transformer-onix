@@ -1,0 +1,22 @@
+<Product>
+  <DescriptiveDetail>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>fin</LanguageCode>
+    </Language>
+
+    <TitleDetail>
+      <TitleType>01</TitleType>
+      <TitleElement>
+        <TitleText>Translated title</TitleText>
+      </TitleElement>
+    </TitleDetail>
+
+    <TitleDetail>
+      <TitleType>03</TitleType>
+      <TitleElement>
+        <TitleText>Original title</TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </DescriptiveDetail>
+</Product>

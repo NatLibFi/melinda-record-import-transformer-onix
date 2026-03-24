@@ -1,0 +1,7 @@
+{
+  "description": "Filter passes for mp3 book when electronic is configured as one of allowed record types (multiple configured types, print first)",
+  "settings": {
+    "allowRecordTypes": ["print", "electronic"]
+  },
+  "only": false
+}

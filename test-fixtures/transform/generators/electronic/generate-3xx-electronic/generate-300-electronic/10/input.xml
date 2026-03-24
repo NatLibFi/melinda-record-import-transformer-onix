@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Illustrations -->
+    <AncillaryContent>
+      <AncillaryContentType>01</AncillaryContentType>
+    </AncillaryContent>
+
+    <!-- MP3 -->
+    <ProductForm>AJ</ProductForm>
+    <ProductFormDetail>A103</ProductFormDetail>
+  </DescriptiveDetail>
+</Product>

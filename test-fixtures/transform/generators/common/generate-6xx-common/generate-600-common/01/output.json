@@ -1,0 +1,13 @@
+[
+  {
+    "tag": "600",
+    "ind1": "1",
+    "ind2": "4",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Bar, Foo"
+      }
+    ]
+  }
+]

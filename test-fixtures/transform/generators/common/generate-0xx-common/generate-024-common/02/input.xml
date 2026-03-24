@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- PDF -->
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E107</ProductFormDetail>
+  </DescriptiveDetail>
+
+  <ProductIdentifier>
+    <ProductIDType>25</ProductIDType>
+    <IDValue>9790900176509</IDValue>
+  </ProductIdentifier>
+</Product>

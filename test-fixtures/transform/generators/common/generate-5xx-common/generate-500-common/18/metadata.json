@@ -1,0 +1,8 @@
+{
+  "description": "Generates note of Disney publication when contributor contains CorporateName 'Disney'",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": null
+  },
+  "only": false
+}

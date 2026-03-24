@@ -1,0 +1,5 @@
+{
+  "description": "Manages generation of multiple f024 if multiple gtin identifiers are available",
+  "onixConversionConfiguration": {},
+  "only": false
+}

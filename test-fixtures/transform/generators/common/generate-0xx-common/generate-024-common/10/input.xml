@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Print: book -->
+    <ProductForm>BA</ProductForm>
+  </DescriptiveDetail>
+
+  <!-- ISBN -->
+  <ProductIdentifier>
+    <ProductIDType>15</ProductIDType>
+    <IDValue>978-952-222-356-2</IDValue>
+  </ProductIdentifier>
+</Product>

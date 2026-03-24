@@ -1,0 +1,22 @@
+[
+  {
+    "tag": "024",
+    "ind1": "8",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "foo"
+      }
+    ]
+  },
+  {
+    "tag": "024",
+    "ind1": "8",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "bar"
+      }
+    ]
+  }
+]

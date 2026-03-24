@@ -1,0 +1,5 @@
+{
+  "description": "Does not generate subfield $b for invalid data defining illustrations for audio product",
+  "onixConversionConfiguration": {},
+  "only": false
+}

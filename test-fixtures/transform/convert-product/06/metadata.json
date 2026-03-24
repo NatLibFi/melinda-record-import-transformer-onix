@@ -1,0 +1,18 @@
+{
+  "description": "Throws non-halting conversion error when product type cannot be determined",
+  "expectedConversionError": "Could not determine supported record type for product: either DescriptiveDetail.ProductForm was not defined or contained value that is not supported by the conversion",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true,
+    "source": "foo-source",
+    "pseudonym": "MELINDA-foo",
+    "relatedWorkReferenceName": "foo-relatedWorkReferenceName",
+    "isilIdentifier": "foo-isilIdentifier",
+    "notificationName": "foo-notificationName",
+    "systemIdentifier": "foo-systemIdentifier",
+    "f984Directives": ["FOO-DIRECTIVE"],
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "sentTime": "20251212T000000",
+  "only": false
+}

@@ -1,0 +1,7 @@
+{
+  "description": "Filter passes for print book when print is configured as allowed record type",
+  "settings": {
+    "allowRecordTypes": ["print"]
+  },
+  "only": false
+}

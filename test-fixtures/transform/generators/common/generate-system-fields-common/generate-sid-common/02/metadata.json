@@ -1,0 +1,8 @@
+{
+  "description": "Does not generate fSID from RecordReference if record is legal deposit",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true,
+    "systemIdentifier": "foo-system"
+  },
+  "only": false
+}

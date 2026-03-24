@@ -1,0 +1,8 @@
+{
+  "description": "Returns empty array when main author is not observed",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

@@ -1,0 +1,4 @@
+{
+  "description": "Deduplicates contributor properly and removes 'ym.' from author name",
+  "only": false
+}

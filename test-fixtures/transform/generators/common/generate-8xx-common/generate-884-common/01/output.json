@@ -1,0 +1,27 @@
+[
+  {
+    "tag": "884",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "ONIX3 to MARC transformation"
+      },
+      {
+        "code": "g",
+        "value": "20260112"
+      },
+      {
+        "code": "k",
+        "value": "Foo:defbe64d9b97d163f074754be80b68213f31e90f316bbee012d52151363478c3"
+      },
+      {
+        "code": "q",
+        "value": "FI-NL"
+      },
+      {
+        "code": "5",
+        "value": "MELINDA"
+      }
+    ]
+  }
+]

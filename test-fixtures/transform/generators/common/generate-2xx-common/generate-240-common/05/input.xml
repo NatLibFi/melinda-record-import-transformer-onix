@@ -1,0 +1,26 @@
+<Product>
+  <DescriptiveDetail>
+    <EditionType>SMP</EditionType>
+
+    <!-- Main author -->
+    <Contributor>
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </Contributor>
+
+    <TitleDetail>
+      <TitleType>01</TitleType>
+      <TitleElement>
+        <TitleText>Translated title</TitleText>
+      </TitleElement>
+    </TitleDetail>
+
+    <TitleDetail>
+      <TitleType>03</TitleType>
+      <TitleElement>
+        <TitleText>Original title</TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </DescriptiveDetail>
+</Product>

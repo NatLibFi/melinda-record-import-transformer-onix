@@ -1,0 +1,7 @@
+{
+  "description": "When item is foreign language textbook, target language is added to languages",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false
+  },
+  "only": false
+}

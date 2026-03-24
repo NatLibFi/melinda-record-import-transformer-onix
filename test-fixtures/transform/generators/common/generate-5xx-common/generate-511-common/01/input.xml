@@ -1,0 +1,9 @@
+<Product>
+  <DescriptiveDetail>
+    <Contributor>
+      <!-- Read by -->
+      <ContributorRole>E07</ContributorRole>
+      <PersonName>Foo Bar</PersonName>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

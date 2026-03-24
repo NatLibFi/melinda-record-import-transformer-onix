@@ -1,0 +1,5 @@
+{
+  "description": "Subject evaluation is prioritized over textbook target audience evaluation (e.g., 'j' > 'a')",
+  "expectedValue": "j",
+  "only": false
+}

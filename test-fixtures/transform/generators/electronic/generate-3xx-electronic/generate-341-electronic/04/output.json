@@ -1,0 +1,32 @@
+[
+  {
+    "tag": "341",
+    "ind1": "0",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "textual"
+      },
+      {
+        "code": "b",
+        "value": "displayTransformability"
+      },
+      {
+        "code": "b",
+        "value": "readingOrder"
+      },
+      {
+        "code": "b",
+        "value": "tableofContents"
+      },
+      {
+        "code": "b",
+        "value": "structuralNavigation"
+      },
+      {
+        "code": "2",
+        "value": "sapdv"
+      }
+    ]
+  }
+]

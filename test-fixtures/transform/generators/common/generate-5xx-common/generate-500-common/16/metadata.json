@@ -1,0 +1,8 @@
+{
+  "description": "Generates note of Marvel publication when contributor contains CorporateName 'Marvel'",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "notificationName": null
+  },
+  "only": false
+}

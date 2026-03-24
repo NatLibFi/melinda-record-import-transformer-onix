@@ -1,0 +1,18 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Main author -->
+    <Contributor>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <!-- Edited by -->
+      <ContributorRole>B01</ContributorRole>
+      <SequenceNumber>2</SequenceNumber>
+      <CorporateName>Example University</CorporateName>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

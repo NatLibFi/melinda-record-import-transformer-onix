@@ -1,0 +1,20 @@
+{
+  "description": "Returns array containing collection information",
+  "expectedValue": [
+    {
+      "type": "00",
+      "title": null,
+      "partNumber": null,
+      "issnIdentifiers": [],
+      "sequenceNumbers": ["1"]
+    },
+    {
+      "type": "10",
+      "title": "Example series",
+      "partNumber": "2",
+      "issnIdentifiers": ["1234-1234"],
+      "sequenceNumbers": ["2"]
+    }
+  ],
+  "only": false
+}

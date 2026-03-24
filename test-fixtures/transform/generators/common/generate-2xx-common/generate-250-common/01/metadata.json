@@ -1,0 +1,4 @@
+{
+  "description": "Generates f250 when EditionNumber is available",
+  "only": false
+}

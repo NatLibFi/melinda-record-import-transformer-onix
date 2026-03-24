@@ -1,0 +1,5 @@
+{
+  "description": "Returns empty array when there are no publisher names available",
+  "expectedValue": [],
+  "only": false
+}

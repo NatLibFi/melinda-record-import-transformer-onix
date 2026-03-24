@@ -1,0 +1,23 @@
+[
+  {
+    "tag": "946",
+    "subfields": [
+      {
+        "code": "i",
+        "value": "Nimeke Onixissa:"
+      },
+      {
+        "code": "a",
+        "value": "Foo: Bar"
+      },
+      {
+        "code": "b",
+        "value": "Lorem ipsum"
+      },
+      {
+        "code": "5",
+        "value": "MELINDA"
+      }
+    ]
+  }
+]

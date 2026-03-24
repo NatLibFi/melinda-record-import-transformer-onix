@@ -1,0 +1,7 @@
+{
+  "description": "Invalid f041 will be generated if language sanity check is not enabled",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false
+  },
+  "only": false
+}

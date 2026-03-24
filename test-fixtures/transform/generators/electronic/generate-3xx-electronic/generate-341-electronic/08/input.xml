@@ -1,0 +1,16 @@
+<Product>
+  <!-- Notification type = notification confirmed on publication (i.e., legal deposit) -->
+  <NotificationType>03</NotificationType>
+
+  <PublishingDetail>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>Foo</PublisherName>
+    </Publisher>
+  </PublishingDetail>
+
+  <DescriptiveDetail>
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E101</ProductFormDetail>
+  </DescriptiveDetail>
+</Product>

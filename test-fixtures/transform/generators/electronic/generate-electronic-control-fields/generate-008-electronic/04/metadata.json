@@ -1,0 +1,6 @@
+{
+  "description": "Earliest publishing date is prioritized from the accepted roles",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "008", "value": "250101s2020    xx |||||o||||||||||||||||"}],
+  "only": false
+}

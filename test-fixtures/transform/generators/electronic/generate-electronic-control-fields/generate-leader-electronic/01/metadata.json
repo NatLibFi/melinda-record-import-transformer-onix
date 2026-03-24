@@ -1,0 +1,8 @@
+{
+  "description": "Generates fLDR for PDF (isLegalDeposit=true)",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true
+  },
+  "expectedValue": "00000nam a22000002i 4500",
+  "only": false
+}

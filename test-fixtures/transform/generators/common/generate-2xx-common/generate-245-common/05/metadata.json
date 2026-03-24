@@ -1,0 +1,9 @@
+{
+  "description": "Throws error when title is observed as serial (serial identification rules are tested separately)",
+  "expectedError": "Title Foo 11/2025 was observed to be a serial title. Refusing to process further.",
+  "onixConversionConfiguration": {
+    "preventUniformTitleGeneration": false,
+    "languageSanityCheck": false
+  },
+  "only": false
+}

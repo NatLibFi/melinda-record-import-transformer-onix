@@ -1,0 +1,8 @@
+{
+  "description": "Does not include $l if language translation is not found",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

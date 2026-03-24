@@ -1,0 +1,5 @@
+{
+  "description": "Correctly print book record type to print",
+  "expectedValue": "print",
+  "only": false
+}

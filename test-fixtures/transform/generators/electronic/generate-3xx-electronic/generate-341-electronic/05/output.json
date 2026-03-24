@@ -1,0 +1,24 @@
+[
+  {
+    "tag": "341",
+    "ind1": "0",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "visual"
+      },
+      {
+        "code": "b",
+        "value": "alternativeText"
+      },
+      {
+        "code": "b",
+        "value": "longDescription"
+      },
+      {
+        "code": "2",
+        "value": "sapdv"
+      }
+    ]
+  }
+]

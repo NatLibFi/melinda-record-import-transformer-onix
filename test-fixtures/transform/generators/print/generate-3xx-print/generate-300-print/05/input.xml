@@ -1,0 +1,20 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Print book -->
+    <ProductForm>BA</ProductForm>
+
+    <AncillaryContent>
+      <!-- Has illustrations -->
+      <AncillaryContentType>01</AncillaryContentType>
+    </AncillaryContent>
+
+    <Extent>
+      <!-- Number of pages in digital product -->
+      <ExtentType>00</ExtentType>
+
+      <!-- Pages -->
+      <ExtentUnit>03</ExtentUnit>
+      <ExtentValue>100</ExtentValue>
+    </Extent>
+  </DescriptiveDetail>
+</Product>

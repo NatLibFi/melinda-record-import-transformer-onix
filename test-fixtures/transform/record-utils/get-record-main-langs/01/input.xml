@@ -1,0 +1,24 @@
+<Product>
+  <DescriptiveDetail>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>fin</LanguageCode>
+    </Language>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>swedish</LanguageCode>
+    </Language>
+    <Language>
+      <LanguageRole>03</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+    <Language>
+      <LanguageRole>12</LanguageRole>
+      <LanguageCode>swe</LanguageCode>
+    </Language>
+  </DescriptiveDetail>
+</Product>

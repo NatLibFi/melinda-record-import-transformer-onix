@@ -1,0 +1,11 @@
+<Product>
+  <ProductIdentifier>
+    <ProductIDType>25</ProductIDType>
+    <IDValue>979-0-345-24680-5</IDValue>
+  </ProductIdentifier>
+
+  <ProductIdentifier>
+    <ProductIDType>03</ProductIDType>
+    <IDValue>bar</IDValue>
+  </ProductIdentifier>
+</Product>

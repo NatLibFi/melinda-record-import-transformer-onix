@@ -1,0 +1,4 @@
+{
+  "description": "Does not accept publisher information when publisher role is not 01",
+  "only": false
+}

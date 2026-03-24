@@ -1,0 +1,5 @@
+{
+  "description": "Returns false when Product has entries of DescriptiveDetail.AncillaryContent with AncillaryContentType of something else than '01' or '02'",
+  "expectedValue": false,
+  "only": false
+}

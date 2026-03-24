@@ -1,0 +1,13 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Book -->
+    <ProductForm>BA</ProductForm>
+    <Subject>
+      <!-- Thema -->
+      <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+
+      <!-- Manga -->
+      <SubjectCode>XAMA</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

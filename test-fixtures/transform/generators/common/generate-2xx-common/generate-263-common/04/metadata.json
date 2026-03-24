@@ -1,0 +1,4 @@
+{
+  "description": "Field is not generated when notification type is not early notification or advanced notification",
+  "only": false
+}

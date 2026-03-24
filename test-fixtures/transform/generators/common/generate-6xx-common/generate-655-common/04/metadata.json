@@ -1,0 +1,7 @@
+{
+  "description": "Does not generate f655 for legal deposit records",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true
+  },
+  "only": false
+}

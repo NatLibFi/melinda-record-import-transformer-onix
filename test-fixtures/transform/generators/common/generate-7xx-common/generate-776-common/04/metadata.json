@@ -1,0 +1,4 @@
+{
+  "description": "Does not generate f776 from RelatedProduct with identifier that is not ISBN-13/GTIN-13 based on ProductIdentifierType.",
+  "only": false
+}

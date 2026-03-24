@@ -1,0 +1,28 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- PDF -->
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E107</ProductFormDetail>
+
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>fin</LanguageCode>
+    </Language>
+
+    <Language>
+      <LanguageRole>02</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+
+    <!-- Suomalainen oppiaineluokitus -->
+    <Subject>
+      <SubjectSchemeIdentifier>77</SubjectSchemeIdentifier>
+    </Subject>
+
+    <!-- Thema language qualifier -->
+    <Subject>
+      <SubjectSchemeIdentifier>95</SubjectSchemeIdentifier>
+      <SubjectCode>2ACSW</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

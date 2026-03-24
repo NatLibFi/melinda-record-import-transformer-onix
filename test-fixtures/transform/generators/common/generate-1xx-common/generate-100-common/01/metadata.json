@@ -1,0 +1,4 @@
+{
+  "description": "Generates f100 from contributor information which is identified as main author and has PersonalNameInverted attribute defined",
+  "only": false
+}

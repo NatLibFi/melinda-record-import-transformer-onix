@@ -1,0 +1,8 @@
+{
+  "description": "Generates f245 from title with TitleType of 01",
+  "onixConversionConfiguration": {
+    "preventUniformTitleGeneration": false,
+    "languageSanityCheck": false
+  },
+  "only": false
+}

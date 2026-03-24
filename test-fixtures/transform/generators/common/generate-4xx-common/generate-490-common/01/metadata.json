@@ -1,0 +1,4 @@
+{
+  "description": "Generates f490 with $a, $x and $v for publisher collection. Duplicate subfield $v from sequence and partnumber is deduplicated.",
+  "only": false
+}

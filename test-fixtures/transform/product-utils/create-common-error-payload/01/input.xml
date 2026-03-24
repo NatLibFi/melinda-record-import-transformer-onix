@@ -1,0 +1,21 @@
+<Product>
+  <RecordReference>FOO123</RecordReference>
+
+  <ProductIdentifier>
+    <ProductIDType>15</ProductIDType>
+    <IDValue>978-952-222-356-2</IDValue>
+  </ProductIdentifier>
+
+  <ProductIdentifier>
+    <ProductIDType>25</ProductIDType>
+    <IDValue>979-0-9001765-0-9</IDValue>
+  </ProductIdentifier>
+
+  <DescriptiveDetail>
+    <TitleDetail>
+      <TitleElement>
+        <TitleText>foo-title</TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </DescriptiveDetail>
+</Product>

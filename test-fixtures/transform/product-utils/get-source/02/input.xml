@@ -1,0 +1,9 @@
+<Product>
+  <ProductSupply>
+    <SupplyDetail>
+      <Supplier>
+        <SenderName>FOO-sender</SenderName>
+      </Supplier>
+    </SupplyDetail>
+  </ProductSupply>
+</Product>

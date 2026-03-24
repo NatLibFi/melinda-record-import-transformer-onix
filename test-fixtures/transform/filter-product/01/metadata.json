@@ -1,0 +1,8 @@
+{
+  "description": "Product passes through empty filter pipeline (empty configuration is accepted)",
+  "filterConfiguration": {
+    "applyFilters": [],
+    "settings": {}
+  },
+  "only": false
+}

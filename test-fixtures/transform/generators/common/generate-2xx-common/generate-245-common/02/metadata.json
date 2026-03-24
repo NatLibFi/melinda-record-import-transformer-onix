@@ -1,0 +1,8 @@
+{
+  "description": "Ind1 is 0 when main author is not observed",
+  "onixConversionConfiguration": {
+    "preventUniformTitleGeneration": false,
+    "languageSanityCheck": false
+  },
+  "only": false
+}

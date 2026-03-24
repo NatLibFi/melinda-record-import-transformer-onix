@@ -1,0 +1,14 @@
+<Product>
+  <DescriptiveDetail>
+    <ProductForm>EC</ProductForm>
+
+    <Extent>
+      <!-- Filesize -->
+      <ExtentType>22</ExtentType>
+
+      <!-- Mbytes -->
+      <ExtentUnit>03</ExtentUnit>
+      <ExtentValue>100</ExtentValue>
+    </Extent>
+  </DescriptiveDetail>
+</Product>

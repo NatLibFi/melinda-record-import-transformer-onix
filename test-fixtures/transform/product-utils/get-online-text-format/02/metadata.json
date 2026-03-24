@@ -1,0 +1,5 @@
+{
+  "description": "Returns 'EPUB' for product which has EPUB ProductForm and ProductFormDetail",
+  "expectedValue": "EPUB",
+  "only": false
+}

@@ -1,0 +1,65 @@
+{
+  "name": "@natlibfi/melinda-record-import-transformer-onix",
+  "description": "ONIX record transformer for the Melinda record batch import system",
+  "author": {
+    "name": "The National Library of Finland"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/natlibfi/melinda-record-import-transformer-onix",
+  "bugs": {
+    "url": "https://github.com/natlibfi/melinda-record-import-transformer-onix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:natlibfi/melinda-record-import-transformer-onix.git"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "version": "2.1.1-alpha.4",
+  "main": "./dist/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "esbuild \"src/**/*.js\" --sourcemap --platform=node --outdir=dist",
+    "start": "node dist/index.js",
+    "start:dev": "node src/index.js",
+    "cli": "node dist/cli.js",
+    "cli:dotenv": "npm run build && node -r dotenv/config dist/cli.js",
+    "lint": "eslint ./src",
+    "lint:dev": "eslint ./src --fix",
+    "test": "npm run test:base",
+    "test:baseopts": "cross-env DOTENV_CONFIG_PATH=.env.test node -r dotenv/config --test \"src/**/*.test.js\" --experimental-test-coverage --test-reporter=spec",
+    "test:base": "npm run test:baseopts -- --test-force-exit",
+    "test:kb": "DOTENV_CONFIG_PATH=.env.test node -r dotenv/config --test --test-force-exit",
+    "dev": "DOTENV_CONFIG_PATH=.env.test node -r dotenv/config --test --watch",
+    "dev:only": "DOTENV_CONFIG_PATH=.env.test node -r dotenv/config --test --test-only --watch",
+    "dev:debug": "cross-env DEBUG=@natlibfi/* npm run watch:test"
+  },
+  "dependencies": {
+    "@natlibfi/marc-record": "^10.0.1",
+    "@natlibfi/marc-record-validate": "^9.0.0",
+    "@natlibfi/marc-record-validators-melinda": "^12.0.7",
+    "@natlibfi/melinda-backend-commons": "^3.0.2",
+    "@natlibfi/melinda-commons": "^14.0.2",
+    "@natlibfi/melinda-record-import-commons": "^13.0.3",
+    "amqplib": "^0.10.9",
+    "isbn3": "^2.0.5",
+    "languagedetect": "^2.0.0",
+    "luxon": "^3.7.2",
+    "xml-flow": "^1.0.4",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@natlibfi/fixugen": "^3.0.0",
+    "@natlibfi/fixura": "^4.0.0",
+    "cross-env": "^10.0.0",
+    "dotenv": "^17.2.4",
+    "esbuild": "^0.25.9",
+    "eslint": "^9.37.0"
+  },
+  "overrides": {
+    "nanoid": "^3.3.8"
+  }
+}

@@ -1,0 +1,23 @@
+<Product>
+  <PublishingDetail>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>Foo</PublisherName>
+    </Publisher>
+
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>Bar</PublisherName>
+    </Publisher>
+
+    <!-- Should not happen, but test having publisher role without name just in case -->
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+    </Publisher>
+
+    <Publisher>
+      <PublishingRole>03</PublishingRole>
+      <PublisherName>Baz</PublisherName>
+    </Publisher>
+  </PublishingDetail>
+</Product>

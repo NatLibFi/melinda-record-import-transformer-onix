@@ -1,0 +1,10 @@
+[
+  {
+    "failed": true,
+    "title": "",
+    "standardIdentifiers": [
+      "978-951-51-7470-3"
+    ],
+    "message": "Could not generate field 245 due to missing title information"
+  }
+]

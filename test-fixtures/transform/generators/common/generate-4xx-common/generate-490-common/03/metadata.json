@@ -1,0 +1,4 @@
+{
+  "description": "Generates only $x if collection type was some not equal to 10",
+  "only": false
+}

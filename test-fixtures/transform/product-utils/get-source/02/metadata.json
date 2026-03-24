@@ -1,0 +1,5 @@
+{
+  "description": "Returns ProductSupply.SupplyDetail.Supplier.SenderName when found",
+  "expectedValue": "FOO-sender",
+  "only": false
+}

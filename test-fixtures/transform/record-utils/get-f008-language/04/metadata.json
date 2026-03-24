@@ -1,0 +1,6 @@
+{
+  "description": "Returns '|||' in case where language could not be determined.",
+  "languageSanityCheck": true,
+  "expectedValue": "|||",
+  "only": false
+}

@@ -1,0 +1,4 @@
+{
+  "description": "Generates f776 from RelatedProduct with that is alternative format (GTIN-13 identifier).",
+  "only": false
+}

@@ -1,0 +1,8 @@
+{
+  "description": "Deduplicates duplicate identifiers",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "relatedWorkReferenceName": "Foo"
+  },
+  "only": false
+}

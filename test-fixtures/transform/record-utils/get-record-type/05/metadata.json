@@ -1,0 +1,5 @@
+{
+  "description": "Returns null on not supported ProductForm (here ZJ)",
+  "expectedValue": null,
+  "only": false
+}

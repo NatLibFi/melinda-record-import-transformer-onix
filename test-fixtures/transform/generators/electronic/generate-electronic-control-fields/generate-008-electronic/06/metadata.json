@@ -1,0 +1,6 @@
+{
+  "description": "For fiction publications that are not text: f008/33 is '|' but f008/30-31 is 'f '",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "008", "value": "250101s||||    xx |||||o||||||f ||||||||"}],
+  "only": false
+}

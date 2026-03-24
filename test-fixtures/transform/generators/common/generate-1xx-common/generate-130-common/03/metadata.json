@@ -1,0 +1,8 @@
+{
+  "description": "$l is not generated from main language of product if translation is not available",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

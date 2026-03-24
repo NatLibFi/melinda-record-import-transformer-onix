@@ -1,0 +1,8 @@
+{
+  "description": "Language sanity check may not prevent $l generation in case no problem is observed",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": true,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

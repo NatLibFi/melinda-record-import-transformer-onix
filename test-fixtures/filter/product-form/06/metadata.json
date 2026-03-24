@@ -1,0 +1,9 @@
+{
+  "description": "Throws halting error when allowRecordTypes contains invalid value",
+  "settings": {
+    "allowRecordTypes": ["print", "foo"]
+  },
+  "expectedError": "Configuration values for product-form filter are not valid. Requested: [\"print\",\"foo\"], Available: [\"print\",\"electronic\"].",
+  "haltPipeline": true,
+  "only": false
+}

@@ -1,0 +1,11 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Print: book -->
+    <ProductForm>BA</ProductForm>
+  </DescriptiveDetail>
+
+  <ProductIdentifier>
+    <ProductIDType>02</ProductIDType>
+    <IDValue>951-861-386-9</IDValue>
+  </ProductIdentifier>
+</Product>

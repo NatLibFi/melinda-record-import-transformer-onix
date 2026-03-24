@@ -1,0 +1,6 @@
+{
+  "description": "Returns all DescriptiveDetail.Language instances having LanguageRole of 01 that have length of three when no languageSanityCheck is used.",
+  "languageSanityCheck": false,
+  "expectedValue": ["fin", "eng"],
+  "only": false
+}

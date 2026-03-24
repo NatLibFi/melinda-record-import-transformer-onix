@@ -1,0 +1,16 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- MP3 -->
+    <ProductForm>AJ</ProductForm>
+    <ProductFormDetail>A103</ProductFormDetail>
+
+    <Extent>
+      <!-- Duration -->
+      <ExtentType>09</ExtentType>
+
+      <!-- Hours and minutes -->
+      <ExtentUnit>15</ExtentUnit>
+      <ExtentValue>00225</ExtentValue>
+    </Extent>
+  </DescriptiveDetail>
+</Product>

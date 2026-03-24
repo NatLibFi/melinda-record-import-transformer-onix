@@ -1,0 +1,42 @@
+<Product>
+  <!-- Notification type = notification confirmed on publication (i.e., legal deposit) -->
+  <NotificationType>03</NotificationType>
+
+  <DescriptiveDetail>
+    <!-- Currently not mapped -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>03</ProductFormFeatureValue>
+    </ProductFormFeature>
+
+    <!-- textual:tableofContents -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>11</ProductFormFeatureValue>
+    </ProductFormFeature>
+
+    <!-- textual:readingOrder -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>13</ProductFormFeatureValue>
+    </ProductFormFeature>
+
+    <!-- textual:structuralNavigation -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>29</ProductFormFeatureValue>
+    </ProductFormFeature>
+
+    <!-- textual:displayTransformability -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>36</ProductFormFeatureValue>
+    </ProductFormFeature>
+
+    <!-- Currently not mapped -->
+    <ProductFormFeature>
+      <ProductFormFeatureType>09</ProductFormFeatureType>
+      <ProductFormFeatureValue>85</ProductFormFeatureValue>
+    </ProductFormFeature>
+  </DescriptiveDetail>
+</Product>

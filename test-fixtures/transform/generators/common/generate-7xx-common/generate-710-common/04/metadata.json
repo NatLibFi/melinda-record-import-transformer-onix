@@ -1,0 +1,4 @@
+{
+  "description": "Generates f710 from publisher information when imprint is not available",
+  "only": false
+}

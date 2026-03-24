@@ -1,0 +1,15 @@
+{
+  "description": "Invalid filter configuration throws halting error (in this case subject code filter configuration is missing required attribute denySubjectCodes)",
+  "filterConfiguration": {
+    "applyFilters": ["filterByProductForm", "filterBySubjectCode"],
+    "settings": {
+      "filterByProductForm": {
+        "allowRecordTypes": ["print"]
+      },
+      "filterBySubjectCode": {}
+    }
+  },
+  "expectedFilterError": "Required configuration for subject-code filter is not valid: denySubjectCodes setting is not an array of valid string values.",
+  "haltPipeline": true,
+  "only": false
+}

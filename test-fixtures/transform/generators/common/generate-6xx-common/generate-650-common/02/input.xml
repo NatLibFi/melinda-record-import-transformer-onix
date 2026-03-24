@@ -1,0 +1,22 @@
+<Product>
+  <DescriptiveDetail>
+    <Subject>
+      <!-- YSO -->
+      <SubjectSchemeIdentifier>71</SubjectSchemeIdentifier>
+      <SubjectHeadingText>absurdismi</SubjectHeadingText>
+    </Subject>
+
+    <Subject>
+      <!-- YSO -->
+      <SubjectSchemeIdentifier>71</SubjectSchemeIdentifier>
+      <SubjectHeadingText>paradoksit</SubjectHeadingText>
+    </Subject>
+
+    <Subject>
+      <!-- Kaunokki -->
+      <SubjectSchemeIdentifier>69</SubjectSchemeIdentifier>
+      <SubjectHeadingText>arvoitukset</SubjectHeadingText>
+    </Subject>
+  </DescriptiveDetail>
+
+</Product>

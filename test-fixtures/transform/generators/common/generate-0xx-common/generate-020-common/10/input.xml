@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Print: book -->
+    <ProductForm>BA</ProductForm>
+  </DescriptiveDetail>
+
+  <!-- ISMN -->
+  <ProductIdentifier>
+    <ProductIDType>25</ProductIDType>
+    <IDValue>979-0-9001765-0-9</IDValue>
+  </ProductIdentifier>
+</Product>

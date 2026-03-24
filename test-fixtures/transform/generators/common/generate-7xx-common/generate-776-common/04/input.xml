@@ -1,0 +1,13 @@
+<Product>
+  <RelatedMaterial>
+    <RelatedProduct>
+      <!-- Alternative format -->
+      <ProductRelationCode>06</ProductRelationCode>
+      <ProductIdentifier>
+        <!-- Proprietary product ID scheme -->
+        <ProductIDType>01</ProductIDType>
+        <IDValue>9789515174703</IDValue>
+      </ProductIdentifier>
+    </RelatedProduct>
+  </RelatedMaterial>
+</Product>

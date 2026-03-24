@@ -1,0 +1,25 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Main author -->
+    <Contributor>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>2</SequenceNumber>
+      <PersonNameInverted>Baz, Foo</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>3</SequenceNumber>
+      <CorporateName>Baz Corporation</CorporateName>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

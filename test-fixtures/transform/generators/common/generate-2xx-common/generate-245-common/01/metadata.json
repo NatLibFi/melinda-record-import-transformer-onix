@@ -1,0 +1,8 @@
+{
+  "description": "Generates f245 properly when title with TitleType 00, main author and subtitle in are available",
+  "onixConversionConfiguration": {
+    "preventUniformTitleGeneration": false,
+    "languageSanityCheck": false
+  },
+  "only": false
+}

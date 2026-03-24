@@ -1,0 +1,5 @@
+{
+  "description": "Returns empty array when valid publishing date information is not found",
+  "expectedValue": [],
+  "only": false
+}

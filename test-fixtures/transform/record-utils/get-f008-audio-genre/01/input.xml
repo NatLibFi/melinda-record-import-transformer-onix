@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <Subject>
+      <SubjectSchemeIdentifier>66</SubjectSchemeIdentifier>
+      <SubjectCode>84.2</SubjectCode>
+    </Subject>
+    <Subject>
+      <SubjectSchemeIdentifier>66</SubjectSchemeIdentifier>
+      <SubjectCode>99.1</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

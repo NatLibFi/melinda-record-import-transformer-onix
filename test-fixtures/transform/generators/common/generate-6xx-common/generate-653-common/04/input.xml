@@ -1,0 +1,39 @@
+<Product>
+  <DescriptiveDetail>
+    <Subject>
+      <!-- YSO -->
+      <SubjectSchemeIdentifier>71</SubjectSchemeIdentifier>
+      <SubjectHeadingText>absurdismi</SubjectHeadingText>
+    </Subject>
+
+    <Subject>
+      <!-- YSO -->
+      <SubjectSchemeIdentifier>71</SubjectSchemeIdentifier>
+      <SubjectHeadingText>paradoksit</SubjectHeadingText>
+    </Subject>
+
+    <Subject>
+      <!-- Kaunokki -->
+      <SubjectSchemeIdentifier>69</SubjectSchemeIdentifier>
+      <SubjectHeadingText>arvoitukset</SubjectHeadingText>
+    </Subject>
+
+    <Subject>
+      <!-- Keywords -->
+      <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+      <SubjectHeadingText>mysteerit</SubjectHeadingText>
+    </Subject>
+
+    <Subject>
+      <!-- YSA -->
+      <SubjectSchemeIdentifier>64</SubjectSchemeIdentifier>
+      <SubjectHeadingText>absurdi</SubjectHeadingText>
+    </Subject>
+
+    <Subject>
+      <!-- PTO (paikkatieto ontologia) -->
+      <SubjectSchemeIdentifier>72</SubjectSchemeIdentifier>
+      <SubjectHeadingText>selittämättömät ilmiöt</SubjectHeadingText>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

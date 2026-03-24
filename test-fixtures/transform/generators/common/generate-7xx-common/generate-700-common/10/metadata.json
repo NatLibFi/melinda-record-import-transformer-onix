@@ -1,0 +1,4 @@
+{
+  "description": "Role B05 does not produce f700 entry if record is not simplified language edition",
+  "only": false
+}

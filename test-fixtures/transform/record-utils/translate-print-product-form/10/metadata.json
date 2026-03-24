@@ -1,0 +1,5 @@
+{
+  "description": "Correctly returns 'kierreselkä' for ProductForm of BF",
+  "expectedValue": "kierreselkä",
+  "only": false
+}

@@ -1,0 +1,8 @@
+{
+  "description": "Generates fLDR for MP3 (isLegalDeposit=false)",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "expectedValue": "00000nim a22000008i 4500",
+  "only": false
+}

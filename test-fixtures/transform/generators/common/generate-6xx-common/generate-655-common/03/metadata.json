@@ -1,0 +1,7 @@
+{
+  "description": "Adds subject for comic",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "only": false
+}

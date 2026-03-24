@@ -1,0 +1,4 @@
+{
+  "description": "Generates f110 from contributor information which is identified as main author and has CorporateName attribute defined",
+  "only": false
+}

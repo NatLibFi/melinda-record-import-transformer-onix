@@ -1,0 +1,6 @@
+{
+  "description": "Prefer foreign textbook language over other main languages",
+  "languageSanityCheck": true,
+  "expectedValue": "swe",
+  "only": false
+}

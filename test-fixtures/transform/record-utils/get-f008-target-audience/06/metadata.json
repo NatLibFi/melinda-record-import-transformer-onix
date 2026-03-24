@@ -1,0 +1,5 @@
+{
+  "description": "For empty Product, returns '|'",
+  "expectedValue": "|",
+  "only": false
+}

@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- EPUB -->
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E101</ProductFormDetail>
+  </DescriptiveDetail>
+
+  <ProductIdentifier>
+    <ProductIDType>25</ProductIDType>
+    <IDValue>9790900176509</IDValue>
+  </ProductIdentifier>
+</Product>

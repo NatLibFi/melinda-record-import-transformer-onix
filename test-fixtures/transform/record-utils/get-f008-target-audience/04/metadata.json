@@ -1,0 +1,5 @@
+{
+  "description": "Returns 'a' when DescriptiveDetail.Audience instance with AudienceCodeType '01' and AudienceCodeValue '11' is found",
+  "expectedValue": "a",
+  "only": false
+}

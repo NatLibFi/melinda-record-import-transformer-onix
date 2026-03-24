@@ -1,0 +1,19 @@
+<Product>
+  <DescriptiveDetail>
+    <EditionType>SMP</EditionType>
+
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+  </DescriptiveDetail>
+
+  <PublishingDetail>
+    <CountryOfPublication>fi</CountryOfPublication>
+
+    <PublishingDate>
+      <PublishingDateRole>01</PublishingDateRole>
+      <Date>20240101</Date>
+    </PublishingDate>
+  </PublishingDetail>
+</Product>

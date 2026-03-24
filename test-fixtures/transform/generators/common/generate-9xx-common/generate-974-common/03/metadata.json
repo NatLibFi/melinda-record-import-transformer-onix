@@ -1,0 +1,8 @@
+{
+  "description": "Field is not generated if relatedWorkReferenceName is not defined",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "relatedWorkReferenceName": null
+  },
+  "only": false
+}

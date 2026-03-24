@@ -1,0 +1,9 @@
+{
+  "description": "Throws halting error when allowRecordTypes array is empty",
+  "settings": {
+    "allowRecordTypes": []
+  },
+  "expectedError": "Required configuration for product-form filter is not valid: allowRecordTypes setting is not an array of valid string values.",
+  "haltPipeline": true,
+  "only": false
+}

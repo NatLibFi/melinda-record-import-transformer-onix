@@ -1,0 +1,10 @@
+[
+  {
+    "failed": true,
+    "title": "Esimerkkinimeke",
+    "standardIdentifiers": [
+      "978-951-51-7470-3"
+    ],
+    "message": "Invalid onix conversion configuration: NotificationType of 01 is not allowed when isLegalDeposit is true"
+  }
+]

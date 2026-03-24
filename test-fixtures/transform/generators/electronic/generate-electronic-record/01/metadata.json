@@ -1,0 +1,17 @@
+{
+  "description": "Generates MARC for PDF correctly using the given configuration (isLegalDeposit=true)",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true,
+    "source": "foo-source",
+    "pseudonym": "foo-pseudonym",
+    "relatedWorkReferenceName": "foo-relatedWorkReferenceName",
+    "isilIdentifier": "foo-isilIdentifier",
+    "notificationName": "foo-notificationName",
+    "systemIdentifier": "foo-systemIdentifier",
+    "f984Directives": ["FOO-DIRECTIVE"],
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "sentTime": "20251212T000000",
+  "only": false
+}

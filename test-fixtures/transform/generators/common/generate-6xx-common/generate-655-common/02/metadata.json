@@ -1,0 +1,7 @@
+{
+  "description": "Adds subject for audiobook",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "only": false
+}

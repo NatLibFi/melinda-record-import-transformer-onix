@@ -1,0 +1,5 @@
+{
+  "description": "Returns false for EPUB Product",
+  "expectedValue": false,
+  "only": false
+}

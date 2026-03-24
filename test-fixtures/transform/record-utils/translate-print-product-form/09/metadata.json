@@ -1,0 +1,5 @@
+{
+  "description": "Correctly returns 'pehmeäkantinen' for ProductForm of BP",
+  "expectedValue": "pehmeäkantinen",
+  "only": false
+}

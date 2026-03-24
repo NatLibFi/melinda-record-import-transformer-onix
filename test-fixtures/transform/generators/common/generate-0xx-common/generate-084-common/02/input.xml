@@ -1,0 +1,33 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- YKL subject -->
+    <Subject>
+      <SubjectSchemeIdentifier>66</SubjectSchemeIdentifier>
+      <SubjectCode>84.2</SubjectCode>
+    </Subject>
+
+    <!-- YKL subject -->
+    <Subject>
+      <SubjectSchemeIdentifier>66</SubjectSchemeIdentifier>
+      <SubjectCode>84.252</SubjectCode>
+    </Subject>
+
+    <!-- Fiktiivisen aineiston lisäluokitus -->
+    <Subject>
+      <SubjectSchemeIdentifier>80</SubjectSchemeIdentifier>
+      <SubjectHeadingText>Fantasia</SubjectHeadingText>
+    </Subject>
+
+    <!-- Fiktiivisen aineiston lisäluokitus -->
+    <Subject>
+      <SubjectSchemeIdentifier>80</SubjectSchemeIdentifier>
+      <SubjectHeadingText>Novellit</SubjectHeadingText>
+    </Subject>
+
+    <!-- Keywords -->
+    <Subject>
+      <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+      <SubjectHeadingText>fantasiakirjallisuus</SubjectHeadingText>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

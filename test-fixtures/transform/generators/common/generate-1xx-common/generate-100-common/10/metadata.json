@@ -1,0 +1,4 @@
+{
+  "description": "Removes 'et al.' from $a value properly",
+  "only": false
+}

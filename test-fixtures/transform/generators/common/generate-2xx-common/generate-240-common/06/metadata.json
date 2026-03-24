@@ -1,0 +1,8 @@
+{
+  "description": "Returns empty array for simplified language edition (observed from title)",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

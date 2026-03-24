@@ -1,0 +1,7 @@
+{
+  "description": "Filter passes for mp3 book when electronic is configured as allowed record type",
+  "settings": {
+    "allowRecordTypes": ["electronic"]
+  },
+  "only": false
+}

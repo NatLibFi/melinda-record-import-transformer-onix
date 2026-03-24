@@ -1,0 +1,4 @@
+{
+  "description": "Does not generate f110 when contributor CorporateName is in invalid name list (e.g., Marvel)",
+  "only": false
+}

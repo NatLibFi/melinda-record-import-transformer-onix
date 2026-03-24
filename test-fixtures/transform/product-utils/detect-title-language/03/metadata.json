@@ -1,0 +1,5 @@
+{
+  "description": "Returns null if detecting multiple languages from title definitions with TitleType '00' or '01'",
+  "expectedValue": null,
+  "only": false
+}

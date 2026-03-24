@@ -1,0 +1,5 @@
+{
+  "description": "Returns array containing imprint names as strings",
+  "expectedValue": ["Foo", "Bar"],
+  "only": false
+}

@@ -1,0 +1,4 @@
+{
+  "description": "Does not generate f700 from Contributors which name is in the list of invalid names",
+  "only": false
+}

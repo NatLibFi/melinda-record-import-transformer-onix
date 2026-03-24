@@ -1,0 +1,5 @@
+{
+  "description": "Generates static f903 when ISBN-10 without Finnish country code is found",
+  "onixConversionConfiguration": {},
+  "only": false
+}

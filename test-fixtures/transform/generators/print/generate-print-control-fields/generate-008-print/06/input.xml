@@ -1,0 +1,10 @@
+<Product>
+  <DescriptiveDetail>
+    <ProductForm>BA</ProductForm>
+
+    <Audience>
+      <AudienceCodeType>01</AudienceCodeType>
+      <AudienceCodeValue>11</AudienceCodeValue>
+    </Audience>
+  </DescriptiveDetail>
+</Product>

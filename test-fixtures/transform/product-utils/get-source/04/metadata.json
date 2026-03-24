@@ -1,0 +1,5 @@
+{
+  "description": "Returns null when no supplier or sender information is found",
+  "expectedValue": null,
+  "only": false
+}

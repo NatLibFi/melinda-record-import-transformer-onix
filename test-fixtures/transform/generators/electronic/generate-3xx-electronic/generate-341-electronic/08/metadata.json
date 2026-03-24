@@ -1,0 +1,7 @@
+{
+  "description": "Form feature blacklist does not affect fields generated from product type",
+  "onixConversionConfiguration": {
+    "accessibilityBlacklist": ["Foo"]
+  },
+  "only": false
+}

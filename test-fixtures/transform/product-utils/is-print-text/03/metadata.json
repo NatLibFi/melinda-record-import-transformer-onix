@@ -1,0 +1,5 @@
+{
+  "description": "Returns false for online text (here ProductForm of 'EA')",
+  "expectedValue": false,
+  "only": false
+}

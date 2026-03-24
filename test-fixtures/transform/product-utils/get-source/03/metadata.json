@@ -1,0 +1,5 @@
+{
+  "description": "Prioritizes SupplierName over SenderName",
+  "expectedValue": "FOO-supplier",
+  "only": false
+}

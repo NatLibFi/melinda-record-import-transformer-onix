@@ -1,0 +1,5 @@
+{
+  "description": "Does not generate field for online text product",
+  "onixConversionConfiguration": {},
+  "only": false
+}

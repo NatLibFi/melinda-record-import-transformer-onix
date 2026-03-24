@@ -1,0 +1,4 @@
+{
+  "description": "Removes numeric characters and extra whitespace from end of subfield $a value",
+  "only": false
+}

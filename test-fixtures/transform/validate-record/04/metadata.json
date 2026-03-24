@@ -1,0 +1,11 @@
+{
+  "description": "Invalid record throws expected ValidationError without halting the pipeline",
+  "haltPipeline": false,
+  "expectedValidationError": "Validating transformed record failed with following messages: [\"Normalizes indicator values\",\"Adds URN for record, to 856-field (if not existing). If isLegalDeposit is active, adds legal deposit subfields to the f856s with URN.\",\"Adds access rights fields for a record (if not existing)\"]",
+  "marcRecordValidatorConfiguration": {
+    "isLegalDeposit": true,
+    "fix": false,
+    "validateFixes": false
+  },
+  "only": false
+}

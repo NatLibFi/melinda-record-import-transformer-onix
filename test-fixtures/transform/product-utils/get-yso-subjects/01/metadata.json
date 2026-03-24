@@ -1,0 +1,8 @@
+{
+  "description": "Returns array of string containing subjects with SubjectSchemeIdentifier of 71",
+  "expectedValue": [
+    "absurdismi",
+    "paradoksit"
+  ],
+  "only": false
+}

@@ -1,0 +1,15 @@
+<Product>
+  <RelatedMaterial>
+    <RelatedWork>
+      <WorkIdentifier>
+        <IDValue>1234</IDValue>
+      </WorkIdentifier>
+    </RelatedWork>
+
+    <RelatedWork>
+      <WorkIdentifier>
+        <IDValue>1234</IDValue>
+      </WorkIdentifier>
+    </RelatedWork>
+  </RelatedMaterial>
+</Product>

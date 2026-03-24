@@ -1,0 +1,12 @@
+<Product>
+  <DescriptiveDetail>
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E101</ProductFormDetail>
+
+    <!-- Comic -->
+    <Subject>
+      <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+      <SubjectCode>XAMA</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

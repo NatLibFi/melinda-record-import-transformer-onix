@@ -1,0 +1,4 @@
+{
+  "description": "Generates f710 from Contributor information if contributor has valid role and CorporateName available",
+  "only": false
+}

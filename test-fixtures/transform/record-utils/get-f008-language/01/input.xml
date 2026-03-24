@@ -1,0 +1,17 @@
+<Product>
+  <DescriptiveDetail>
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>fin</LanguageCode>
+    </Language>
+
+    <Subject>
+      <SubjectSchemeIdentifier>77</SubjectSchemeIdentifier>
+      <SubjectCode>PE-RU</SubjectCode>
+    </Subject>
+    <Subject>
+      <SubjectSchemeIdentifier>95</SubjectSchemeIdentifier>
+      <SubjectCode>2ACSW</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

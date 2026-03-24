@@ -1,0 +1,19 @@
+[
+  {
+    "tag": "300",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "100 sivua :"
+      },
+      {
+        "code": "b",
+        "value": "kuvitettu ;"
+      },
+      {
+        "code": "c",
+        "value": "23 cm"
+      }
+    ]
+  }
+]

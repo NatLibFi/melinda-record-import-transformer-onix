@@ -1,0 +1,4 @@
+{
+  "description": "Generates f600 from each NameAsSubject field but not including isni even when NameIDType is 16",
+  "only": false
+}

@@ -1,0 +1,8 @@
+{
+  "description": "Throws error for product which is does not have product type of audio or text",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "expectedError": "[generateLeaderElectronic]: cannot generate field for record that is not audio or text",
+  "only": false
+}

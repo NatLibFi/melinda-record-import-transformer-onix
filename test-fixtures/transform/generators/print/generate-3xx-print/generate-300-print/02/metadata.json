@@ -1,0 +1,5 @@
+{
+  "description": "MeasureType 01 with other than numerical value does not generate subfield C.",
+  "onixConversionConfiguration": {},
+  "only": false
+}

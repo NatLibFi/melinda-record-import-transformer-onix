@@ -1,0 +1,5 @@
+{
+  "description": "Returns empty array for empty Product",
+  "onixConversionConfiguration": {},
+  "only": false
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "tag": "336",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "teksti"
+      },
+      {
+        "code": "b",
+        "value": "txt"
+      },
+      {
+        "code": "2",
+        "value": "rdacontent"
+      }
+    ]
+  },
+  {
+    "tag": "336",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "stillkuva"
+      },
+      {
+        "code": "b",
+        "value": "sti"
+      },
+      {
+        "code": "2",
+        "value": "rdacontent"
+      }
+    ]
+  }
+]

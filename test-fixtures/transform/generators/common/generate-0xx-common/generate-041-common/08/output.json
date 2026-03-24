@@ -1,0 +1,20 @@
+[
+  {
+    "tag": "041",
+    "ind1": "1",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "swe"
+      },
+      {
+        "code": "a",
+        "value": "fin"
+      },
+      {
+        "code": "h",
+        "value": "eng"
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "description": "Ind1 is 0 if contributors are found, but none of them is translator",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false
+  },
+  "only": false
+}

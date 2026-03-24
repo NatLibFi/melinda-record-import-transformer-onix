@@ -1,0 +1,18 @@
+{
+  "description": "Throws non-halting conversion error when attempting to convert pre-publication using isLegalDeposit=true",
+  "expectedConversionError": "Invalid onix conversion configuration: NotificationType of 01 is not allowed when isLegalDeposit is true",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true,
+    "source": "foo-source",
+    "pseudonym": "MELINDA-foo",
+    "relatedWorkReferenceName": "foo-relatedWorkReferenceName",
+    "isilIdentifier": "foo-isilIdentifier",
+    "notificationName": "foo-notificationName",
+    "systemIdentifier": "foo-systemIdentifier",
+    "f984Directives": ["FOO-DIRECTIVE"],
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "sentTime": "20251212T000000",
+  "only": false
+}

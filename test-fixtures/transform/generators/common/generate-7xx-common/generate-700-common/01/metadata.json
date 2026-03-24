@@ -1,0 +1,4 @@
+{
+  "description": "Generates f700 with subfields $a, $e from Contributor information that is not main author and has PersonNameInverted defined",
+  "only": false
+}

@@ -1,0 +1,6 @@
+{
+  "description": "008/24-27 = '6   'when record considers comic book",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "008", "value": "250101s||||    xx |||||o6   ||||||||||||"}],
+  "only": false
+}

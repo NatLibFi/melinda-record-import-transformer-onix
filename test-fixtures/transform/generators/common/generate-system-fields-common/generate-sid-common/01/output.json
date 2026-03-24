@@ -1,0 +1,15 @@
+[
+  {
+    "tag": "SID",
+    "subfields": [
+      {
+        "code": "c",
+        "value": "1234"
+      },
+      {
+        "code": "b",
+        "value": "foo-system"
+      }
+    ]
+  }
+]

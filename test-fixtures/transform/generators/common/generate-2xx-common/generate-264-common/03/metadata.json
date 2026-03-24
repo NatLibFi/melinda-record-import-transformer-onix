@@ -1,0 +1,4 @@
+{
+  "description": "Adds publication year to $c if publishing date information is available",
+  "only": false
+}

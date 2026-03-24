@@ -1,0 +1,6 @@
+{
+  "description": "Target audience is j when EditionType is not SMP but subjects include subject with SubjectSchemeIdentifier 73 and SubjectCode L",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "008", "value": "250101s2024    fi ||||jo|||||||||||eng||"}],
+  "only": false
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Returns 'f' when DescriptiveDetail.EditionType equals 'SMP'",
+  "expectedValue": "f",
+  "only": false
+}

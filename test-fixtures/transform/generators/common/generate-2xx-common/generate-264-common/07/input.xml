@@ -1,0 +1,18 @@
+<Product>
+  <PublishingDetail>
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>Bar</PublisherName>
+    </Publisher>
+
+    <Publisher>
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>Baz</PublisherName>
+    </Publisher>
+
+    <PublishingDate>
+      <PublishingDateRole>01</PublishingDateRole>
+      <Date>19700101</Date>
+    </PublishingDate>
+  </PublishingDetail>
+</Product>

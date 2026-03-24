@@ -1,0 +1,19 @@
+[
+  {
+    "tag": "984",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "ALWAYS-PREFER-IN-MERGE"
+      },
+      {
+        "code": "a",
+        "value": "NEVER-PREFER-IN-MERGE"
+      },
+      {
+        "code": "5",
+        "value": "MELINDA"
+      }
+    ]
+  }
+]

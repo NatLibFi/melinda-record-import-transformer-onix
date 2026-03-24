@@ -1,0 +1,8 @@
+{
+  "description": "Creates proper f500 regarding information type note for legal deposit entry (does not use notificationName)",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": true,
+    "notificationName": "Foo"
+  },
+  "only": false
+}

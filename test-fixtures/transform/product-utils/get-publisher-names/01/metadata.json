@@ -1,0 +1,5 @@
+{
+  "description": "Returns array containing publisher names as strings for publishers with PublisherRole 01",
+  "expectedValue": ["Foo", "Bar"],
+  "only": false
+}

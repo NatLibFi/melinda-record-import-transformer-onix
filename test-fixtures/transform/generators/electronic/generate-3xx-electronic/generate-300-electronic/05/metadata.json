@@ -1,0 +1,5 @@
+{
+  "description": "Zeroes are handled properly when duration information contains hours, minutes and seconds",
+  "onixConversionConfiguration": {},
+  "only": false
+}

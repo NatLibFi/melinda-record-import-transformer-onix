@@ -1,0 +1,5 @@
+{
+  "description": "Returns 'xx' if PublishingDetail.CountryOfPublication is not defined",
+  "expectedValue": "xx",
+  "only": false
+}

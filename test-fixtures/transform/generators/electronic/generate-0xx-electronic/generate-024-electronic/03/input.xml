@@ -1,0 +1,11 @@
+<Product>
+  <ProductIdentifier>
+    <ProductIDType>03</ProductIDType>
+    <IDValue>foo</IDValue>
+  </ProductIdentifier>
+
+  <ProductIdentifier>
+    <ProductIDType>03</ProductIDType>
+    <IDValue>bar</IDValue>
+  </ProductIdentifier>
+</Product>

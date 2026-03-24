@@ -1,0 +1,5 @@
+{
+  "description": "Produces f306 with expected value for ExtentType '09' and ExtentUnit '16'",
+  "onixConversionConfiguration": {},
+  "only": false
+}

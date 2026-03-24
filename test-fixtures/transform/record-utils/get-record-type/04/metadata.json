@@ -1,0 +1,5 @@
+{
+  "description": "Correctly MP3 record type to electronic",
+  "expectedValue": "electronic",
+  "only": false
+}

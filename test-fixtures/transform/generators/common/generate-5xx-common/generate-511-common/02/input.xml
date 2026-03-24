@@ -1,0 +1,15 @@
+<Product>
+  <DescriptiveDetail>
+    <Contributor>
+      <!-- Read by #1 -->
+      <ContributorRole>E07</ContributorRole>
+      <PersonName>Foo Bar</PersonName>
+    </Contributor>
+
+    <Contributor>
+      <!-- Read by #2 -->
+      <ContributorRole>E07</ContributorRole>
+      <PersonName>Foo Baz</PersonName>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

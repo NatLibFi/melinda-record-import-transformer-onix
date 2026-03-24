@@ -1,0 +1,13 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- PDF -->
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E107</ProductFormDetail>
+
+    <!-- Comic -->
+    <Subject>
+      <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+      <SubjectCode>XAMA</SubjectCode>
+    </Subject>
+  </DescriptiveDetail>
+</Product>

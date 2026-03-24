@@ -1,0 +1,8 @@
+{
+  "description": "Generates f974 if related work identifiers are available, relatedWorkReferenceName is defined and record is not legal deposit record",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false,
+    "relatedWorkReferenceName": "Foo"
+  },
+  "only": false
+}

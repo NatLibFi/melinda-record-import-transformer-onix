@@ -1,0 +1,6 @@
+{
+  "description": "Generates f006 for MP3",
+  "onixConversionConfiguration": {},
+  "expectedValue": [{"tag": "006", "value": "m|||||o||h||||||||"}],
+  "only": false
+}

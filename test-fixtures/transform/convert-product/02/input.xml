@@ -1,0 +1,176 @@
+<Product>
+  <!-- Unique identifier -->
+  <RecordReference>RECORDREFERENCE123</RecordReference>
+
+  <!-- Notification type = Early notification (i.e., pre-publication) -->
+  <NotificationType>01</NotificationType>
+
+  <!-- ISBN-13 without hyphens -->
+  <ProductIdentifier>
+    <ProductIDType>15</ProductIDType>
+    <IDValue>9789515174703</IDValue>
+  </ProductIdentifier>
+
+  <DescriptiveDetail>
+    <!-- Paperback -->
+    <ProductForm>BC</ProductForm>
+    <ProductFormDetail>B104</ProductFormDetail>
+
+    <Measure>
+      <!-- Height -->
+      <MeasureType>01</MeasureType>
+      <Measurement>246</Measurement>
+      <MeasureUnitCode>mm</MeasureUnitCode>
+    </Measure>
+
+    <Collection>
+      <!-- Publisher collection -->
+      <CollectionType>10</CollectionType>
+
+      <CollectionSequence>
+        <CollectionSequenceNumber>2</CollectionSequenceNumber>
+      </CollectionSequence>
+
+      <!-- ISSN -->
+      <CollectionIdentifier>
+        <CollectionIDType>02</CollectionIDType>
+        <IDValue>1234-1234</IDValue>
+      </CollectionIdentifier>
+
+      <!-- Series title information -->
+      <TitleDetail>
+        <!-- Cover title -->
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <!-- Collection level title -->
+          <TitleElementLevel>02</TitleElementLevel>
+          <TitleText>Example series</TitleText>
+        </TitleElement>
+      </TitleDetail>
+    </Collection>
+
+    <TitleDetail>
+      <!-- Product title -->
+      <TitleType>01</TitleType>
+      <TitleElement>
+        <TitleElementLevel>01</TitleElementLevel>
+        <TitleText>Esimerkkinimeke</TitleText>
+      </TitleElement>
+    </TitleDetail>
+
+    <TitleDetail>
+      <!-- Title in original language -->
+      <TitleType>03</TitleType>
+      <TitleElement>
+        <TitleElementLevel>01</TitleElementLevel>
+        <TitleText>The Example Title</TitleText>
+      </TitleElement>
+    </TitleDetail>
+
+    <Contributor>
+      <SequenceNumber>1</SequenceNumber>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Erkki Esimerkki</PersonName>
+      <PersonNameInverted>Esimerkki, Erkki</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <!-- Note: tests case with shared sequence number should result into first entry being main
+      author and second contributor -->
+      <SequenceNumber>1</SequenceNumber>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Eero Esimerkki</PersonName>
+      <PersonNameInverted>Esimerkki, Eero</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <SequenceNumber>2</SequenceNumber>
+      <!-- Translated by -->
+      <ContributorRole>B06</ContributorRole>
+      <PersonName>Elli Esimerkki</PersonName>
+      <PersonNameInverted>Esimerkki, Elli</PersonNameInverted>
+    </Contributor>
+
+    <!-- New edition -->
+    <EditionType>NED</EditionType>
+    <EditionNumber>2</EditionNumber>
+
+    <Extent>
+      <!-- Number of pages -->
+      <ExtentType>00</ExtentType>
+      <ExtentValue>500</ExtentValue>
+      <ExtentUnit>03</ExtentUnit>
+    </Extent>
+
+    <Language>
+      <!-- Language of text -->
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>fin</LanguageCode>
+    </Language>
+
+    <Language>
+      <!-- Original language of a translated text -->
+      <LanguageRole>02</LanguageRole>
+      <LanguageCode>eng</LanguageCode>
+    </Language>
+
+    <Subject>
+      <!-- Keywords -->
+      <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+      <SubjectHeadingText>teknologia;tulevaisuus;Internet</SubjectHeadingText>
+    </Subject>
+
+    <Subject>
+      <!-- Finnish Public Libraries Classification System -->
+      <SubjectSchemeIdentifier>66</SubjectSchemeIdentifier>
+      <SubjectSchemeName>YKL</SubjectSchemeName>
+      <SubjectCode>84.2</SubjectCode>
+    </Subject>
+
+    <Subject>
+      <!-- Suomalainen kirja-alan luokitus-->
+      <SubjectSchemeIdentifier>73</SubjectSchemeIdentifier>
+      <SubjectSchemeName>Suomalainen Kirja-alan luokitus</SubjectSchemeName>
+      <SubjectCode>N</SubjectCode>
+    </Subject>
+
+    <Subject>
+      <!-- Fiktiivisen aineiston lisäluokitus-->
+      <SubjectSchemeIdentifier>80</SubjectSchemeIdentifier>
+      <SubjectSchemeName>Fiktiivisen aineiston lisäluokitus</SubjectSchemeName>
+      <SubjectHeadingText>scifi</SubjectHeadingText>
+    </Subject>
+  </DescriptiveDetail>
+
+  <PublishingDetail>
+    <Publisher>
+      <!-- Publisher -->
+      <PublishingRole>01</PublishingRole>
+      <PublisherName>Example publisher</PublisherName>
+    </Publisher>
+
+    <CountryOfPublication>FI</CountryOfPublication>
+
+    <PublishingDate>
+      <PublishingDateRole>01</PublishingDateRole>
+      <Date dateformat="05">2023</Date>
+    </PublishingDate>
+
+    <PublishingDate>
+      <PublishingDateRole>12</PublishingDateRole>
+      <Date>20240101</Date>
+    </PublishingDate>
+  </PublishingDetail>
+
+  <!-- Example of proprietary identifier -->
+  <!-- This will be mapped to a MARC field for entries since all print entries are pre-publications -->
+  <RelatedMaterial>
+    <RelatedWork>
+      <WorkIdentifier>
+        <IDValue>WORKIDENTIFIER12345</IDValue>
+      </WorkIdentifier>
+    </RelatedWork>
+  </RelatedMaterial>
+</Product>

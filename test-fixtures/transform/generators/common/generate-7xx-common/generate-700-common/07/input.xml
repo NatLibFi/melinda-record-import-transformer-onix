@@ -1,0 +1,27 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- Main author -->
+    <Contributor>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>2</SequenceNumber>
+      <PersonName>Useita kirjailijoita</PersonName>
+      <PersonNameInverted>kirjailijoita, Useita</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>2</SequenceNumber>
+      <PersonName>Useita tekijöitä</PersonName>
+      <PersonNameInverted>tekijöitä, Useita</PersonNameInverted>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>

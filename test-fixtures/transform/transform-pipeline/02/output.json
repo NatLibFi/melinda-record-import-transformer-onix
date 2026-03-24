@@ -1,0 +1,10 @@
+[
+  {
+    "failed": true,
+    "title": "Esimerkkinimeke",
+    "standardIdentifiers": [
+      "978-951-51-7470-3"
+    ],
+    "message": "[product-form-filter] Record type (electronic) is not in allowed record types ([\"print\"])"
+  }
+]

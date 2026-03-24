@@ -1,0 +1,22 @@
+<Product>
+  <DescriptiveDetail>
+    <Extent>
+      <!-- Number of pages -->
+      <ExtentType>00</ExtentType>
+      <ExtentValue>500</ExtentValue>
+      <ExtentUnit>03</ExtentUnit>
+    </Extent>
+
+    <Extent>
+      <!-- Filesize in Mbytes -->
+      <ExtentType>22</ExtentType>
+      <ExtentValue>21</ExtentValue>
+      <ExtentUnit>19</ExtentUnit>
+    </Extent>
+
+    <Extent>
+      <!-- Discs: note missing value and unit on purpose -->
+      <ExtentType>12</ExtentType>
+    </Extent>
+  </DescriptiveDetail>
+</Product>

@@ -1,0 +1,5 @@
+{
+  "description": "Correctly identifies PDF record type to electronic",
+  "expectedValue": "electronic",
+  "only": false
+}

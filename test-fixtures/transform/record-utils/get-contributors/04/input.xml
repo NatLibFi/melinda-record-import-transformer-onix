@@ -1,0 +1,46 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- This contributor should be declared as main author with two roles -->
+    <Contributor>
+      <SequenceNumber>1</SequenceNumber>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <!-- Illustrated by -->
+      <ContributorRole>A12</ContributorRole>
+      <PersonName>Matti Meikäläinen</PersonName>
+      <PersonNameInverted>Meikäläinen, Matti</PersonNameInverted>
+    </Contributor>
+
+    <!-- This contributor should be discarded as AI author due to ContributorRole of 01 and UnnamedPersons of 09 -->
+    <Contributor>
+      <SequenceNumber>1</SequenceNumber>
+      <!-- By (author) -->
+      <ContributorRole>A01</ContributorRole>
+      <PersonName>Maija Meikäläinen</PersonName>
+      <PersonNameInverted>Meikäläinen, Maija</PersonNameInverted>
+      <UnnamedPersons>09</UnnamedPersons>
+    </Contributor>
+
+    <!-- Duplicate entry for Maija with different role which should be combined correctly -->
+    <Contributor>
+      <SequenceNumber>1</SequenceNumber>
+      <!-- By (author) || note this role should be deduplicated -->
+      <ContributorRole>A01</ContributorRole>
+      <!-- Illustrated by -->
+      <ContributorRole>A12</ContributorRole>
+      <!-- Translated by -->
+      <ContributorRole>B06</ContributorRole>
+      <PersonName>Maija Meikäläinen</PersonName>
+      <PersonNameInverted>Meikäläinen, Maija</PersonNameInverted>
+    </Contributor>
+
+    <!-- Contributor that has CorporateName defined instead of PersonNameInverted -->
+    <Contributor>
+      <!-- Note: missing sequence number on purpose -->
+      <!-- By (author) -->
+      <ContributorRole>B01</ContributorRole>
+      <CorporateName>FooBarBaz</CorporateName>
+    </Contributor>
+
+  </DescriptiveDetail>
+</Product>

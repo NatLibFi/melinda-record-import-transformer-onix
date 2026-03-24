@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "700",
+    "ind1": "1",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Baz, Foo,"
+      },
+      {
+        "code": "e",
+        "value": "kuvittaja."
+      }
+    ]
+  },
+  {
+    "tag": "700",
+    "ind1": "0",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Foo,"
+      },
+      {
+        "code": "e",
+        "value": "toimittaja."
+      }
+    ]
+  },
+  {
+    "tag": "700",
+    "ind1": "0",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Bar,"
+      },
+      {
+        "code": "e",
+        "value": "kääntäjä."
+      }
+    ]
+  },
+  {
+    "tag": "700",
+    "ind1": "0",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Baz,"
+      },
+      {
+        "code": "e",
+        "value": "lukija."
+      }
+    ]
+  }
+]

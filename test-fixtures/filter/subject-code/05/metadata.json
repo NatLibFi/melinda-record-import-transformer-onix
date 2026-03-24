@@ -1,0 +1,7 @@
+{
+  "description": "Throws halting error if denySubjectCodes setting is not defined",
+  "settings": {},
+  "expectedError": "Required configuration for subject-code filter is not valid: denySubjectCodes setting is not an array of valid string values.",
+  "haltPipeline": true,
+  "only": false
+}

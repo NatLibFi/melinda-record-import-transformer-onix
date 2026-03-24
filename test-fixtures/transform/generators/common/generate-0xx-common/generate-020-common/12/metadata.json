@@ -1,0 +1,5 @@
+{
+  "description": "Does not generate f020 from invalid ISBN-10 or ISBN-13 identifier",
+  "onixConversionConfiguration": {},
+  "only": false
+}

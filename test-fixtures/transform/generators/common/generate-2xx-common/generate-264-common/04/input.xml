@@ -1,0 +1,9 @@
+<Product>
+  <PublishingDetail>
+    <Publisher>
+      <!-- Co-publisher -->
+      <PublishingRole>02</PublishingRole>
+      <PublisherName>Bar</PublisherName>
+    </Publisher>
+  </PublishingDetail>
+</Product>

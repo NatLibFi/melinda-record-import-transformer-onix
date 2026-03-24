@@ -1,0 +1,15 @@
+<Product>
+  <DescriptiveDetail>
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E107</ProductFormDetail>
+
+    <Extent>
+      <!-- Number of pages in digital product -->
+      <ExtentType>10</ExtentType>
+
+      <!-- Pages -->
+      <ExtentUnit>03</ExtentUnit>
+      <ExtentValue>100</ExtentValue>
+    </Extent>
+  </DescriptiveDetail>
+</Product>

@@ -1,0 +1,5 @@
+{
+  "description": "Returns empty array if product does not contain subjects",
+  "expectedValue": [],
+  "only": false
+}

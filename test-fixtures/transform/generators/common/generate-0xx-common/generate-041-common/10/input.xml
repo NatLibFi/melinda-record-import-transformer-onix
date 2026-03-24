@@ -1,0 +1,26 @@
+<Product>
+  <DescriptiveDetail>
+    <!-- PDF -->
+    <ProductForm>EB</ProductForm>
+    <ProductFormDetail>E107</ProductFormDetail>
+
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>fin</LanguageCode>
+    </Language>
+
+    <Contributor>
+      <!-- Author -->
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </Contributor>
+
+    <Contributor>
+      <!-- Photographer -->
+      <ContributorRole>A08</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Baz, Foo</PersonNameInverted>
+    </Contributor>
+  </DescriptiveDetail>
+</Product>
