@@ -95,3 +95,5 @@ These environmental variables are the one that do not belong to any of the prior
 Copyright (c) 2019-2026 **University Of Helsinki (The National Library Of Finland)**
 
 This project's source code is licensed under the terms of **MIT**. For further information see [LICENSE-file](https://github.com/NatLibFi/melinda-record-import-transformer-onix/blob/main/LICENSE).
+
+ONIX for Books Products Information Format is a product of **EDItEUR Limited**. For further information see [https://editeur.org](https://editeur.org).
