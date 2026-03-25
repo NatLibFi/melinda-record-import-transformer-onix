@@ -385,7 +385,7 @@ export function generate341Electronic(onixConversionConfiguration, valueInterfac
     if (productFormFeatureValue === '11') {
       field.subfields = field.subfields.concat([
         {code: 'a', value: 'textual'},
-        {code: 'b', value: 'tableofContents'},
+        {code: 'b', value: 'tableOfContents'},
       ]);
     }
 

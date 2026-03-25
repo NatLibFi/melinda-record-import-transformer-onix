@@ -9,7 +9,7 @@
       <ProductFormFeatureValue>03</ProductFormFeatureValue>
     </ProductFormFeature>
 
-    <!-- textual:tableofContents -->
+    <!-- textual:tableOfContents -->
     <ProductFormFeature>
       <ProductFormFeatureType>09</ProductFormFeatureType>
       <ProductFormFeatureValue>11</ProductFormFeatureValue>
