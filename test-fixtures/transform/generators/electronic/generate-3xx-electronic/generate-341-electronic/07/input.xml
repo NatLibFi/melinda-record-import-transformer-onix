@@ -10,7 +10,7 @@
   </PublishingDetail>
 
   <DescriptiveDetail>
-    <!-- textual:tableofContents -->
+    <!-- textual:tableOfContents -->
     <ProductFormFeature>
       <ProductFormFeatureType>09</ProductFormFeatureType>
       <ProductFormFeatureValue>11</ProductFormFeatureValue>
