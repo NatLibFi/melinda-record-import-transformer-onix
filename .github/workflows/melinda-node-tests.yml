@@ -18,11 +18,11 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: "npm"
         env:
           NPM_CONFIG_IGNORE_SCRIPTS: true
-      - run: npm audit --package-lock-only --production --audit-level=high
-      - run: npm ci
+      - run: npm audit --package-lock-only --omit=dev --audit-level=high
+      - run: npm ci --ignore-scripts
       - run: npm test
       - run: npm run build --if-present
 
@@ -31,13 +31,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout the code
-      uses: actions/checkout@v6
-    - name: nodejsscan scan
-      id: njsscan
-      uses: ajinabraham/njsscan-action@v9
-      with:
-        args: '.'
+      - name: Checkout the code
+        uses: actions/checkout@v6
+      - name: nodejsscan scan
+        id: njsscan
+        uses: ajinabraham/njsscan-action@v9
+        with:
+          args: "."
 
   license-scan:
     name: License compliance check
@@ -60,10 +60,10 @@ jobs:
         if: github.ref == 'refs/heads/test'
         with:
           url: ${{ secrets.WEBHOOK_URL_TEST }}
-          body: '{}'
+          body: "{}"
       - name: Prod webhook
         uses: joelwmale/webhook-action@master
         if: github.ref == 'refs/heads/main'
         with:
           url: ${{ secrets.WEBHOOK_URL_PROD }}
-          body: '{}'
+          body: "{}"
