@@ -1,5 +1,5 @@
 {
-  "description": "Return field properly when simplified language edition is observed from title information",
+  "description": "Simplified language contributors are properly added to $s when there are two contributor with the said role",
   "onixConversionConfiguration": {
     "languageSanityCheck": false,
     "preventUniformTitleGeneration": false

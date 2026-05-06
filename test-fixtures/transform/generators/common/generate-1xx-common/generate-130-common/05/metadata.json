@@ -1,5 +1,5 @@
 {
-  "description": "Return empty array for simplified language editions",
+  "description": "Return proper $l for simplified language editions when language is not observed",
   "onixConversionConfiguration": {
     "languageSanityCheck": false,
     "preventUniformTitleGeneration": false
