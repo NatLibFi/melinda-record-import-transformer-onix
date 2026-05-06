@@ -141,13 +141,20 @@ export function generate245Common(onixConversionConfiguration, valueInterface) {
     throw new Error('Could not generate field 245 due to missing title information');
   }
 
+  // Post processing of title
+  const stripTitleRegexp = [
+    /\(selkokirja\)$/ui
+  ];
+
+  const processedTitle = stripTitleRegexp.reduce((p, n) => p.replace(n, ''), title).trim();
+
   if (subtitle) {
     return [
       {
         tag: '245',
         ind1,
         subfields: [
-          {code: 'a', value: `${title} :`},
+          {code: 'a', value: `${processedTitle} :`},
           {code: 'b', value: subtitle}
         ]
       }
@@ -159,7 +166,7 @@ export function generate245Common(onixConversionConfiguration, valueInterface) {
       tag: '245',
       ind1,
       subfields: [
-        {code: 'a', value: `${title}.`}
+        {code: 'a', value: `${processedTitle}.`}
       ]
     }
   ];
