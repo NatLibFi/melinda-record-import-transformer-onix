@@ -1,0 +1,5 @@
+{
+  "description": "Returns true when publishing information contains PublishingStatus of '11'",
+  "expectedValue": true,
+  "only": false
+}

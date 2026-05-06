@@ -1,5 +1,5 @@
 {
-  "description": "Returns false when there is no publishing information containing PublishingStatus of '01'",
+  "description": "Returns false when there is no publishing information containing PublishingStatus",
   "expectedValue": false,
   "only": false
 }

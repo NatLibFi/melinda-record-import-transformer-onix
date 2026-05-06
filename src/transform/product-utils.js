@@ -669,11 +669,21 @@ export function isProductAbandoned(valueInterface) {
   https://ns.editeur.org/onix/en/64
 
   01 | The product was announced, and subsequently abandoned
+  11 | Withdrawn from sale
+  16 | Temporarily withdrawn from sale
+  17 | Permanently withdrawn from sale
   */
+
+  const abandonmentStatusCodes = [
+    '01',
+    '11',
+    '16',
+    '17'
+  ];
 
   const publishingDetails = valueInterface.getValues('PublishingDetail');
   const publishingStatuses = publishingDetails.map(publishingDetail => getFirstValueInContext(publishingDetail, 'PublishingStatus'));
-  const hasAbandonedStatus = publishingStatuses.some(publishingStatus => publishingStatus === '01');
+  const hasAbandonedStatus = publishingStatuses.some(publishingStatus => abandonmentStatusCodes.includes(publishingStatus));
 
   return hasAbandonedStatus;
 }
