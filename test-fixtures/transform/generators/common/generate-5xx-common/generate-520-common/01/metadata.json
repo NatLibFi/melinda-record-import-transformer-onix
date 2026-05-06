@@ -1,0 +1,5 @@
+{
+  "description": "Creates f520 from CollateralDetail->TextContent where TextType is 03",
+  "onixConversionConfiguration": {},
+  "only": false
+}

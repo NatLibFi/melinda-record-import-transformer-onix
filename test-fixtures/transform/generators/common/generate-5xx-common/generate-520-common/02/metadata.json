@@ -1,0 +1,5 @@
+{
+  "description": "No CollateralDetail->TextContent produces empty array as return value",
+  "onixConversionConfiguration": {},
+  "only": false
+}

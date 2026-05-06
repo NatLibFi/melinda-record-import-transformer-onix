@@ -1,5 +1,6 @@
 import {getAllValuesInContext, getFirstValueInContext, hasAttribute} from '../../../utils/data-utils.js';
 import {filterByFirstValue, getPublishingDates, isProductAbandoned} from '../../product-utils.js';
+import {removeTags} from '../../record-utils.js';
 
 /**
  * Generates f500 for print and electronical records. Note this function is wrapper for multiple different type of f500 generators.
@@ -268,6 +269,35 @@ export function generate511Common(_onixConversionConfiguration, valueInterface) 
 }
 
 /**
+ * Generates 520 field for products that contain collateral detail information.
+ * @param {import('../../../types.js').OnixConversionConfiguration} _onixConversionConfiguration - configuration for ONIX->MARC21 conversion
+ * @param {import('../../../types.js').ValueInterface} valueInterface ValueInterface containing getValue/getValues functions
+ * @returns {import('../../../types.js').DataField[]} Array containing field 520
+ */
+export function generate520Common(_onixConversionConfiguration, valueInterface) {
+  /*
+  Onix Codelists: List 153: Text type
+  https://ns.editeur.org/onix/en/153
+
+  03 | Description
+  */
+
+  const collateralDetailTexts = valueInterface.getValues('CollateralDetail', 'TextContent')
+    .filter(collateralDetail => filterByFirstValue(collateralDetail, 'TextType', ['03']) && hasAttribute(collateralDetail, 'Text'))
+    .map(collateralDetail => getFirstValueInContext(collateralDetail, 'Text'));
+
+  if (collateralDetailTexts.length === 0) {
+    return [];
+  }
+
+  return collateralDetailTexts.map(text => ({
+    tag: '520',
+    subfields:
+      [{code: 'a', value: `${removeTags(text)}.`}]
+  }));
+}
+
+/**
  * Generates f594 for print and electronical records. Note this function is wrapper for multiple different type of f594 generators.
  * @param {import('../../../types.js').OnixConversionConfiguration} onixConversionConfiguration - configuration for ONIX->MARC21 conversion
  * @param {import('../../../types.js').ValueInterface} valueInterface ValueInterface containing getValue/getValues functions
@@ -307,7 +337,7 @@ function generate594InformationTypeNote(onixConversionConfiguration, valueInterf
   /*
   Onix Codelists: List 1: Notification or update type
   https://ns.editeur.org/onix/en/1
-
+ 
   01 | Early notification | Use for a complete record issued earlier than approximately six months before publication
   02 | Advance notification (confirmed) | Use for a complete record issued to confirm advance information approximately six months before publication; or for a complete record issued after that date and before information has been confirmed from the book-in-hand
   03 | Notification confirmed on publication | Use for a complete record issued to confirm advance information at or just before actual publication date, usually from the book-in-hand, or for a complete record issued at any later date

@@ -873,3 +873,12 @@ export function ysoToSlm(subjectWord) {
 
   return Object.keys(ysoToSlmMap).includes(subjectWord) ? ysoToSlmMap[subjectWord] : null;
 }
+
+/**
+ * Removes tags from given value
+ * @param {string} s - Value to remove HTML tags from
+ * @returns {string} String without HTML tags if it was defined, otherwise null
+ */
+export function removeTags(s) {
+  return s.replaceAll(/<[^>]*>/g, '');
+}
