@@ -1,0 +1,5 @@
+{
+  "description": "Returns false when publishing information contains PublishingStatus other than codes in abandoned status list",
+  "expectedValue": false,
+  "only": false
+}
