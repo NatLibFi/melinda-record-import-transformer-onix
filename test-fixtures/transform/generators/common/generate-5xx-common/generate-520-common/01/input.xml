@@ -1,0 +1,13 @@
+<Product>
+  <CollateralDetail>
+    <TextContent>
+      <TextType>03</TextType>
+      <Text>Foobar</Text>
+    </TextContent>
+
+    <TextContent>
+      <TextType>01</TextType>
+      <Text>Baz</Text>
+    </TextContent>
+  </CollateralDetail>
+</Product>
