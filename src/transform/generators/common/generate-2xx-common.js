@@ -141,9 +141,9 @@ export function generate245Common(onixConversionConfiguration, valueInterface) {
     throw new Error('Could not generate field 245 due to missing title information');
   }
 
-  // Post processing of title
+  // Post processing of title for only f245
   const stripTitleRegexp = [
-    /\(selkokirja\)$/ui
+    /\(selkokirja\)$/ui,
   ];
 
   const processedTitle = stripTitleRegexp.reduce((p, n) => p.replace(n, ''), title).trim();
