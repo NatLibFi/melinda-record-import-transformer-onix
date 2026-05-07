@@ -1,0 +1,8 @@
+{
+  "description": "Strip POISTETTU MYYNNISTÄ from start of title",
+  "onixConversionConfiguration": {
+    "preventUniformTitleGeneration": false,
+    "languageSanityCheck": false
+  },
+  "only": false
+}

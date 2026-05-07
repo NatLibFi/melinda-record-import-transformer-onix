@@ -1,5 +1,5 @@
 {
-  "description": "Return field properly when simplified language edition is observed from title information",
+  "description": "Simplified language authors are properly added to $s",
   "onixConversionConfiguration": {
     "languageSanityCheck": false,
     "preventUniformTitleGeneration": false

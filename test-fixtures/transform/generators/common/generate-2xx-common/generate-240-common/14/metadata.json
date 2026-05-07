@@ -1,5 +1,5 @@
 {
-  "description": "Return field properly when simplified language edition is observed from title information",
+  "description": "Adds proper $s when three or more authors are found with B05 role",
   "onixConversionConfiguration": {
     "languageSanityCheck": false,
     "preventUniformTitleGeneration": false

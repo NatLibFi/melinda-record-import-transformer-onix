@@ -9,7 +9,11 @@
       },
       {
         "code": "l",
-        "value": "(selkokieli)"
+        "value": "Suomi (selkokieli)"
+      },
+      {
+        "code": "s",
+        "value": "(Bar ja Baz)"
       }
     ]
   }

@@ -1,7 +1,6 @@
 [
   {
-    "tag": "240",
-    "ind1": "1",
+    "tag": "130",
     "subfields": [
       {
         "code": "a",
@@ -9,8 +8,13 @@
       },
       {
         "code": "l",
-        "value": "(selkokieli)"
+        "value": "Suomi (selkokieli)"
+      },
+      {
+        "code": "s",
+        "value": "(Bar ja Baz)"
       }
+
     ]
   }
 ]
