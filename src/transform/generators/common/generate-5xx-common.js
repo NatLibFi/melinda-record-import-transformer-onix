@@ -284,7 +284,8 @@ export function generate520Common(_onixConversionConfiguration, valueInterface) 
 
   const collateralDetailTexts = valueInterface.getValues('CollateralDetail', 'TextContent')
     .filter(collateralDetail => filterByFirstValue(collateralDetail, 'TextType', ['03']) && hasAttribute(collateralDetail, 'Text'))
-    .map(collateralDetail => getFirstValueInContext(collateralDetail, 'Text'));
+    .map(collateralDetail => getFirstValueInContext(collateralDetail, 'Text'))
+    .filter(v => typeof v === 'string' && v);
 
   if (collateralDetailTexts.length === 0) {
     return [];
