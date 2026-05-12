@@ -280,12 +280,28 @@ export function generate520Common(_onixConversionConfiguration, valueInterface) 
   https://ns.editeur.org/onix/en/153
 
   03 | Description
+
+
+  Onix Codelists: List 154: Content audience
+  https://ns.editeur.org/onix/en/154
+
+  00 | Unrestricted
   */
 
   const collateralDetailTexts = valueInterface.getValues('CollateralDetail', 'TextContent')
-    .filter(collateralDetail => filterByFirstValue(collateralDetail, 'TextType', ['03']) && hasAttribute(collateralDetail, 'Text'))
-    .map(collateralDetail => getFirstValueInContext(collateralDetail, 'Text'))
-    .filter(v => typeof v === 'string' && v);
+    .filter(textContent => {
+      const properTextType = filterByFirstValue(textContent, 'TextType', ['03']);
+      const properAudience = filterByFirstValue(textContent, 'ContentAudience', ['00']);
+      const hasText = hasAttribute(textContent, 'Text');
+
+      return properTextType && hasText && properAudience;
+    })
+    .map(textContent => {
+      // Note: if textformat="02" is defined, the universal getter returns object as of now
+      const textValue = getFirstValueInContext(textContent, 'Text');
+      return typeof textValue === 'object' ? textValue._ : textValue;
+    })
+    .filter(v => typeof v === 'string' && v.length > 0);
 
   if (collateralDetailTexts.length === 0) {
     return [];
