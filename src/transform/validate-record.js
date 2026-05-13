@@ -24,6 +24,7 @@ export default (marcRecordValidatorConfiguration) => {
   const validators = [
     IsbnIssn({hyphenateISBN: true}),
     IndicatorFixes(),
+    // Note: if f520 generator is to be applied, this needs to be removed while enabling field generator for record
     FieldExclusion([
       {
         tag: /^520$/u

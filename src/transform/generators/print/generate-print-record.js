@@ -14,7 +14,7 @@ import {generate020Common, generate024Common, generate040Common, generate041Comm
 import {generate100Common, generate110Common, generate130Common} from '../common/generate-1xx-common.js';
 import {generate240Common, generate245Common, generate246Common, generate250Common, generate263Common, generate264Common} from '../common/generate-2xx-common.js';
 import {generate490Common} from '../common/generate-4xx-common.js';
-import {generate500Common, generate511Common, generate520Common, generate594Common} from '../common/generate-5xx-common.js';
+import {generate500Common, generate511Common, generate594Common} from '../common/generate-5xx-common.js';
 import {generate600Common, generate650Common, generate653Common, generate655Common} from '../common/generate-6xx-common.js';
 import {generate700Common, generate710Common, generate776Common} from '../common/generate-7xx-common.js';
 import {generate884Common} from '../common/generate-8xx-common.js';
@@ -47,7 +47,7 @@ const PRINT_RECORD_FIELD_GENERATORS = [
   generate490Common,
   generate500Common,
   generate511Common,
-  generate520Common,
+  // pending future improvement: generate520Common,
   generate594Common,
   generate600Common,
   generate650Common,
