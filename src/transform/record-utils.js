@@ -758,16 +758,23 @@ export function getTitle(valueInterface, useSplitRules = true) {
     throw new Error(`Title ${titleText} was observed to be a serial title. Refusing to process further.`);
   }
 
+  // Processing of title that should always be applied no matter the context
+  const stripTitleRegexp = [
+    /^(POISTETTU MYYNNISTÄ|PERUTTU|EI ILMESTY)/u,
+  ];
+
+  const processedTitleText = stripTitleRegexp.reduce((p, n) => p.replace(n, ''), titleText).trim();
+
   if (!useSplitRules || subtitleText) {
-    return {title: titleText.trim(), subtitle: subtitleText ? subtitleText.trim() : null};
+    return {title: processedTitleText, subtitle: subtitleText ? subtitleText.trim() : null};
   }
 
   // Check whether title contains characters where a split between title and subtitle could be observed
-  const titleSplitRegex = findTitleSplitRegex(titleText);
-  const {alternativeTitle, alternativeSubtitle} = splitTitle(titleText, titleSplitRegex);
+  const titleSplitRegex = findTitleSplitRegex(processedTitleText);
+  const {alternativeTitle, alternativeSubtitle} = splitTitle(processedTitleText, titleSplitRegex);
 
   if (!alternativeTitle) {
-    return {title: titleText.trim(), subtitle: null};
+    return {title: processedTitleText, subtitle: null};
   }
 
   return {
@@ -872,4 +879,13 @@ export function ysoToSlm(subjectWord) {
   };
 
   return Object.keys(ysoToSlmMap).includes(subjectWord) ? ysoToSlmMap[subjectWord] : null;
+}
+
+/**
+ * Removes tags from given value
+ * @param {string} s - Value to remove HTML tags from
+ * @returns {string} String without HTML tags if it was defined, otherwise null
+ */
+export function removeTags(s) {
+  return s.replaceAll(/<[^>]*>/g, '');
 }

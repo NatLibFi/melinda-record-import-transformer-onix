@@ -1,0 +1,24 @@
+<Product>
+  <CollateralDetail>
+    <TextContent>
+      <!-- Audience is restricted -->
+      <ContentAudience>01</ContentAudience>
+      <TextType>03</TextType>
+      <Text>Restricted</Text>
+    </TextContent>
+
+    <!-- Audience is unrestricted -->
+    <TextContent>
+      <ContentAudience>00</ContentAudience>
+      <TextType>03</TextType>
+      <!-- text type is HTML -->
+      <Text textformat="02">Foo&lt;br&gt;&lt;br&gt;bar</Text>
+    </TextContent>
+
+    <!-- Text type is table of contents -->
+    <TextContent>
+      <TextType>04</TextType>
+      <Text>Baz</Text>
+    </TextContent>
+  </CollateralDetail>
+</Product>

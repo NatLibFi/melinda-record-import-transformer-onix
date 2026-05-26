@@ -1,5 +1,6 @@
 import {getAllValuesInContext, getFirstValueInContext, hasAttribute} from '../../../utils/data-utils.js';
 import {filterByFirstValue, getPublishingDates, isProductAbandoned} from '../../product-utils.js';
+import {removeTags} from '../../record-utils.js';
 
 /**
  * Generates f500 for print and electronical records. Note this function is wrapper for multiple different type of f500 generators.
@@ -268,6 +269,52 @@ export function generate511Common(_onixConversionConfiguration, valueInterface) 
 }
 
 /**
+ * Generates 520 field for products that contain collateral detail information.
+ * @param {import('../../../types.js').OnixConversionConfiguration} _onixConversionConfiguration - configuration for ONIX->MARC21 conversion
+ * @param {import('../../../types.js').ValueInterface} valueInterface ValueInterface containing getValue/getValues functions
+ * @returns {import('../../../types.js').DataField[]} Array containing field 520
+ */
+export function generate520Common(_onixConversionConfiguration, valueInterface) {
+  /*
+  Onix Codelists: List 153: Text type
+  https://ns.editeur.org/onix/en/153
+
+  03 | Description
+
+
+  Onix Codelists: List 154: Content audience
+  https://ns.editeur.org/onix/en/154
+
+  00 | Unrestricted
+  */
+
+  const collateralDetailTexts = valueInterface.getValues('CollateralDetail', 'TextContent')
+    .filter(textContent => {
+      const properTextType = filterByFirstValue(textContent, 'TextType', ['03']);
+      const properAudience = filterByFirstValue(textContent, 'ContentAudience', ['00']);
+      const hasText = hasAttribute(textContent, 'Text');
+
+      return properTextType && hasText && properAudience;
+    })
+    .map(textContent => {
+      // Note: if textformat="02" is defined, the universal getter returns object as of now
+      const textValue = getFirstValueInContext(textContent, 'Text');
+      return typeof textValue === 'object' ? textValue._ : textValue;
+    })
+    .filter(v => typeof v === 'string' && v.length > 0);
+
+  if (collateralDetailTexts.length === 0) {
+    return [];
+  }
+
+  return collateralDetailTexts.map(text => ({
+    tag: '520',
+    subfields:
+      [{code: 'a', value: `${removeTags(text)}.`}]
+  }));
+}
+
+/**
  * Generates f594 for print and electronical records. Note this function is wrapper for multiple different type of f594 generators.
  * @param {import('../../../types.js').OnixConversionConfiguration} onixConversionConfiguration - configuration for ONIX->MARC21 conversion
  * @param {import('../../../types.js').ValueInterface} valueInterface ValueInterface containing getValue/getValues functions
@@ -307,7 +354,7 @@ function generate594InformationTypeNote(onixConversionConfiguration, valueInterf
   /*
   Onix Codelists: List 1: Notification or update type
   https://ns.editeur.org/onix/en/1
-
+ 
   01 | Early notification | Use for a complete record issued earlier than approximately six months before publication
   02 | Advance notification (confirmed) | Use for a complete record issued to confirm advance information approximately six months before publication; or for a complete record issued after that date and before information has been confirmed from the book-in-hand
   03 | Notification confirmed on publication | Use for a complete record issued to confirm advance information at or just before actual publication date, usually from the book-in-hand, or for a complete record issued at any later date

@@ -6,11 +6,12 @@ import {generate130Common} from './generate-1xx-common.js';
 
 /**
  * Generates 240 field for print and electronical records if title with TitleType value of 03 is found.
- * Field is not generated for simplified language editions or if main author is not defined.
+ * Field is not generated if main author is not defined.
  * @param {import('../../../types.js').OnixConversionConfiguration} onixConversionConfiguration - configuration for ONIX->MARC21 conversion
  * @param {import('../../../types.js').ValueInterface} valueInterface ValueInterface containing getValue/getValues functions
  * @returns {import('../../../types.js').DataField[]} Array containing field 240
  */
+// eslint-disable-next-line max-lines-per-function
 export function generate240Common(onixConversionConfiguration, valueInterface) {
   /*
   Onix Codelists: List 15: TitleType
@@ -54,10 +55,20 @@ export function generate240Common(onixConversionConfiguration, valueInterface) {
   // Generate language subfield only if exactly one language is observed
   const languages = getRecordMainLangs(valueInterface, languageSanityCheck);
   const translatedLanguage = languages.length === 1 ? translateLanguageCode(languages[0]) : null;
-  const languageSubfield = translatedLanguage ? [{code: 'l', value: `${translatedLanguage}`}] : [];
 
-  // For SMP editions, an additional $s is created
-  const subfieldS = isSimplifiedLanguageEdition(valueInterface) ? [{code: 's', value: '(selkokieli)'}] : [];
+
+  // $l and $s are dependent on whether entry is simplified language edition or not
+  let subfieldS = [];
+  let subfieldLValue = translatedLanguage ? `${translatedLanguage}` : '';
+
+  if (isSimplifiedLanguageEdition(valueInterface)) {
+    subfieldLValue += ' (selkokieli)';
+
+    const subfieldSValue = getSubfieldSValue(valueInterface);
+    subfieldS = subfieldSValue ? [{code: 's', value: subfieldSValue}] : [];
+  }
+
+  const subfieldL = subfieldLValue.length > 0 ? [{code: 'l', value: `${subfieldLValue.trim()}`}] : [];
 
   // Note: ind2 is set by validator
 
@@ -67,11 +78,43 @@ export function generate240Common(onixConversionConfiguration, valueInterface) {
       ind1: '1',
       subfields: [
         {code: 'a', value: `${unifiedTitleText}.`},
-        ...languageSubfield,
+        ...subfieldL,
         ...subfieldS
       ]
     }
   ];
+
+
+  function getSubfieldSValue(valueInterface) {
+    const {mainAuthor, contributors} = getContributors(valueInterface);
+    const sleContributors = [mainAuthor, ...contributors]
+      .filter(a => a && a.personNameInverted && a.roleCodes.includes('B05'));
+
+    const sleSurnames = sleContributors
+      .map(a => {
+        const personNameInverted = a.personNameInverted;
+        if (!personNameInverted) {
+          return null;
+        }
+
+        return personNameInverted.split(',')[0];
+      })
+      .filter(v => typeof v === 'string' && v.length > 0);
+
+    if (sleSurnames.length === 0) {
+      return null;
+    }
+
+    if (sleSurnames.length === 1) {
+      return `(${sleSurnames[0]})`;
+    }
+
+    if (sleSurnames.length === 2) {
+      return `(${sleSurnames[0]} ja ${sleSurnames[1]})`;
+    }
+
+    return `(${sleSurnames[0]} ja muita)`;
+  }
 }
 
 /**
@@ -98,13 +141,20 @@ export function generate245Common(onixConversionConfiguration, valueInterface) {
     throw new Error('Could not generate field 245 due to missing title information');
   }
 
+  // Post processing of title for only f245
+  const stripTitleRegexp = [
+    /\(selkokirja\)$/ui,
+  ];
+
+  const processedTitle = stripTitleRegexp.reduce((p, n) => p.replace(n, ''), title).trim();
+
   if (subtitle) {
     return [
       {
         tag: '245',
         ind1,
         subfields: [
-          {code: 'a', value: `${title} :`},
+          {code: 'a', value: `${processedTitle} :`},
           {code: 'b', value: subtitle}
         ]
       }
@@ -116,7 +166,7 @@ export function generate245Common(onixConversionConfiguration, valueInterface) {
       tag: '245',
       ind1,
       subfields: [
-        {code: 'a', value: `${title}.`}
+        {code: 'a', value: `${processedTitle}.`}
       ]
     }
   ];

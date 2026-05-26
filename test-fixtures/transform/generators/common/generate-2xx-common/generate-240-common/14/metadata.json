@@ -1,0 +1,8 @@
+{
+  "description": "Adds proper $s when three or more authors are found with B05 role",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

@@ -1,0 +1,8 @@
+{
+  "description": "Strip EI ILMESTY from start of title",
+  "onixConversionConfiguration": {
+    "preventUniformTitleGeneration": false,
+    "languageSanityCheck": false
+  },
+  "only": false
+}

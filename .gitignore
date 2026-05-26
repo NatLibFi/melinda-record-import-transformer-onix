@@ -140,3 +140,6 @@ vite.config.ts.timestamp-*
 
 # VSCode
 .vscode
+
+# Data
+data

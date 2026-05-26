@@ -1,0 +1,52 @@
+<Product>
+  <DescriptiveDetail>
+    <EditionType>SMP</EditionType>
+
+    <!-- Main author -->
+    <Contributor>
+      <ContributorRole>A01</ContributorRole>
+      <SequenceNumber>1</SequenceNumber>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </Contributor>
+
+    <!-- Main author - additional role -->
+    <Contributor>
+      <ContributorRole>B05</ContributorRole>
+      <SequenceNumber>2</SequenceNumber>
+      <PersonNameInverted>Bar, Foo</PersonNameInverted>
+    </Contributor>
+
+    <!-- Contributor for simplified language edition -->
+    <Contributor>
+      <ContributorRole>B05</ContributorRole>
+      <SequenceNumber>3</SequenceNumber>
+      <PersonNameInverted>Baz, Foo</PersonNameInverted>
+    </Contributor>
+
+    <!-- Contributor for simplified language edition -->
+    <Contributor>
+      <ContributorRole>B05</ContributorRole>
+      <SequenceNumber>4</SequenceNumber>
+      <PersonNameInverted>Qux, Foo</PersonNameInverted>
+    </Contributor>
+
+    <Language>
+      <LanguageRole>01</LanguageRole>
+      <LanguageCode>fin</LanguageCode>
+    </Language>
+
+    <TitleDetail>
+      <TitleType>01</TitleType>
+      <TitleElement>
+        <TitleText>Translated title</TitleText>
+      </TitleElement>
+    </TitleDetail>
+
+    <TitleDetail>
+      <TitleType>03</TitleType>
+      <TitleElement>
+        <TitleText>Original title</TitleText>
+      </TitleElement>
+    </TitleDetail>
+  </DescriptiveDetail>
+</Product>

@@ -28,6 +28,7 @@ import {
   isFictionMainClass,
   isIssnIdentifier,
   isSerialTitle,
+  removeTags,
   splitTitle,
   translateContributorRoleCode,
   translatePrintProductForm,
@@ -1183,6 +1184,24 @@ describe('ysoToSlm', () => {
     const ysoSubject = null;
     const expectedResult = null;
     const result = ysoToSlm(ysoSubject);
+    assert.deepStrictEqual(expectedResult, result);
+  });
+});
+
+describe('removeTags', () => {
+  it('Removes HTML-like tags properly', () => {
+    const input = '<b>foo</b><a href="#">bar</a>';
+    const expectedResult = 'foobar';
+
+    const result = removeTags(input);
+    assert.deepStrictEqual(expectedResult, result);
+  });
+
+  it('Removes XML-like tags properly', () => {
+    const input = '<kk:metadata>foo</kk:metadata><kk:field schema="schema" element="element" qualifier="qualifier">bar</kk:field>';
+    const expectedResult = 'foobar';
+
+    const result = removeTags(input);
     assert.deepStrictEqual(expectedResult, result);
   });
 });

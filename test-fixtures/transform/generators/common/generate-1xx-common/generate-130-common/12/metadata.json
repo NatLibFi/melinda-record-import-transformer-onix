@@ -1,0 +1,8 @@
+{
+  "description": "$l is generated for simplified language editions properly when language is observed",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

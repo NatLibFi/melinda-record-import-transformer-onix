@@ -1,0 +1,8 @@
+{
+  "description": "$l is formatted properly when language is observed and entry is simplified language edition",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

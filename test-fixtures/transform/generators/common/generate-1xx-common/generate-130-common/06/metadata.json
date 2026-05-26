@@ -1,5 +1,5 @@
 {
-  "description": "Return empty array for simplified language editions observed from title information",
+  "description": "Return field properly when simplified language edition is observed from title information",
   "onixConversionConfiguration": {
     "languageSanityCheck": false,
     "preventUniformTitleGeneration": false

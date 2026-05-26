@@ -1,0 +1,8 @@
+{
+  "description": "Simplified language authors are properly added to $s",
+  "onixConversionConfiguration": {
+    "languageSanityCheck": false,
+    "preventUniformTitleGeneration": false
+  },
+  "only": false
+}

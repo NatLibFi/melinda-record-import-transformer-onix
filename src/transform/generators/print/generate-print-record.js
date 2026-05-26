@@ -47,6 +47,7 @@ const PRINT_RECORD_FIELD_GENERATORS = [
   generate490Common,
   generate500Common,
   generate511Common,
+  // pending future improvement: generate520Common,
   generate594Common,
   generate600Common,
   generate650Common,

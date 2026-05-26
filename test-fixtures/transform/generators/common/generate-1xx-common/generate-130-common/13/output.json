@@ -1,0 +1,20 @@
+[
+  {
+    "tag": "130",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "Original title."
+      },
+      {
+        "code": "l",
+        "value": "Suomi (selkokieli)"
+      },
+      {
+        "code": "s",
+        "value": "(Baz)"
+      }
+
+    ]
+  }
+]
