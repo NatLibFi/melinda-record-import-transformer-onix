@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout the code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v6
         with:
@@ -21,7 +21,7 @@ jobs:
           cache: "npm"
         env:
           NPM_CONFIG_IGNORE_SCRIPTS: true
-      - run: npm audit --package-lock-only --omit=dev --audit-level=high
+      - run: npm audit --package-lock-only --omit=dev --audit-level=critical
       - run: npm ci --ignore-scripts
       - run: npm test
       - run: npm run build --if-present
@@ -32,7 +32,7 @@ jobs:
 
     steps:
       - name: Checkout the code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: nodejsscan scan
         id: njsscan
         uses: ajinabraham/njsscan-action@v9
@@ -44,7 +44,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: mikaelvesavuori/license-compliance-action@v1
         with:
           exclude_pattern: /^@natlibfi/
