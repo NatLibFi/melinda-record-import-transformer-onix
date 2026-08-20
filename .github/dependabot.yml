@@ -9,17 +9,3 @@ updates:
     target-branch: "test"
     pull-request-branch-name:
       separator: "-"
-
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "monthly"
-    versioning-strategy: increase-if-necessary
-    target-branch: "test"
-    groups:
-      major-updates:
-        update-types: ["major"]
-      minor-updates:
-        update-types: ["minor", "patch"]
-    pull-request-branch-name:
-      separator: "-"
