@@ -47,8 +47,11 @@ jobs:
       - uses: actions/checkout@v7
       - uses: mikaelvesavuori/license-compliance-action@v1
         with:
-          exclude_pattern: /^@natlibfi/
-
+          allow_licenses: MIT;ISC;0BSD;BSD-2-Clause;BSD-3-Clause;Apache-2.0;BlueOak-1.0.0
+          exclude_pattern: /^@natlibfi/;nodemailer;languagedetect;xml-flow
+          # nodemailer@9.1.1 and the current version are both licensed under MIT No Attribution license: https://github.com/nodemailer/nodemailer/tree/v9.1.1#license
+          # languagedetect LICENSE is for some reason not included to NPM package info, but the repository contains MIT license for v2.0.0: https://github.com/FGRibreau/node-language-detect/blob/v2.0.0/LICENSE
+          # xml-flow license is for some reason not correctly interpreted by the tool, but the repository contains MIT license: https://github.com/matthewmatician/xml-flow/blob/master/LICENSE
   openshift-webhook:
     name: OpenShift webhook for image builder
     needs: [build-node-versions, njsscan, license-scan]
