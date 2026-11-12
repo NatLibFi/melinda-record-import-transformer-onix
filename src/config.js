@@ -1,5 +1,3 @@
-import {readEnvironmentVariable} from '@natlibfi/melinda-backend-commons';
-
 import {parseBoolean} from './utils/misc-utils.js';
 
 // Melinda Record Import handler configuration

@@ -2,7 +2,7 @@ import {createHash} from 'crypto';
 
 import {DateTime} from 'luxon';
 
-import {clone} from '@natlibfi/melinda-commons';
+import {clone} from '../../../utils/misc-utils.js';
 import {MarcRecord} from '@natlibfi/marc-record';
 
 /**
