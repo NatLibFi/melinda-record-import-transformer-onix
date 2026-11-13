@@ -1,0 +1,5 @@
+{
+  "description": "Returns true when EditionType contains 'ETR'",
+  "expectedValue": true,
+  "only": false
+}

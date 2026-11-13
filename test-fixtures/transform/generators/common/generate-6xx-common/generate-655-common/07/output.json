@@ -1,0 +1,42 @@
+[
+  {
+    "tag": "655",
+    "ind2": "7",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "helppolukuiset kirjat"
+      },
+      {
+        "code": "2",
+        "value": "slm/fin"
+      },
+      {
+        "code": "0",
+        "value": "http://urn.fi/URN:NBN:fi:au:slm:s855"
+      },
+      {
+        "code": "9",
+        "value": "FENNI<KEEP>"
+      }
+    ]
+  },
+  {
+    "tag": "655",
+    "ind2": "7",
+    "subfields": [
+      {
+        "code": "a",
+        "value": "lättlästa böcker"
+      },
+      {
+        "code": "2",
+        "value": "slm/swe"
+      },
+      {
+        "code": "0",
+        "value": "http://urn.fi/URN:NBN:fi:au:slm:s855"
+      }
+    ]
+  }
+]

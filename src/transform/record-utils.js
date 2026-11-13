@@ -1,7 +1,7 @@
 /* eslint-disable max-lines */
 import {CONTRIBUTOR_ROLES, MAIN_AUTHOR_ROLES, ONIX_PRODUCT_FORMS, RECORD_TYPES} from '../constants.js';
 import {getAllValuesInContext, getFirstValueInContext} from '../utils/data-utils.js';
-import {detectTitleLanguage, filterByFirstValue, isSimplifiedLanguageEdition} from './product-utils.js';
+import {detectTitleLanguage, filterByFirstValue, isEasyToReadEdition} from './product-utils.js';
 
 /**
  * Determine record type based on first instance of ONIX value DescriptiveDetail.ProductForm.
@@ -83,9 +83,9 @@ export function getF008PublicationCountry(valueInterface) {
  * @returns {string} One character string representing target audience value for f008
  */
 export function getF008TargetAudience(valueInterface) {
-  const simplifiedLanguageEdition = isSimplifiedLanguageEdition(valueInterface);
+  const easyToReadEdition = isEasyToReadEdition(valueInterface);
 
-  if (simplifiedLanguageEdition) {
+  if (easyToReadEdition) {
     return 'f';
   }
 
@@ -437,10 +437,10 @@ export function getContributors(valueInterface) {
   });
 
   // Required for role B05 that is valid only for simplified language editions
-  const isSmpEdition = isSimplifiedLanguageEdition(valueInterface);
+  const isEtrEdition = isEasyToReadEdition(valueInterface);
 
   const deduplicatedContributors = contributors.reduce(deduplicateAuthors, []);
-  const validContributors = deduplicatedContributors.filter(contributor => isContributorValid(contributor, isSmpEdition));
+  const validContributors = deduplicatedContributors.filter(contributor => isContributorValid(contributor, isEtrEdition));
   const mainAuthor = getMainAuthor(validContributors);
 
   return {
@@ -577,10 +577,10 @@ function getMainAuthor(contributors) {
 /**
  * Validation function for contributor.
  * @param {import('../types.js').Contributor} contributor - contributor to validate
- * @param {boolean} isSmpEdition - whether record considers simplified language edition
+ * @param {boolean} isEtrEdition - whether record considers simplified language edition
  * @returns {boolean} true if contributor is valid, otherwise false
  */
-export function isContributorValid(contributor, isSmpEdition = false) {
+export function isContributorValid(contributor, isEtrEdition = false) {
   const {
     corporateName,
     personNameInverted,
@@ -606,9 +606,9 @@ export function isContributorValid(contributor, isSmpEdition = false) {
   // At least one valid author or contributor role needs to be defined
   const hasValidAuthorRole = MAIN_AUTHOR_ROLES.some(role => roleCodes.includes(role));
   const hasValidContributorRole = CONTRIBUTOR_ROLES.some(role => roleCodes.includes(role));
-  const hasValidSmpRole = roleCodes.includes('B05') && isSmpEdition;
+  const hasValidEtrRole = roleCodes.includes('B05') && isEtrEdition;
 
-  if (!hasValidAuthorRole && !hasValidContributorRole && !hasValidSmpRole) {
+  if (!hasValidAuthorRole && !hasValidContributorRole && !hasValidEtrRole) {
     return false;
   }
 
@@ -654,7 +654,7 @@ export function translateContributorRoleCode(roleCode) {
     'A08': 'valokuvaaja',
     'A12': 'kuvittaja',
     'B01': 'toimittaja',
-    'B05': 'selkomukauttaja', // Note: translation is only valid for entries which are SMP editions
+    'B05': 'selkomukauttaja', // Note: translation is only valid for entries which are ETR editions
     'B06': 'kääntäjä',
     'E07': 'lukija',
   };

@@ -200,6 +200,25 @@ export function isComic(valueInterface) {
   }
 }
 
+export function isEasyToReadEdition(valueInterface) {
+  /*
+  Onix Code Lists:  List 21: Edition type code
+  https://ns.editeur.org/onix/en/21
+
+  ETR | Easy-to-read edition
+  */
+
+  const editionTypes = valueInterface.getValues('DescriptiveDetail', 'EditionType');
+  if (editionTypes.includes('ETR')) {
+    return true;
+  }
+
+  const titleDetails = valueInterface.getValues('DescriptiveDetail', 'TitleDetail');
+  const titleTexts = titleDetails.map(titleDetail => getFirstValueInContext(titleDetail, 'TitleElement', 'TitleText')).filter(v => v);
+
+  return titleTexts.some(titleText => titleText.includes('(selkokirja)'));
+}
+
 export function isSimplifiedLanguageEdition(valueInterface) {
   /*
   Onix Code Lists:  List 21: Edition type code
@@ -209,14 +228,7 @@ export function isSimplifiedLanguageEdition(valueInterface) {
   */
 
   const editionTypes = valueInterface.getValues('DescriptiveDetail', 'EditionType');
-  if (editionTypes.includes('SMP')) {
-    return true;
-  }
-
-  const titleDetails = valueInterface.getValues('DescriptiveDetail', 'TitleDetail');
-  const titleTexts = titleDetails.map(titleDetail => getFirstValueInContext(titleDetail, 'TitleElement', 'TitleText')).filter(v => v);
-
-  return titleTexts.some(titleText => titleText.includes('(selkokirja)'));
+  return editionTypes.includes('SMP');
 }
 
 /**

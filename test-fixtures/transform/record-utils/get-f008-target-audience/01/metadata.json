@@ -1,5 +1,5 @@
 {
-  "description": "Returns 'f' when DescriptiveDetail.EditionType equals 'SMP'",
+  "description": "Returns 'f' when DescriptiveDetail.EditionType equals 'ETR'",
   "expectedValue": "f",
   "only": false
 }

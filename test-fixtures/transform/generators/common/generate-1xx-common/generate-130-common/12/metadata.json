@@ -1,5 +1,5 @@
 {
-  "description": "$l is generated for simplified language editions properly when language is observed",
+  "description": "$l is generated for easy-to-read editions properly when language is observed",
   "onixConversionConfiguration": {
     "languageSanityCheck": false,
     "preventUniformTitleGeneration": false

@@ -1,0 +1,5 @@
+{
+  "description": "Returns true when if title information contains string '(selkokirja)'",
+  "expectedValue": true,
+  "only": false
+}

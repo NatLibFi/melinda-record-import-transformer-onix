@@ -1,13 +1,13 @@
 <Product>
   <DescriptiveDetail>
-    <!-- SLE author with B05 role -->
+    <!-- ETR edition author with B05 role -->
     <Contributor>
       <ContributorRole>B05</ContributorRole>
       <SequenceNumber>1</SequenceNumber>
       <PersonNameInverted>Baz, Foo</PersonNameInverted>
     </Contributor>
 
-    <EditionType>SMP</EditionType>
+    <EditionType>ETR</EditionType>
 
     <Language>
       <LanguageRole>01</LanguageRole>

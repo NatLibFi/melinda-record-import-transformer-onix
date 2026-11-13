@@ -1,0 +1,5 @@
+{
+  "description": "Returns false when EditionType does not contain 'ETR'",
+  "expectedValue": false,
+  "only": false
+}

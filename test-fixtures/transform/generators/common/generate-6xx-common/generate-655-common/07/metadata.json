@@ -1,0 +1,7 @@
+{
+  "description": "Adds subjects for ETR edition",
+  "onixConversionConfiguration": {
+    "isLegalDeposit": false
+  },
+  "only": false
+}

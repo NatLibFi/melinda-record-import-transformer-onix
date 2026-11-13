@@ -28,6 +28,7 @@ import {
   isAudio,
   isComic,
   isDownloadableMp3,
+  isEasyToReadEdition,
   isEpub,
   isOnlineText,
   isPdf,
@@ -66,6 +67,7 @@ isPdfTests();
 isPrintTextTests();
 isProductAbandonedTests();
 isSimplifiedLanguageEditionTests();
+isEasyToReadEditionTests();
 isTextTests();
 isTranslationTests();
 
@@ -601,6 +603,34 @@ function isSimplifiedLanguageEditionTests() {
     }
 
     const result = isSimplifiedLanguageEdition(valueInterface);
+    assert.equal(result, expectedValue, 'Resulting value did not match expected value');
+  }
+}
+
+function isEasyToReadEditionTests() {
+  generateTests({
+    callback,
+    path: testFixtureRootPath.concat('is-easy-to-read-edition'),
+    recurse: false,
+    useMetadataFile: true,
+    fixura: {
+      reader: READERS.TEXT,
+      failWhenNotFound: true
+    }
+  });
+
+  async function callback({getFixture, expectedValue, expectedError}) {
+    const inputRecord = getFixture('input.xml');
+    const inputStream = Readable.from(inputRecord);
+    const {Product: product} = await readProduct(inputStream);
+    const valueInterface = createValueInterface(product);
+
+    if (expectedError) {
+      assert.throws(() => isEasyToReadEdition(valueInterface), Error(expectedError));
+      return;
+    }
+
+    const result = isEasyToReadEdition(valueInterface);
     assert.equal(result, expectedValue, 'Resulting value did not match expected value');
   }
 }

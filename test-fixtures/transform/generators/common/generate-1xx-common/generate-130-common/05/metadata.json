@@ -1,5 +1,5 @@
 {
-  "description": "Return proper $l for simplified language editions when language is not observed",
+  "description": "Return proper $l for easy-to-read editions when language is not observed",
   "onixConversionConfiguration": {
     "languageSanityCheck": false,
     "preventUniformTitleGeneration": false
