@@ -1,5 +1,5 @@
 import {getFirstValueInContext, hasAttribute} from '../../../utils/data-utils.js';
-import {isSimplifiedLanguageEdition} from '../../product-utils.js';
+import {isEasyToReadEdition} from '../../product-utils.js';
 import {getContributors, getRecordMainLangs, translateContributorRoleCode, translateLanguageCode} from '../../record-utils.js';
 
 /**
@@ -134,7 +134,7 @@ export function generate130Common(onixConversionConfiguration, valueInterface) {
   let subfieldS = [];
   let subfieldLValue = translatedLanguage ? `${translatedLanguage}` : '';
 
-  if (isSimplifiedLanguageEdition(valueInterface)) {
+  if (isEasyToReadEdition(valueInterface)) {
     subfieldLValue += ' (selkokieli)';
 
     const subfieldSValue = getSubfieldSValue(valueInterface);

@@ -1,5 +1,5 @@
 import {getFirstValueInContext, hasAttribute} from '../../../utils/data-utils.js';
-import {filterByFirstValue, getYsoSubjects, isComic, isDownloadableMp3, isSimplifiedLanguageEdition} from '../../product-utils.js';
+import {filterByFirstValue, getYsoSubjects, isComic, isDownloadableMp3, isEasyToReadEdition, isSimplifiedLanguageEdition} from '../../product-utils.js';
 import {ysoToSlm} from '../../record-utils.js';
 
 /**
@@ -154,6 +154,7 @@ export function generate655Common(onixConversionConfiguration, valueInterface) {
   const audiobookFields = isDownloadableMp3(valueInterface) ? getAudiobookFields() : [];
   const comicFields = isComic(valueInterface) ? getComicFields() : [];
   const smpFields = isSimplifiedLanguageEdition(valueInterface) ? getSmpFields() : [];
+  const etrFields = isEasyToReadEdition(valueInterface) ? getEtrFields() : [];
 
   // YSO subjects which have match in SLM mapping are created as f655
   const ysoSubjects = getYsoSubjects(valueInterface);
@@ -171,7 +172,7 @@ export function generate655Common(onixConversionConfiguration, valueInterface) {
     ]
   }));
 
-  const fields = audiobookFields.concat(comicFields, slmFields, smpFields);
+  const fields = audiobookFields.concat(comicFields, slmFields, smpFields, etrFields);
   const deduplicatedFields = fields.reduce((prev, next) => {
     const previousSubfieldAValues = prev.map(({subfields}) => subfields.find(sf => sf.code === 'a').value);
     const previousContainsSubject = previousSubfieldAValues.includes(next.subfields.find(sf => sf.code === 'a').value);
@@ -254,6 +255,30 @@ export function generate655Common(onixConversionConfiguration, valueInterface) {
           {code: 'a', value: 'böcker på lätt språk'},
           {code: '2', value: 'slm/swe'},
           {code: '0', value: 'http://urn.fi/URN:NBN:fi:au:slm:s686'}
+        ]
+      }
+    ];
+  }
+
+  function getEtrFields() {
+    return [
+      {
+        tag: '655',
+        ind2: '7',
+        subfields: [
+          {code: 'a', value: 'helppolukuiset kirjat'},
+          {code: '2', value: 'slm/fin'},
+          {code: '0', value: 'http://urn.fi/URN:NBN:fi:au:slm:s855'},
+          {code: '9', value: 'FENNI<KEEP>'}
+        ]
+      },
+      {
+        tag: '655',
+        ind2: '7',
+        subfields: [
+          {code: 'a', value: 'lättlästa böcker'},
+          {code: '2', value: 'slm/swe'},
+          {code: '0', value: 'http://urn.fi/URN:NBN:fi:au:slm:s855'}
         ]
       }
     ];

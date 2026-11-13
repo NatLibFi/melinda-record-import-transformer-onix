@@ -1,5 +1,5 @@
 {
-  "description": "Returns 'f' (simplified language edition) over returning 'j' (subject evaluation)",
+  "description": "Returns 'f' (easy-to-read edition) over returning 'j' (subject evaluation)",
   "expectedValue": "f",
   "only": false
 }

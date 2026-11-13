@@ -1,5 +1,5 @@
 import {getFirstValueInContext, hasAttribute} from '../../../utils/data-utils.js';
-import {getImprintNames, getPublisherNames, getPublishingDates, isSimplifiedLanguageEdition} from '../../product-utils.js';
+import {getImprintNames, getPublisherNames, getPublishingDates, isEasyToReadEdition} from '../../product-utils.js';
 import {getContributors, getRecordMainLangs, getTitle, translateLanguageCode} from '../../record-utils.js';
 import {generate130Common} from './generate-1xx-common.js';
 
@@ -61,7 +61,7 @@ export function generate240Common(onixConversionConfiguration, valueInterface) {
   let subfieldS = [];
   let subfieldLValue = translatedLanguage ? `${translatedLanguage}` : '';
 
-  if (isSimplifiedLanguageEdition(valueInterface)) {
+  if (isEasyToReadEdition(valueInterface)) {
     subfieldLValue += ' (selkokieli)';
 
     const subfieldSValue = getSubfieldSValue(valueInterface);
